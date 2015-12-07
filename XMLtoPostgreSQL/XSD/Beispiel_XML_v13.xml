@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--XML-Beispieldatei von XMLSpy generiert v2013 rel. 2 sp1 (http://www.altova.com)-->
+<OpenInfRA:dataset xsi:schemaLocation="OpenInfRA OpenInfRA_xsd_v13.xsd" xmlns:OpenInfRA="OpenInfRA" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<OpenInfRA:attribute_type id="uuid_00000000-0000-0000-0000-000000000000">
+		<OpenInfRA:id>00000000-0000-0000-0000-000000000000</OpenInfRA:id>
+		<OpenInfRA:name>
+			<gmd:DS_InitiativeTypeCode codeList="http://www.altova.com" codeListValue="http://www.altova.com">String</gmd:DS_InitiativeTypeCode>
+			<gmd:PT_FreeText>
+				<gmd:textGroup>
+					<gmd:LocalisedCharacterString>String</gmd:LocalisedCharacterString>
+				</gmd:textGroup>
+			</gmd:PT_FreeText>
+		</OpenInfRA:name>
+		<OpenInfRA:description>
+			<gmd:DS_InitiativeTypeCode codeList="http://www.altova.com" codeListValue="http://www.altova.com">String</gmd:DS_InitiativeTypeCode>
+			<gmd:PT_FreeText>
+				<gmd:textGroup>
+					<gmd:LocalisedCharacterString>String</gmd:LocalisedCharacterString>
+				</gmd:textGroup>
+			</gmd:PT_FreeText>
+		</OpenInfRA:description>
+		<OpenInfRA:data_type value_list_value="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+		<OpenInfRA:domain value_list="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+		<OpenInfRA:unit value_list_value="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+		<OpenInfRA:rel_attribute_type>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000100"/>
+			<OpenInfRA:SKOS_relationship value_list_value="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+		</OpenInfRA:rel_attribute_type>
+	</OpenInfRA:attribute_type>
+	<OpenInfRA:attribute_type id="uuid_00000000-0000-0000-0000-000000000100">
+		<OpenInfRA:id>00000000-0000-0000-0000-000000000000</OpenInfRA:id>
+		<OpenInfRA:name>
+			<gmd:DS_InitiativeTypeCode codeList="http://www.altova.com" codeListValue="http://www.altova.com">String</gmd:DS_InitiativeTypeCode>
+			<gmd:PT_FreeText>
+				<gmd:textGroup>
+					<gmd:LocalisedCharacterString>String</gmd:LocalisedCharacterString>
+				</gmd:textGroup>
+			</gmd:PT_FreeText>
+		</OpenInfRA:name>
+		<OpenInfRA:description>
+			<gmd:DS_InitiativeTypeCode codeList="http://www.altova.com" codeListValue="http://www.altova.com">String</gmd:DS_InitiativeTypeCode>
+			<gmd:PT_FreeText>
+				<gmd:textGroup>
+					<gmd:LocalisedCharacterString>String</gmd:LocalisedCharacterString>
+				</gmd:textGroup>
+			</gmd:PT_FreeText>
+		</OpenInfRA:description>
+		<OpenInfRA:data_type value_list_value="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+		<OpenInfRA:domain value_list="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+		<OpenInfRA:unit value_list_value="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+	</OpenInfRA:attribute_type>
+	<OpenInfRA:attribute_type_group id="uuid_00000000-0000-0000-0000-000000000001">
+		<OpenInfRA:id>00000000-0000-0000-0000-000000000000</OpenInfRA:id>
+		<OpenInfRA:name>
+			<gmd:DS_InitiativeTypeCode codeList="http://www.altova.com" codeListValue="http://www.altova.com">String</gmd:DS_InitiativeTypeCode>
+			<gmd:PT_FreeText>
+				<gmd:textGroup>
+					<gmd:LocalisedCharacterString>String</gmd:LocalisedCharacterString>
+				</gmd:textGroup>
+			</gmd:PT_FreeText>
+		</OpenInfRA:name>
+		<OpenInfRA:description value_list_value="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+		<OpenInfRA:subgroup_of>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000101"/>
+		</OpenInfRA:subgroup_of>
+	</OpenInfRA:attribute_type_group>
+	<OpenInfRA:attribute_type_group id="uuid_00000000-0000-0000-0000-000000000101">
+		<OpenInfRA:id>00000000-0000-0000-0000-000000000000</OpenInfRA:id>
+		<OpenInfRA:name>
+			<gmd:DS_InitiativeTypeCode codeList="http://www.altova.com" codeListValue="http://www.altova.com">String</gmd:DS_InitiativeTypeCode>
+			<gmd:PT_FreeText>
+				<gmd:textGroup>
+					<gmd:LocalisedCharacterString>String</gmd:LocalisedCharacterString>
+				</gmd:textGroup>
+			</gmd:PT_FreeText>
+		</OpenInfRA:name>
+		<OpenInfRA:description value_list_value="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+	</OpenInfRA:attribute_type_group>
+	<OpenInfRA:attribute_type_group_to_topic_characteristic id="uuid_00000000-0000-0000-0000-000000000002">
+		<OpenInfRA:id>00000000-0000-0000-0000-000000000002</OpenInfRA:id>
+		<OpenInfRA:multiplicity>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000007"/>
+		</OpenInfRA:multiplicity>
+		<OpenInfRA:order>0</OpenInfRA:order>
+		<OpenInfRA:rel_attribute_type_group>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000001"/>
+		</OpenInfRA:rel_attribute_type_group>
+		<OpenInfRA:rel_topic_characteristic>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000010"/>
+		</OpenInfRA:rel_topic_characteristic>
+	</OpenInfRA:attribute_type_group_to_topic_characteristic>
+	<OpenInfRA:attribute_type_to_attribute_type_group id="uuid_00000000-0000-0000-0000-000000000003">
+		<OpenInfRA:id>00000000-0000-0000-0000-000000000003</OpenInfRA:id>
+		<OpenInfRA:multiplicity>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000007"/>
+		</OpenInfRA:multiplicity>
+		<OpenInfRA:default_value value_list_value="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+		<OpenInfRA:order>0</OpenInfRA:order>
+		<OpenInfRA:rel_attribute_type>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000000"/>
+		</OpenInfRA:rel_attribute_type>
+		<OpenInfRA:rel_attribute_type_group>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000001"/>
+		</OpenInfRA:rel_attribute_type_group>
+		<OpenInfRA:rel_attribute_type_group_to_topic_characteristic>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000002"/>
+		</OpenInfRA:rel_attribute_type_group_to_topic_characteristic>
+	</OpenInfRA:attribute_type_to_attribute_type_group>
+	<OpenInfRA:attribute_value id="uuid_00000000-0000-0000-0000-000000000004">
+		<OpenInfRA:value>
+			<gmd:DS_InitiativeTypeCode codeList="http://www.altova.com" codeListValue="http://www.altova.com">String</gmd:DS_InitiativeTypeCode>
+			<gmd:PT_FreeText>
+				<gmd:textGroup>
+					<gmd:LocalisedCharacterString>String</gmd:LocalisedCharacterString>
+				</gmd:textGroup>
+			</gmd:PT_FreeText>
+		</OpenInfRA:value>
+		<OpenInfRA:rel_attribute_type_to_attribute_type_group>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000003"/>
+		</OpenInfRA:rel_attribute_type_to_attribute_type_group>
+		<OpenInfRA:rel_topic_instance>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000011"/>
+		</OpenInfRA:rel_topic_instance>
+	</OpenInfRA:attribute_value>
+	<OpenInfRA:relationship_type id="uuid_00000000-0000-0000-0000-000000000005">
+		<OpenInfRA:id>00000000-0000-0000-0000-000000000000</OpenInfRA:id>
+		<OpenInfRA:reference_to value_list_value="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+		<OpenInfRA:description value_list_value="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+	</OpenInfRA:relationship_type>
+	<OpenInfRA:relationship_type_to_topic_characteristic id="uuid_00000000-0000-0000-0000-000000000006">
+		<OpenInfRA:multiplicity>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000007"/>
+		</OpenInfRA:multiplicity>
+		<OpenInfRA:rel_relationship_type>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000005"/>
+		</OpenInfRA:rel_relationship_type>
+		<OpenInfRA:rel_topic_characteristic>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000010"/>
+		</OpenInfRA:rel_topic_characteristic>
+	</OpenInfRA:relationship_type_to_topic_characteristic>
+	<OpenInfRA:multiplicity id="uuid_00000000-0000-0000-0000-000000000007">
+		<OpenInfRA:min_value>0</OpenInfRA:min_value>
+		<OpenInfRA:max_value>0</OpenInfRA:max_value>
+	</OpenInfRA:multiplicity>
+	<OpenInfRA:project id="uuid_00000000-0000-0000-0000-000000000008">
+		<OpenInfRA:id>00000000-0000-0000-0000-000000000000</OpenInfRA:id>
+		<OpenInfRA:name>
+			<gmd:DS_InitiativeTypeCode codeList="http://www.altova.com" codeListValue="http://www.altova.com">String</gmd:DS_InitiativeTypeCode>
+			<gmd:PT_FreeText>
+				<gmd:textGroup>
+					<gmd:LocalisedCharacterString>String</gmd:LocalisedCharacterString>
+				</gmd:textGroup>
+			</gmd:PT_FreeText>
+		</OpenInfRA:name>
+		<OpenInfRA:description>
+			<gmd:DS_InitiativeTypeCode codeList="http://www.altova.com" codeListValue="http://www.altova.com">String</gmd:DS_InitiativeTypeCode>
+			<gmd:PT_FreeText>
+				<gmd:textGroup>
+					<gmd:LocalisedCharacterString>String</gmd:LocalisedCharacterString>
+				</gmd:textGroup>
+			</gmd:PT_FreeText>
+		</OpenInfRA:description>
+		<OpenInfRA:subproject_of>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000108"/>
+		</OpenInfRA:subproject_of>
+	</OpenInfRA:project>
+	<OpenInfRA:project id="uuid_00000000-0000-0000-0000-000000000108">
+		<OpenInfRA:id>00000000-0000-0000-0000-000000000000</OpenInfRA:id>
+		<OpenInfRA:name>
+			<gmd:DS_InitiativeTypeCode codeList="http://www.altova.com" codeListValue="http://www.altova.com">String</gmd:DS_InitiativeTypeCode>
+			<gmd:PT_FreeText>
+				<gmd:textGroup>
+					<gmd:LocalisedCharacterString>String</gmd:LocalisedCharacterString>
+				</gmd:textGroup>
+			</gmd:PT_FreeText>
+		</OpenInfRA:name>
+		<OpenInfRA:description>
+			<gmd:DS_InitiativeTypeCode codeList="http://www.altova.com" codeListValue="http://www.altova.com">String</gmd:DS_InitiativeTypeCode>
+			<gmd:PT_FreeText>
+				<gmd:textGroup>
+					<gmd:LocalisedCharacterString>String</gmd:LocalisedCharacterString>
+				</gmd:textGroup>
+			</gmd:PT_FreeText>
+		</OpenInfRA:description>
+	</OpenInfRA:project>
+	<OpenInfRA:topic id="uuid_00000000-0000-0000-0000-000000000009">
+		<OpenInfRA:description value_list_value="value_lists xml#uuid_00000000-0000-0000-0000-000000000000"/>
+	</OpenInfRA:topic>
+	<OpenInfRA:topic_characteristic id="uuid_00000000-0000-0000-0000-000000000010">
+		<OpenInfRA:id>00000000-0000-0000-0000-000000000000</OpenInfRA:id>
+		<OpenInfRA:description>
+			<gmd:DS_InitiativeTypeCode codeList="http://www.altova.com" codeListValue="http://www.altova.com">String</gmd:DS_InitiativeTypeCode>
+			<gmd:PT_FreeText>
+				<gmd:textGroup>
+					<gmd:LocalisedCharacterString>String</gmd:LocalisedCharacterString>
+				</gmd:textGroup>
+			</gmd:PT_FreeText>
+		</OpenInfRA:description>
+		<OpenInfRA:project>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000008"/>
+		</OpenInfRA:project>
+		<OpenInfRA:rel_topic>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000009"/>
+		</OpenInfRA:rel_topic>
+	</OpenInfRA:topic_characteristic>
+	<OpenInfRA:topic_instance id="uuid_00000000-0000-0000-0000-000000000011">
+		<OpenInfRA:id>00000000-0000-0000-0000-000000000000</OpenInfRA:id>
+		<OpenInfRA:rel_topic_characteristic>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000010"/>
+		</OpenInfRA:rel_topic_characteristic>
+		<OpenInfRA:rel_topic_instance>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000111"/>
+			<OpenInfRA:reference_relationship_type idref="uuid_00000000-0000-0000-0000-000000000005"/>
+		</OpenInfRA:rel_topic_instance>
+	</OpenInfRA:topic_instance>
+	<OpenInfRA:topic_instance id="uuid_00000000-0000-0000-0000-000000000111">
+		<OpenInfRA:id>00000000-0000-0000-0000-000000000000</OpenInfRA:id>
+		<OpenInfRA:rel_topic_characteristic>
+			<OpenInfRA:reference idref="uuid_00000000-0000-0000-0000-000000000010"/>
+		</OpenInfRA:rel_topic_characteristic>
+	</OpenInfRA:topic_instance>
+</OpenInfRA:dataset>

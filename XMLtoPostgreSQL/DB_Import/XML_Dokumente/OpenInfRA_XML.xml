@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataset xmlns="OpenInfRA"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         xmlns:gmd="http://www.isotc211.org/2005/gmd"
+         xmlns:gml="http://www.opengis.net/gml"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="OpenInfRA ../../XSD/OpenInfRA_xsd_v12.xsd">
+   <attribute_type id="uuid_0dd62ede-ae8f-498e-b50e-a90f05389cdf">
+      <id>0dd62ede-ae8f-498e-b50e-a90f05389cdf</id>
+      <name>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_a7c3fbfe-ad87-40fb-8b54-eb1daa6c8412"/>
+         </gmd:PT_FreeText>
+      </name>
+      <description>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+         </gmd:PT_FreeText>
+      </description>
+      <data_type value_list_value="value_lists.xml#uuid_03db96cd-6eeb-4f41-b7a0-0c2e6a5a29b7"/>
+      <unit value_list_value="value_lists.xml#uuid_161dbf1f-a5c4-4d49-89c0-e9eb87993c1e"/>
+      <rel_attribute_type_group>
+         <reference idref="uuid_a8a49f16-896b-4c0f-835f-e99334bf92e2"/>
+      </rel_attribute_type_group>
+      <rel_attribute_type_group>
+         <reference idref="uuid_01ece322-1dcd-449d-92bc-02a413fa5693"/>
+      </rel_attribute_type_group>
+      <rel_attribute_type>
+         <reference idref="uuid_1ce26ada-ec1d-4061-9b26-3e1619e9245a"/>
+         <SKOS_relationship value_list_value="value_lists.xml#uuid_038707c6-79df-4df3-9c89-f52b9d3cef91"/>
+      </rel_attribute_type>
+   </attribute_type>
+   <attribute_type id="uuid_1ce26ada-ec1d-4061-9b26-3e1619e9245a">
+      <id>1ce26ada-ec1d-4061-9b26-3e1619e9245a</id>
+      <name>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_add8f53e-d984-43d5-bde8-4887cdc53028"/>
+         </gmd:PT_FreeText>
+      </name>
+      <description>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+         </gmd:PT_FreeText>
+      </description>
+      <data_type value_list_value="value_lists.xml#uuid_03db96cd-6eeb-4f41-b7a0-0c2e6a5a29b7"/>
+      <unit value_list_value="value_lists.xml#uuid_161dbf1f-a5c4-4d49-89c0-e9eb87993c1e"/>
+      <rel_attribute_type_group>
+         <reference idref="uuid_a8a49f16-896b-4c0f-835f-e99334bf92e2"/>
+      </rel_attribute_type_group>
+      <rel_attribute_type>
+         <reference idref="uuid_c87681e0-92db-4c8e-9322-eb9a7c76412f"/>
+         <SKOS_relationship value_list_value="value_lists.xml#uuid_038707c6-79df-4df3-9c89-f52b9d3cef91"/>
+      </rel_attribute_type>
+   </attribute_type>
+   <attribute_type id="uuid_c87681e0-92db-4c8e-9322-eb9a7c76412f">
+      <id>c87681e0-92db-4c8e-9322-eb9a7c76412f</id>
+      <name>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_b03304eb-442d-49a5-a53f-4cf760035077"/>
+         </gmd:PT_FreeText>
+      </name>
+      <description>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+         </gmd:PT_FreeText>
+      </description>
+      <data_type value_list_value="value_lists.xml#uuid_03db96cd-6eeb-4f41-b7a0-0c2e6a5a29b7"/>
+      <unit value_list_value="value_lists.xml#uuid_161dbf1f-a5c4-4d49-89c0-e9eb87993c1e"/>
+      <rel_attribute_type_group>
+         <reference idref="uuid_a8a49f16-896b-4c0f-835f-e99334bf92e2"/>
+      </rel_attribute_type_group>
+   </attribute_type>
+   <attribute_type id="uuid_5790b991-5412-4ef8-8982-6b6a27821e8d">
+      <id>5790b991-5412-4ef8-8982-6b6a27821e8d</id>
+      <name>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_b2c358e1-44f6-4b4e-8642-0447eee44dbe"/>
+         </gmd:PT_FreeText>
+      </name>
+      <description>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+         </gmd:PT_FreeText>
+      </description>
+      <data_type value_list_value="value_lists.xml#uuid_03db96cd-6eeb-4f41-b7a0-0c2e6a5a29b7"/>
+      <unit value_list_value="value_lists.xml#uuid_f3c002a3-0f5d-4ec9-95c3-d8e6924bc05d"/>
+   </attribute_type>
+   <attribute_type id="uuid_d3e2cad5-36a8-461a-b818-eabda0dd23c6">
+      <id>d3e2cad5-36a8-461a-b818-eabda0dd23c6</id>
+      <name>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_b419d336-8193-4344-9b8b-d204f476a522"/>
+         </gmd:PT_FreeText>
+      </name>
+      <description>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+         </gmd:PT_FreeText>
+      </description>
+      <data_type value_list_value="value_lists.xml#uuid_afa7206c-18c8-4470-a48e-393ebf6d826c"/>
+      <domain value_list="value_lists.xml#uuid_ba9ae6a5-509a-4f02-9b42-1ef55af71ea3"/>
+   </attribute_type>
+   <attribute_type_group id="uuid_01ece322-1dcd-449d-92bc-02a413fa5693">
+      <description value_list_value="value_lists.xml#uuid_01ece322-1dcd-449d-92bc-02a413fa5693"/>
+      <rel_attribute_type>
+         <reference idref="uuid_0dd62ede-ae8f-498e-b50e-a90f05389cdf"/>
+      </rel_attribute_type>
+   </attribute_type_group>
+   <attribute_type_group id="uuid_a8a49f16-896b-4c0f-835f-e99334bf92e2">
+      <description value_list_value="value_lists.xml#uuid_a8a49f16-896b-4c0f-835f-e99334bf92e2"/>
+      <rel_attribute_type>
+         <reference idref="uuid_0dd62ede-ae8f-498e-b50e-a90f05389cdf"/>
+      </rel_attribute_type>
+      <rel_attribute_type>
+         <reference idref="uuid_1ce26ada-ec1d-4061-9b26-3e1619e9245a"/>
+      </rel_attribute_type>
+      <rel_attribute_type>
+         <reference idref="uuid_c87681e0-92db-4c8e-9322-eb9a7c76412f"/>
+      </rel_attribute_type>
+   </attribute_type_group>
+   <attribute_type_to_topic_characteristic>
+      <multiplicity>
+         <reference idref="uuid_00cba5ce-04c1-4275-a41e-24a833e497d3"/>
+      </multiplicity>
+      <rel_attribute_type>
+         <reference idref="uuid_5790b991-5412-4ef8-8982-6b6a27821e8d"/>
+      </rel_attribute_type>
+      <rel_topic_characteristic>
+         <reference idref="uuid_e7512fb9-d5f0-4adb-9582-b4451c160cac"/>
+      </rel_topic_characteristic>
+   </attribute_type_to_topic_characteristic>
+   <attribute_type_to_topic_characteristic>
+      <multiplicity>
+         <reference idref="uuid_9aace9a1-ce69-4395-862d-86ac2b4f7f61"/>
+      </multiplicity>
+      <default_value value_list_value="value_lists.xml#uuid_b64fe122-1cac-434d-bb2f-3c54edb90f12"/>
+      <rel_attribute_type>
+         <reference idref="uuid_d3e2cad5-36a8-461a-b818-eabda0dd23c6"/>
+      </rel_attribute_type>
+      <rel_topic_characteristic>
+         <reference idref="uuid_e7512fb9-d5f0-4adb-9582-b4451c160cac"/>
+      </rel_topic_characteristic>
+   </attribute_type_to_topic_characteristic>
+   <attribute_type_to_topic_characteristic>
+      <multiplicity>
+         <reference idref="uuid_00cba5ce-04c1-4275-a41e-24a833e497d3"/>
+      </multiplicity>
+      <rel_attribute_type>
+         <reference idref="uuid_0dd62ede-ae8f-498e-b50e-a90f05389cdf"/>
+      </rel_attribute_type>
+      <rel_topic_characteristic>
+         <reference idref="uuid_27d70213-993b-4c83-bba1-6b7bb9d32b9b"/>
+      </rel_topic_characteristic>
+   </attribute_type_to_topic_characteristic>
+   <attribute_type_to_topic_characteristic>
+      <multiplicity>
+         <reference idref="uuid_00cba5ce-04c1-4275-a41e-24a833e497d3"/>
+      </multiplicity>
+      <rel_attribute_type>
+         <reference idref="uuid_1ce26ada-ec1d-4061-9b26-3e1619e9245a"/>
+      </rel_attribute_type>
+      <rel_topic_characteristic>
+         <reference idref="uuid_27d70213-993b-4c83-bba1-6b7bb9d32b9b"/>
+      </rel_topic_characteristic>
+   </attribute_type_to_topic_characteristic>
+   <attribute_type_to_topic_characteristic>
+      <multiplicity>
+         <reference idref="uuid_00cba5ce-04c1-4275-a41e-24a833e497d3"/>
+      </multiplicity>
+      <rel_attribute_type>
+         <reference idref="uuid_c87681e0-92db-4c8e-9322-eb9a7c76412f"/>
+      </rel_attribute_type>
+      <rel_topic_characteristic>
+         <reference idref="uuid_27d70213-993b-4c83-bba1-6b7bb9d32b9b"/>
+      </rel_topic_characteristic>
+   </attribute_type_to_topic_characteristic>
+   <attribute_type_to_topic_characteristic>
+      <multiplicity>
+         <reference idref="uuid_00cba5ce-04c1-4275-a41e-24a833e497d3"/>
+      </multiplicity>
+      <rel_attribute_type>
+         <reference idref="uuid_5790b991-5412-4ef8-8982-6b6a27821e8d"/>
+      </rel_attribute_type>
+      <rel_topic_characteristic>
+         <reference idref="uuid_27d70213-993b-4c83-bba1-6b7bb9d32b9b"/>
+      </rel_topic_characteristic>
+   </attribute_type_to_topic_characteristic>
+   <attribute_type_to_topic_characteristic>
+      <multiplicity>
+         <reference idref="uuid_9aace9a1-ce69-4395-862d-86ac2b4f7f61"/>
+      </multiplicity>
+      <default_value value_list_value="value_lists.xml#uuid_b64fe122-1cac-434d-bb2f-3c54edb90f12"/>
+      <rel_attribute_type>
+         <reference idref="uuid_d3e2cad5-36a8-461a-b818-eabda0dd23c6"/>
+      </rel_attribute_type>
+      <rel_topic_characteristic>
+         <reference idref="uuid_27d70213-993b-4c83-bba1-6b7bb9d32b9b"/>
+      </rel_topic_characteristic>
+   </attribute_type_to_topic_characteristic>
+   <attribute_value id="uuid_dcbca481-0518-47be-907c-cc846577e4e8">
+      <domain value_list_value="value_lists.xml#uuid_cbe4b9cc-dae0-426e-a1f9-d4818559e73b"/>
+      <rel_attribute_type>
+         <reference idref="uuid_d3e2cad5-36a8-461a-b818-eabda0dd23c6"/>
+      </rel_attribute_type>
+      <rel_topic_instance>
+         <reference idref="uuid_ed186800-9bd3-4434-8173-df49befe519d"/>
+      </rel_topic_instance>
+   </attribute_value>
+   <attribute_value id="uuid_f317faab-e8d8-4186-ad82-5cef1df45f83">
+      <value>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_f979f21a-d0e2-4c27-a35e-169826680f1d"/>
+         </gmd:PT_FreeText>
+      </value>
+      <rel_attribute_type>
+         <reference idref="uuid_c87681e0-92db-4c8e-9322-eb9a7c76412f"/>
+      </rel_attribute_type>
+      <rel_topic_instance>
+         <reference idref="uuid_ed186800-9bd3-4434-8173-df49befe519d"/>
+      </rel_topic_instance>
+   </attribute_value>
+   <attribute_value id="uuid_53747044-4157-430d-9a62-2fbcce78287a">
+      <value>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_faf2fd30-537f-4533-a8f8-d09fb5e06a19"/>
+         </gmd:PT_FreeText>
+      </value>
+      <rel_attribute_type>
+         <reference idref="uuid_1ce26ada-ec1d-4061-9b26-3e1619e9245a"/>
+      </rel_attribute_type>
+      <rel_topic_instance>
+         <reference idref="uuid_ed186800-9bd3-4434-8173-df49befe519d"/>
+      </rel_topic_instance>
+   </attribute_value>
+   <attribute_value id="uuid_e1450c07-1950-45bc-973f-85c4256bad57">
+      <value>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_fb59fa1d-dd35-4ffe-a27f-e14b4c1adb12"/>
+         </gmd:PT_FreeText>
+      </value>
+      <rel_attribute_type>
+         <reference idref="uuid_0dd62ede-ae8f-498e-b50e-a90f05389cdf"/>
+      </rel_attribute_type>
+      <rel_topic_instance>
+         <reference idref="uuid_ed186800-9bd3-4434-8173-df49befe519d"/>
+      </rel_topic_instance>
+   </attribute_value>
+   <attribute_value id="uuid_177c11bd-55b9-4da9-930d-27e1f63cbe6e">
+      <value>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_fc146cf6-05a0-44eb-b971-c8848a1b972b"/>
+         </gmd:PT_FreeText>
+      </value>
+      <rel_attribute_type>
+         <reference idref="uuid_5790b991-5412-4ef8-8982-6b6a27821e8d"/>
+      </rel_attribute_type>
+      <rel_topic_instance>
+         <reference idref="uuid_020fa28e-2bd0-457d-9bc4-d5334ffdeed9"/>
+      </rel_topic_instance>
+   </attribute_value>
+   <attribute_value id="uuid_238330b2-972f-4e06-9017-1bec1ac31c3c">
+      <geometry>
+         <gml:MultiPolygon srsName="EPSG:4326">
+            <gml:polygonMember>
+               <gml:Polygon>
+                  <gml:outerBoundaryIs>
+                     <gml:LinearRing>
+                        <gml:coordinates>36.1949494306687,34.002544169310802  36.194908607959697,34.002608457709002  36.1950871463346,34.002684959519499  36.195127016835002,34.002620849131503  36.1949494306687,34.002544169310802</gml:coordinates>
+                     </gml:LinearRing>
+                  </gml:outerBoundaryIs>
+               </gml:Polygon>
+            </gml:polygonMember>
+         </gml:MultiPolygon>
+      </geometry>
+      <rel_attribute_type>
+         <reference idref="uuid_5790b991-5412-4ef8-8982-6b6a27821e8d"/>
+      </rel_attribute_type>
+      <rel_topic_instance>
+         <reference idref="uuid_020fa28e-2bd0-457d-9bc4-d5334ffdeed9"/>
+      </rel_topic_instance>
+   </attribute_value>
+   <attribute_value id="uuid_3fee51ba-5279-4e25-b115-4167b7518ca3">
+      <geometryZ>
+         <gml:MultiPolygon srsName="EPSG:4326">
+            <gml:polygonMember>
+               <gml:Polygon>
+                  <gml:outerBoundaryIs>
+                     <gml:LinearRing>
+                        <gml:coordinates>36.210327062213508,34.009994471275732,28.332883031667734  36.21038149672826,34.009972241499717,28.333248543262926  36.210362011767209,34.009934019069235,28.333267303763478  36.210371416187151,34.009929006401393,28.333334246919094  36.210322738245274,34.009847285117267,28.333336518525812  36.210261669998857,34.009875564911781,28.332915642777152  36.210327062213508,34.009994471275732,28.332883031667734</gml:coordinates>
+                     </gml:LinearRing>
+                  </gml:outerBoundaryIs>
+               </gml:Polygon>
+            </gml:polygonMember>
+         </gml:MultiPolygon>
+      </geometryZ>
+      <rel_attribute_type>
+         <reference idref="uuid_d3e2cad5-36a8-461a-b818-eabda0dd23c6"/>
+      </rel_attribute_type>
+      <rel_topic_instance>
+         <reference idref="uuid_ed186800-9bd3-4434-8173-df49befe519d"/>
+      </rel_topic_instance>
+   </attribute_value>
+   <attribute_value id="uuid_a43c581b-0790-4c44-b3b7-767d779794f6">
+      <geometryZ>
+         <gml:MultiPolygon srsName="EPSG:4326">
+            <gml:polygonMember>
+               <gml:Polygon>
+                  <gml:outerBoundaryIs>
+                     <gml:LinearRing>
+                        <gml:coordinates>36.211999254924244,34.010042580252289,28.341742875848013  36.212055291710442,34.010008663936311,28.34215486448602  36.211955197112232,34.009873849883299,28.342051958040429  36.211898845017956,34.009903071793836,28.3416534795183  36.211999254924244,34.010042580252289,28.341742875848013</gml:coordinates>
+                     </gml:LinearRing>
+                  </gml:outerBoundaryIs>
+               </gml:Polygon>
+            </gml:polygonMember>
+         </gml:MultiPolygon>
+      </geometryZ>
+      <rel_attribute_type>
+         <reference idref="uuid_5790b991-5412-4ef8-8982-6b6a27821e8d"/>
+      </rel_attribute_type>
+      <rel_topic_instance>
+         <reference idref="uuid_020fa28e-2bd0-457d-9bc4-d5334ffdeed9"/>
+      </rel_topic_instance>
+   </attribute_value>
+   <relationship_type id="uuid_d52b0dd4-48cd-498a-90c4-7a62f73a1028">
+      <id>d52b0dd4-48cd-498a-90c4-7a62f73a1028</id>
+      <reference_to value_list_value="value_lists.xml#uuid_1f4a3747-cd86-4009-95e5-04763161fc0d"/>
+      <description value_list_value="value_lists.xml#uuid_4df55acc-0cf3-431e-b5c5-d93586c1849e"/>
+   </relationship_type>
+   <relationship_type id="uuid_efb96d46-6ef5-436a-a8c3-caae35ed8c48">
+      <id>efb96d46-6ef5-436a-a8c3-caae35ed8c48</id>
+      <reference_to value_list_value="value_lists.xml#uuid_ffd91d8c-8c9b-4e0a-98d1-5c5fae43b0b9"/>
+      <description value_list_value="value_lists.xml#uuid_4df55acc-0cf3-431e-b5c5-d93586c1849e"/>
+   </relationship_type>
+   <relationship_type_to_topic_characteristic>
+      <multiplicity>
+         <reference idref="uuid_00cba5ce-04c1-4275-a41e-24a833e497d3"/>
+      </multiplicity>
+      <rel_relationship_type>
+         <reference idref="uuid_d52b0dd4-48cd-498a-90c4-7a62f73a1028"/>
+      </rel_relationship_type>
+      <rel_topic_characteristic>
+         <reference idref="uuid_e7512fb9-d5f0-4adb-9582-b4451c160cac"/>
+      </rel_topic_characteristic>
+   </relationship_type_to_topic_characteristic>
+   <relationship_type_to_topic_characteristic>
+      <multiplicity>
+         <reference idref="uuid_9aace9a1-ce69-4395-862d-86ac2b4f7f61"/>
+      </multiplicity>
+      <rel_relationship_type>
+         <reference idref="uuid_d52b0dd4-48cd-498a-90c4-7a62f73a1028"/>
+      </rel_relationship_type>
+      <rel_topic_characteristic>
+         <reference idref="uuid_27d70213-993b-4c83-bba1-6b7bb9d32b9b"/>
+      </rel_topic_characteristic>
+   </relationship_type_to_topic_characteristic>
+   <multiplicity id="uuid_00cba5ce-04c1-4275-a41e-24a833e497d3">
+      <min_value>1</min_value>
+      <max_value>1</max_value>
+   </multiplicity>
+   <multiplicity id="uuid_47d77072-51d5-40e8-8546-f97460221c42">
+      <min_value>0</min_value>
+      <max_value>1</max_value>
+   </multiplicity>
+   <multiplicity id="uuid_9aace9a1-ce69-4395-862d-86ac2b4f7f61">
+      <min_value>1</min_value>
+   </multiplicity>
+   <multiplicity id="uuid_6fb8d376-8d89-4564-9465-104f85ee0207">
+      <min_value>0</min_value>
+   </multiplicity>
+   <project id="uuid_e3ea33c9-e4fd-4ef5-b43e-96bf52179683">
+      <id>e3ea33c9-e4fd-4ef5-b43e-96bf52179683</id>
+      <name>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_dc226141-8079-4486-aaa9-d9a2357ba61c"/>
+         </gmd:PT_FreeText>
+      </name>
+      <description>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+         </gmd:PT_FreeText>
+      </description>
+   </project>
+   <project id="uuid_ce0f47d3-fdd7-492e-8485-77f2a156b8a0">
+      <id>ce0f47d3-fdd7-492e-8485-77f2a156b8a0</id>
+      <name>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_ed7c7afa-fac7-4055-97a4-4b6530d459d5"/>
+         </gmd:PT_FreeText>
+      </name>
+      <description>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+         </gmd:PT_FreeText>
+      </description>
+      <subproject_of>
+         <reference idref="uuid_e3ea33c9-e4fd-4ef5-b43e-96bf52179683"/>
+      </subproject_of>
+   </project>
+   <project id="uuid_29c75699-465f-4e61-9851-021d66288ee8">
+      <id>29c75699-465f-4e61-9851-021d66288ee8</id>
+      <name>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_e81b2ab3-4323-49e4-9af4-a3087dd03097"/>
+         </gmd:PT_FreeText>
+      </name>
+      <description>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+         </gmd:PT_FreeText>
+      </description>
+      <subproject_of>
+         <reference idref="uuid_e3ea33c9-e4fd-4ef5-b43e-96bf52179683"/>
+      </subproject_of>
+   </project>
+   <topic id="uuid_1f4a3747-cd86-4009-95e5-04763161fc0d">
+      <description value_list_value="value_lists.xml#uuid_1f4a3747-cd86-4009-95e5-04763161fc0d"/>
+   </topic>
+   <topic_characteristic id="uuid_e7512fb9-d5f0-4adb-9582-b4451c160cac">
+      <id>e7512fb9-d5f0-4adb-9582-b4451c160cac</id>
+      <description>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_eefe3d75-1b74-4c45-a023-6181a3b7919d"/>
+         </gmd:PT_FreeText>
+      </description>
+      <project>
+         <reference idref="uuid_e3ea33c9-e4fd-4ef5-b43e-96bf52179683"/>
+      </project>
+      <rel_topic>
+         <reference idref="uuid_1f4a3747-cd86-4009-95e5-04763161fc0d"/>
+      </rel_topic>
+   </topic_characteristic>
+   <topic_characteristic id="uuid_27d70213-993b-4c83-bba1-6b7bb9d32b9b">
+      <id>27d70213-993b-4c83-bba1-6b7bb9d32b9b</id>
+      <description>
+         <gmd:PT_FreeText>
+            <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_f6b2722a-673a-466d-b228-b242e3e70815"/>
+         </gmd:PT_FreeText>
+      </description>
+      <project>
+         <reference idref="uuid_e3ea33c9-e4fd-4ef5-b43e-96bf52179683"/>
+      </project>
+      <rel_topic>
+         <reference idref="uuid_1f4a3747-cd86-4009-95e5-04763161fc0d"/>
+      </rel_topic>
+   </topic_characteristic>
+   <topic_instance id="uuid_020fa28e-2bd0-457d-9bc4-d5334ffdeed9">
+      <id>020fa28e-2bd0-457d-9bc4-d5334ffdeed9</id>
+      <rel_topic_characteristic>
+         <reference idref="uuid_e7512fb9-d5f0-4adb-9582-b4451c160cac"/>
+      </rel_topic_characteristic>
+      <rel_topic_instance>
+         <reference idref="uuid_ed186800-9bd3-4434-8173-df49befe519d"/>
+         <reference_relationship_type idref="uuid_d52b0dd4-48cd-498a-90c4-7a62f73a1028"/>
+      </rel_topic_instance>
+   </topic_instance>
+   <topic_instance id="uuid_ed186800-9bd3-4434-8173-df49befe519d">
+      <id>ed186800-9bd3-4434-8173-df49befe519d</id>
+      <rel_topic_characteristic>
+         <reference idref="uuid_27d70213-993b-4c83-bba1-6b7bb9d32b9b"/>
+      </rel_topic_characteristic>
+   </topic_instance>
+</dataset>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:PT_LocaleContainer xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                        xmlns:gco="http://www.isotc211.org/2005/gco"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:schemaLocation="OpenInfRA ../../XSD/OpenInfRA_xsd_v12.xsd">
+   <gmd:description>
+      <gco:CharacterString>Freetext --- Country: DE  Language: DE CharacterSetCode: UTF-8</gco:CharacterString>
+   </gmd:description>
+   <gmd:locale>
+      <gmd:PT_Locale id="uuid_e8361247-949f-45ec-bca1-9fde35b15668">
+         <gmd:languageCode>
+            <gmd:LanguageCode codeList="../Codeliste/codelist.xml#LanguageCode" codeListValue="DE">DE</gmd:LanguageCode>
+         </gmd:languageCode>
+         <gmd:country>
+            <gmd:Country codeList="../Codeliste/codelist.xml#CountryCode" codeListValue="DE">DE</gmd:Country>
+         </gmd:country>
+         <gmd:characterEncoding>
+            <gmd:MD_CharacterSetCode codeList="../Codeliste/codelist.xml#MD_CharacterSetCode"
+                                     codeListValue="UTF-8">UTF-8</gmd:MD_CharacterSetCode>
+         </gmd:characterEncoding>
+      </gmd:PT_Locale>
+   </gmd:locale>
+   <gmd:date>
+      <gmd:CI_Date>
+         <gmd:date>
+            <gco:Date>2014-06-26+02:00</gco:Date>
+         </gmd:date>
+         <gmd:dateType>
+            <gmd:CI_DateTypeCode codeList="../Codeliste/codelist.xml#CI_DateTypeCode"
+                                 codeListValue="creation">creation</gmd:CI_DateTypeCode>
+         </gmd:dateType>
+      </gmd:CI_Date>
+   </gmd:date>
+   <gmd:responsibleParty>
+      <gmd:CI_ResponsibleParty>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="../Codeliste/codelist.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:responsibleParty>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_0959092c-4b73-406c-a6e3-fea386463fcd"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">WL_Thema</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_17dcaeb5-eba6-42ac-b380-7161c17a7367"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">WL_Datentyp</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_1b75d369-be6d-4298-933c-cdeac2a9d1a4"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">WL_AttributtypGruppe</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_2b228193-845c-48b8-985d-3665ff235da1"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">WL_Standardwert</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_31228f48-05dc-4e7b-8c4d-b8ffa7165d24"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">WL_Beziehungstyp</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_36418963-5e72-4cc1-8b59-ff2d54eb00ed"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">WL_SKOSBeziehungsart</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_38f8e31b-4f40-4fc7-a1e3-a2b0b8b7e031"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Farbe</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_3be4068e-e938-4497-bdf3-3bf8348d58de"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Land</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_3f359089-2af1-44a0-a54d-26db4772dc68"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Arealart</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_43846806-2a37-41a9-99db-5eb4c83dc4f5"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Material</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">...</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_4b20f395-f518-4271-b04d-ff1a4937a573"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">mm</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_556b3ca6-fee4-4e52-9232-3779e6392141"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">m</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_645cdda1-b0f3-4604-83b4-c5bb711bef19"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">kg</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_659e7d1d-0efa-4723-a5bd-9782eb43b0c2"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">g</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_671b1182-998f-4a46-bc09-d8550b8628a8"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Raumbuch</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_6dfc3bfa-ba5e-4edf-9b4f-494f6fad5e9b"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Funddatenbank</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_6e82a417-f038-4fd2-8c72-8dcad5b1614a"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Fotodatenbank</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_6f858f7a-6814-4e54-94b7-1b2769afbdfc"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">varchar</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_72dbda3e-1480-4795-9136-29947e9a01a9"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">integer</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_74b4162b-23b4-4a2d-9906-263e46b41fdb"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">float</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_7a983bd6-1c4c-4e4d-9a9e-99b75f89bb9a"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">date</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_82f0c336-c488-49c5-b00e-b0aa73caa8a4"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">geometry</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_88258bd1-a75c-4409-ab66-d04e4d458ead"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Weit</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_8d4cc61c-7dba-44d0-badf-c354fcd4f920"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Eng</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_938093a4-4f38-4715-b4fa-b7b6a0742047"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Rot</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_95f4dd88-95f6-470a-b930-4f8dfff55c15"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Blau</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_9761398f-cfa6-4fb5-929d-4ad8f246664e"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Deutschland</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_97c975b3-1e43-40e4-9ad1-1227eeb4e30d"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Russland</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_9e64f566-9471-4a6a-81db-9e79a14d3767"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Granit</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_9f03d607-9fc3-485b-be33-0fb14059b690"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Holz</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_9f957ba3-585e-4354-81ab-6aa10a650664"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Lehm</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_add8f53e-d984-43d5-bde8-4887cdc53028"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Breite</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_b419d336-8193-4344-9b8b-d204f476a522"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Wandmaterial</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_bfa1ad32-076c-4612-90e2-61508f9f06de"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">nicht definiert</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_c42f44b5-56f6-4dfd-a0b7-9ab6411513b2"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">parent_to</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_c9c3af77-6c2c-440f-831c-32142595b895"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">equal_to</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_d5d54726-d4d9-423d-b7d6-ca2ed23da483"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">related_to</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_d9350ebd-0dd7-4d19-9328-829737b40004"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">narrow_to</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_d9e96fa0-3ee2-4e23-8453-0db8fe50e21f"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">broader_to</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_dc226141-8079-4486-aaa9-d9a2357ba61c"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Pergamon</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_e81b2ab3-4323-49e4-9af4-a3087dd03097"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Altar</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_eefe3d75-1b74-4c45-a023-6181a3b7919d"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Halber Raum</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_f6b2722a-673a-466d-b228-b242e3e70815"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Ganzer Raum</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_f979f21a-d0e2-4c27-a35e-169826680f1d"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">5</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_faf2fd30-537f-4533-a8f8-d09fb5e06a19"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">10</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_fb59fa1d-dd35-4ffe-a27f-e14b4c1adb12"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">15</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_fc146cf6-05a0-44eb-b971-c8848a1b972b"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">30</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_53804350-c23e-4646-80cb-1847ad72ff3f"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">mm²</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_63049d71-2faf-4538-9f62-97157565543c"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">m²</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_979d12fd-c74a-4a20-87d7-ca9ef8ca695d"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Türkei</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_85f74e0d-ad95-46bc-b861-952aadedd182"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Raummaße</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_9b8aab95-8239-4697-a48f-1114bd7510b5"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Freie Fäche</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_9e4dfaf8-f095-4fbb-9b54-1f026eeb803e"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Bebaute Fläche</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_a7c3fbfe-ad87-40fb-8b54-eb1daa6c8412"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Höhe</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_b03304eb-442d-49a5-a53f-4cf760035077"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Länge</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_ed7c7afa-fac7-4055-97a4-4b6530d459d5"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Tempelmauer Süd</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_942f04bd-d8ae-4830-a8c2-16004e904486"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Grün</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_b2c358e1-44f6-4b4e-8642-0447eee44dbe"
+                                    locale="#uuid_e8361247-949f-45ec-bca1-9fde35b15668">Quadratfläche</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+</gmd:PT_LocaleContainer>

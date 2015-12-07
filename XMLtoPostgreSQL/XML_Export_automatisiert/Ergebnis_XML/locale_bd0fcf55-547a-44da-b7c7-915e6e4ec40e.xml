@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:PT_LocaleContainer xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                        xmlns:gco="http://www.isotc211.org/2005/gco"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xsi:schemaLocation="OpenInfRA ../../XSD/OpenInfRA_xsd_v12.xsd">
+   <gmd:description>
+      <gco:CharacterString>Freetext --- Country:   Language: xx CharacterSetCode: UTF8</gco:CharacterString>
+   </gmd:description>
+   <gmd:locale>
+      <gmd:PT_Locale id="uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">
+         <gmd:languageCode>
+            <gmd:LanguageCode codeList="../Codeliste/codelist.xml#LanguageCode" codeListValue="xx">xx</gmd:LanguageCode>
+         </gmd:languageCode>
+         <gmd:characterEncoding>
+            <gmd:MD_CharacterSetCode codeList="../Codeliste/codelist.xml#MD_CharacterSetCode"
+                                     codeListValue="UTF8">UTF8</gmd:MD_CharacterSetCode>
+         </gmd:characterEncoding>
+      </gmd:PT_Locale>
+   </gmd:locale>
+   <gmd:date>
+      <gmd:CI_Date>
+         <gmd:date>
+            <gco:Date>2015-11-23+01:00</gco:Date>
+         </gmd:date>
+         <gmd:dateType>
+            <gmd:CI_DateTypeCode codeList="../Codeliste/codelist.xml#CI_DateTypeCode"
+                                 codeListValue="creation">creation</gmd:CI_DateTypeCode>
+         </gmd:dateType>
+      </gmd:CI_Date>
+   </gmd:date>
+   <gmd:responsibleParty>
+      <gmd:CI_ResponsibleParty>
+         <gmd:role>
+            <gmd:CI_RoleCode codeList="../Codeliste/codelist.xml#CI_RoleCode" codeListValue="author">author</gmd:CI_RoleCode>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:responsibleParty>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_6b2929cf-4e66-4c4a-a43a-535df42c240f"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">km</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_fcdb8707-da29-466c-898a-6d08de85ee9c"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">km²</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_5407be7c-0812-450f-90de-aa3279ae7e42"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">m</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_141315c2-8a6e-4e14-98dc-0b3283006cfa"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">m²</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_64023cb6-f807-46c1-b63e-1dac9088a750"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">cm</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_bac60238-f809-4ec3-9010-1ac4f86c1e6a"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">cm²</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_c4891097-d895-4bfb-9a9a-2fd55d63d978"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">mm</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_5ae60eee-c8f4-42b6-8deb-dcfe4059c5d7"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">mm²</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_cbf04994-30a5-455d-9aab-95a798ae7b67"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">mg</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_82314e55-e51f-4e82-ab26-534cac409001"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">g</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_412646a4-548d-4d42-9d29-8658ff2958c5"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">kg</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_b8025f00-e1a0-4385-8ce1-7f3669dc87e8"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">t</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_9813e085-a96c-4aeb-a10b-fabbe8af8edf"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">ml</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_0d5566df-d984-4f3d-8136-3d7f5a89c339"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">cl</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_1ee25c54-3b42-4389-9335-01bd17e287eb"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">l</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_3339150e-8593-4cd3-b725-b2c6baec7322"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">varchar</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_76943c12-ba86-4d13-a465-0a9ee5fd3e0b"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">text</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_af460423-307d-4279-a28e-39095e1d62e3"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">integer</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_ca5645ff-d523-46ab-8a14-85a93d6cf78f"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">numeric</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_8e43906c-7b91-4237-bc63-00c18941be3e"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">boolean</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_a8536d3e-ecac-47eb-95a0-19251933bb6b"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">date</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_59da8265-4d09-4392-b9b2-3ec1823b693b"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">geometry(Geometry)</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_5832596c-cf60-4ec3-a9be-e8ceda5268ae"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">geometry(GeometryZ)</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_68d42cfb-b350-45e4-a313-00c7d690d7fb"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">url</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_fc6af4fa-2cc1-40c3-a59e-ff64203ea1fb"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">file</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_37103971-3927-4d2b-9ee2-84531c962891"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">image</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_414fbfcb-178e-4eb2-9626-ad449817e951"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">skos:semanticRelation</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_8c9cd4cf-0457-4b4b-b7e2-799768eb4695"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">skos:broader</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_b4fd7232-85c7-4962-b749-d5d9fbc60010"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">skos:narrower</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_5891a851-21b9-4601-92b8-c78513ab4ea0"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">skos:related</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_6b8160a3-d176-428b-8a58-68ec76a7c81d"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">skos:broaderTransitive</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_2459dcd0-d67e-439e-a0e4-2b70d1721985"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">skos:narrowerTransitive</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_5833a6d2-373f-416b-8ceb-daab82c05da6"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">2015-05-20 09:30:00+02</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_9e4e7cbc-9537-4e21-a377-3e73a6da301d"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">2014-02-19 08:45:00+01</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_7fb8bce8-b246-4fca-9c6c-23d3b8d6b6cd"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">25.0</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_d5375e94-d7e8-45e0-af52-08d952d8f3f0"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">5.0</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_8e7db6d5-cfe9-48a4-a6fb-01631b43a0c9"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">5.0</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_6989ec52-5c5e-4179-abd0-fb3c212974d0"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">5.0</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_d97352e5-35a6-485b-adb1-b2b16fb70c01"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">5.2</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+   <gmd:localisedString>
+      <gmd:LocalisedCharacterString id="uuid_ef77bac4-4756-4020-9e77-db0e70d3c86c"
+                                    locale="#uuid_bd0fcf55-547a-44da-b7c7-915e6e4ec40e">4.8</gmd:LocalisedCharacterString>
+   </gmd:localisedString>
+</gmd:PT_LocaleContainer>

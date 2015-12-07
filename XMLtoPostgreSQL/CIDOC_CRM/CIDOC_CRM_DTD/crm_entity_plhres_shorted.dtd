@@ -1,0 +1,811 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+
+<!-- This format encodes all properties of the CIDOC CRM v.4.2.1 as XML elements. Classes are attached to instance identifiers as additional elements. 
+This format can be used to encode CIDOC CRM instances for data transport. Note that it does NOT enforce the correct combination of classes and properties. In order to validate the latter, please use a transformation utility to RDF and validate the RDF instance.
+Created by Lida Harami for ICS-FORTH (ISL-ICS), September 2007)
+ -->
+
+
+<!ENTITY % ATTRIB "(Identifier, in_class+, (P1F.is_identified_by |
+P1B.identifies |
+P2F.has_type |
+P2B.is_type_of |
+P3F.has_note |
+P3.1F.has_type |
+P4F.has_time-span |
+P4B.is_time-span_of |
+P5F.consists_of |
+P5B.forms_part_of |
+P7F.took_place_at |
+P7B.witnessed |
+P8F.took_place_on_or_within |
+P8B.witnessed |
+P9F.consists_of |
+P9B.forms_part_of |
+P10F.falls_within |
+P10B.contains |
+P11F.had_participant |
+P11B.participated_in |
+P12F.occurred_in_the_presence_of |
+P12B.was_present_at |
+P13F.destroyed |
+P13B.was_destroyed_by |
+P14F.carried_out_by |
+P14B.performed |
+P14.1F.in_the_role_of |
+P15F.was_influenced_by |
+P15B.influenced |
+P16F.used_specific_object |
+P16B.was_used_for |
+P16.1F_mode_of_use |
+P17F.was_motivated_by |
+P17B.motivated |
+P19F.was_intended_use_of |
+P19B.was_made_for |
+P19.1F_mode_of_use |
+P20F.had_specific_purpose |
+P20B.was_purpose_of |
+P21F.had_general_purpose |
+P21B.was_purpose_of |
+P22F.transferred_title_to |
+P22B.acquired_title_through |
+P23F.transferred_title_from |
+P23B.surrendered_title_through |
+P24F.transferred_title_of |
+P24B.changed_ownership_through |
+P25F.moved |
+P25B.moved_by |
+P26F.moved_to |  
+P26B.was_destination_of |
+P27F.moved_from |
+P27B.was_origin_of |
+P28F.custody_surrendered_by |
+P28B.surrendered_custody_through |
+P29F.custody_received_by |
+P29B.received_custody_through |
+P30F.transferred_custody_of |
+P30B.custody_transferred_through |
+P31F.has_modified |
+P31B.was_modified_by |
+P32F.used_general_technique |
+P32B.was_technique_of |
+P33F.used_specific_technique |
+P33B.was_used_by |
+P34F.concerned |
+P34B.was_assessed_by |
+P35F.has_identified |
+P35B.identified_by |
+P36F.registered |
+P36B.was_registered_by |
+P37F.assigned |
+P37B.was_assigned_by |
+P38F.deassigned |
+P38B.was_deassigned_by |
+P39F.measured |
+P39B.was_measured_by |
+P40F.observed_dimension |
+P40B.was_observed_in |
+P41F.classified |
+P41B.was_classified_by |
+P42F.assigned |
+P42B.was_assigned_by |
+P43F.has_dimension |
+P43B.is_dimension_of |
+P44F.has_condition |
+P44B.condition_of |
+P45F.consists_of |
+P45B.is_incorporated_in |
+P46F.is_composed_of |
+P46B.forms_part_of |
+P47F.is_identified_by |
+P47B.identifies |
+P48F.has_preferred_identifier |
+P48B.is_preferred_identifier_of |
+P49F.has_former_or_current_keeper |
+P49B.is_former_or_current_keeper_of |
+P50F.has_current_keeper |
+P50B.is_current_keeper_of |
+P51F.has_former_or_current_owner |
+P51B.is_former_or_current_owner_of |
+P52F.has_current_owner |
+P52B.is_current_owner_of |
+P53F.has_former_or_current_location |
+P53B.is_former_or_current_location_of |
+P54F.has_current_permanent_location |
+P54B.is_current_permanent_location_of |
+P55F.has_current_location |
+P55B.currently_holds |
+P56F.bears_feature |
+P56B.is_found_on |
+P57F.has_number_of_parts |
+P58F.has_section_definition |
+P58B.defines_section |
+P59F.has_section |
+P59B.is_located_on_or_within |
+P62F.depicts |
+P62B.is_depicted_by |
+P62.1F_mode_of_depiction |
+P65F.shows_visual_item |
+P65B.is_shown_by |
+P67F.refers_to |
+P67B.is_referred_to_by |
+P67.1F_has_type |
+P68F.usually_employs |
+P68B.is_usually_employed_by |
+P69F.is_associated_with |
+P69.1F_has_type |
+P70F.documents |
+P70B.is_documented_in |
+P71F.lists |
+P71B.is_listed_in |
+P72F.has_language |
+P72B.is_language_of |
+P73F.has_translation |
+P73B.is_translation_of |
+P74F.has_current_or_former_residence |
+P74B.is_current_or_former_residence_of |
+P75F.possesses |
+P75B.is_possessed_by |
+P76F.has_contact_point |
+P76B.provides_access_to |
+P78F.is_identified_by |
+P78B.identifies |
+P79F.beginning_is_qualified_by |
+P80F.end_is_qualified_by |
+P81F.ongoing_throughout |
+P82F.at_some_time_within |
+P83F.had_at_least_duration |
+P83B.was_minimum_duration_of |
+P84F.had_at_most_duration |
+P84B.was_maximum_duration_of |
+P86F.falls_within |
+P86B.contains |
+P87F.is_identified_by |
+P87B.identifies |
+P88F.consists_of |
+P88B.forms_part_of |
+P89F.falls_within |
+P89B.contains |
+P90F.has_value |
+P91F.has_unit |
+P91B.is_unit_of |
+P92F.brought_into_existence |
+P92B.was_brought_into_existence_by |
+P93F.took_out_of_existence |
+P93B.was_taken_out_of_existence_by |
+P94F.has_created |
+P94B.was_created_by |
+P95F.has_formed |
+P95B.was_formed_by |
+P96F.by_mother |
+P96B.gave_birth |
+P97F.from_father |
+P97B.was_father_for |
+P98F.brought_into_life |
+P98B.was_born |
+P99F.dissolved |
+P99B.was_dissolved_by |
+P100F.was_death_of |
+P100B.died_in |
+P101F.had_as_general_use |
+P101B.was_use_of |
+P102F.has_title |
+P102B.is_title_of |
+P102.1F_has_type |
+P103F.was_intended_for |
+P103B.was_intention_of |
+P104F.is_subject_to |
+P104B.applies_to |
+P105F.right_held_by |
+P105B.has_right_on |
+P106F.is_composed_of |
+P106B.forms_part_of |
+P107F.has_current_or_former_member |
+P107B.is_current_or_former_member_of |
+P108F.has_produced |
+P108B.was_produced_by |
+P109F.has_current_or_former_curator |
+P109B.is_current_or_former_curator_of |
+P110F.augmented |
+P110B.was_augmented_by |
+P111F.added |
+P111B.was_added_by |
+P112F.diminished |
+P112B.was_diminished_by |
+P113F.removed |
+P113B.was_removed_by |
+P114F.is_equal_in_time_to |
+P115F.finishes |
+P115B.is_finished_by |
+P116F.starts |
+P116B.is_started_by |
+P117F.occurs_during |
+P117B.includes |
+P118F.overlaps_in_time_with |
+P118B.is_overlapped_in_time_by |
+P119F.meets_in_time_with |
+P119B.is_met_in_time_by |
+P120F.occurs_before |
+P120B.occurs_after |
+P121F.overlaps_with |
+P122F.borders_with |
+P123F.resulted_in |
+P123B.resulted_from |
+P124F.transformed |
+P124B.was_transformed_by |
+P125F.used_object_of_type |
+P125B.was_type_of_object_used_in |
+P126F.employed |
+P126B.was_employed_in |
+P127F.has_broader_term |
+P127B.has_narrower_term |
+P128F.carries |
+P128B.is_carried_by |
+P129F.is_about |
+P129B.is_subject_of |
+P130F.shows_features_of |
+P130B.features_are_also_found_on |
+P130.1F_kind_of_similarity |
+P131F.is_identified_by |
+P131B.identifies |
+P132F.overlaps_with |
+P133F.is_separated_from |
+P134F.continued |
+P134B.was_continued_by |
+P135F.created_type |
+P135B.was_created_by |
+P136F.was_based_on |
+P136B.supported_type_creation |
+P136.1F_in_the_taxonomic_role |
+P137F.is_exemplified_by |
+P137B.exemplifies |
+P137.1F_in_the_taxonomic_role |
+P138F.represents |
+P138B.has_representation |
+P138.1F_mode_of_representation |
+P139F.has_alternative_form |
+P139.1F_has_type |
+P140F.assigned_attribute_to |
+P140B.was_attributed_by |
+P141F.assigned |
+P141B.was_assigned_by)*)">
+
+
+
+<!ELEMENT String (#PCDATA)>
+
+<!ELEMENT Number (#PCDATA)>
+
+<!ELEMENT CRMset (E1.CRM_Entity*)>
+
+<!ELEMENT Identifier (#PCDATA)>
+
+<!ELEMENT E1.CRM_Entity (%ATTRIB;)>
+
+<!ELEMENT in_class (#PCDATA)>
+
+<!ELEMENT P1F.is_identified_by (%ATTRIB;)>
+
+<!ELEMENT P1B.identifies (%ATTRIB;)>
+
+<!ELEMENT P2F.has_type (%ATTRIB;)>
+
+<!ELEMENT P2B.is_type_of (%ATTRIB;)>
+
+<!ELEMENT P3F.has_note  (P3.1F.has_type*, String)>
+
+<!ELEMENT P3.1F.has_type  (#PCDATA)>
+
+<!ELEMENT P4F.has_time-span (%ATTRIB;)>
+
+<!ELEMENT P4B.is_time-span_of (%ATTRIB;)>
+
+<!ELEMENT P5F.consists_of (%ATTRIB;)>
+
+<!ELEMENT P5B.forms_part_of (%ATTRIB;)>
+
+<!ELEMENT P7F.took_place_at (%ATTRIB;)>
+
+<!ELEMENT P7B.witnessed (%ATTRIB;)>
+
+<!ELEMENT P8F.took_place_on_or_within (%ATTRIB;)>
+
+<!ELEMENT P8B.witnessed (%ATTRIB;)>
+
+<!ELEMENT P9F.consists_of (%ATTRIB;)>
+
+<!ELEMENT P9B.forms_part_of (%ATTRIB;)>
+
+<!ELEMENT P10F.falls_within (%ATTRIB;)>
+
+<!ELEMENT P10B.contains (%ATTRIB;)>
+
+<!ELEMENT P11F.had_participant (%ATTRIB;)>
+
+<!ELEMENT P11B.participated_in (%ATTRIB;)>
+
+<!ELEMENT P12F.occurred_in_the_presence_of (%ATTRIB;)>
+
+<!ELEMENT P12B.was_present_at (%ATTRIB;)>
+
+<!ELEMENT P13F.destroyed (%ATTRIB;)>
+
+<!ELEMENT P13B.was_destroyed_by (%ATTRIB;)>
+
+<!ELEMENT P14F.carried_out_by (P14.1F.in_the_role_of*, %ATTRIB;)>
+
+<!ELEMENT P14B.performed (P14.1F.in_the_role_of*, %ATTRIB;)>
+
+<!ELEMENT P14.1F.in_the_role_of (#PCDATA)>
+
+<!ELEMENT P15F.was_influenced_by (%ATTRIB;)>
+
+<!ELEMENT P15B.influenced (%ATTRIB;)>
+
+<!ELEMENT P16F.used_specific_object (P16.1F_mode_of_use*, %ATTRIB;)>
+
+<!ELEMENT P16B.was_used_for (P16.1F_mode_of_use*, %ATTRIB;)>
+
+<!ELEMENT P16.1F_mode_of_use (#PCDATA)>
+
+<!ELEMENT P17F.was_motivated_by (%ATTRIB;)>
+
+<!ELEMENT P17B.motivated (%ATTRIB;)>
+
+<!ELEMENT P19F.was_intended_use_of (P19.1F_mode_of_use*, %ATTRIB;)>
+
+<!ELEMENT P19B.was_made_for (P19.1F_mode_of_use*, %ATTRIB;)>
+
+<!ELEMENT P19.1F_mode_of_use (#PCDATA)>
+
+<!ELEMENT P20F.had_specific_purpose (%ATTRIB;)>
+
+<!ELEMENT P20B.was_purpose_of (%ATTRIB;)>
+
+<!ELEMENT P21F.had_general_purpose (%ATTRIB;)>
+
+<!ELEMENT P21B.was_purpose_of (%ATTRIB;)>
+
+<!ELEMENT P22F.transferred_title_to (%ATTRIB;)>
+
+<!ELEMENT P22B.acquired_title_through (%ATTRIB;)>
+
+<!ELEMENT P23F.transferred_title_from (%ATTRIB;)>
+
+<!ELEMENT P23B.surrendered_title_through (%ATTRIB;)>
+
+<!ELEMENT P24F.transferred_title_of (%ATTRIB;)>
+
+<!ELEMENT P24B.changed_ownership_through (%ATTRIB;)>
+
+<!ELEMENT P25F.moved (%ATTRIB;)>
+
+<!ELEMENT P25B.moved_by (%ATTRIB;)>
+
+<!ELEMENT P26F.moved_to (%ATTRIB;)>
+
+<!ELEMENT P26B.was_destination_of (%ATTRIB;)>
+
+<!ELEMENT P27F.moved_from (%ATTRIB;)>
+
+<!ELEMENT P27B.was_origin_of (%ATTRIB;)>
+
+<!ELEMENT P28F.custody_surrendered_by (%ATTRIB;)>
+
+<!ELEMENT P28B.surrendered_custody_through (%ATTRIB;)>
+
+<!ELEMENT P29F.custody_received_by (%ATTRIB;)>
+
+<!ELEMENT P29B.received_custody_through (%ATTRIB;)>
+
+<!ELEMENT P30F.transferred_custody_of (%ATTRIB;)>
+
+<!ELEMENT P30B.custody_transferred_through (%ATTRIB;)>
+
+<!ELEMENT P31F.has_modified (%ATTRIB;)>
+
+<!ELEMENT P31B.was_modified_by (%ATTRIB;)>
+
+<!ELEMENT P32F.used_general_technique (%ATTRIB;)>
+
+<!ELEMENT P32B.was_technique_of (%ATTRIB;)>
+
+<!ELEMENT P33F.used_specific_technique (%ATTRIB;)>
+
+<!ELEMENT P33B.was_used_by (%ATTRIB;)>
+
+<!ELEMENT P34F.concerned (%ATTRIB;)>
+
+<!ELEMENT P34B.was_assessed_by (%ATTRIB;)>
+
+<!ELEMENT P35F.has_identified (%ATTRIB;)>
+
+<!ELEMENT P35B.identified_by (%ATTRIB;)>
+
+<!ELEMENT P36F.registered (%ATTRIB;)>
+
+<!ELEMENT P36B.was_registered_by (%ATTRIB;)>
+
+<!ELEMENT P37F.assigned (%ATTRIB;)>
+
+<!ELEMENT P37B.was_assigned_by (%ATTRIB;)>
+
+<!ELEMENT P38F.deassigned (%ATTRIB;)>
+
+<!ELEMENT P38B.was_deassigned_by (%ATTRIB;)>
+
+<!ELEMENT P39F.measured (%ATTRIB;)>
+
+<!ELEMENT P39B.was_measured_by (%ATTRIB;)>
+
+<!ELEMENT P40F.observed_dimension (%ATTRIB;)>
+
+<!ELEMENT P40B.was_observed_in (%ATTRIB;)>
+
+<!ELEMENT P41F.classified (%ATTRIB;)>
+
+<!ELEMENT P41B.was_classified_by (%ATTRIB;)>
+
+<!ELEMENT P42F.assigned (%ATTRIB;)>
+
+<!ELEMENT P42B.was_assigned_by (%ATTRIB;)>
+
+<!ELEMENT P43F.has_dimension (%ATTRIB;)>
+
+<!ELEMENT P43B.is_dimension_of (%ATTRIB;)>
+
+<!ELEMENT P44F.has_condition (%ATTRIB;)>
+
+<!ELEMENT P44B.condition_of (%ATTRIB;)>
+
+<!ELEMENT P45F.consists_of (%ATTRIB;)>
+
+<!ELEMENT P45B.is_incorporated_in (%ATTRIB;)>
+
+<!ELEMENT P46F.is_composed_of (%ATTRIB;)>
+
+<!ELEMENT P46B.forms_part_of (%ATTRIB;)>
+
+<!ELEMENT P47F.is_identified_by (%ATTRIB;)>
+
+<!ELEMENT P47B.identifies (%ATTRIB;)>
+
+<!ELEMENT P48F.has_preferred_identifier (%ATTRIB;)>
+
+<!ELEMENT P48B.is_preferred_identifier_of (%ATTRIB;)>
+
+<!ELEMENT P49F.has_former_or_current_keeper (%ATTRIB;)>
+
+<!ELEMENT P49B.is_former_or_current_keeper_of (%ATTRIB;)>
+
+<!ELEMENT P50F.has_current_keeper (%ATTRIB;)>
+
+<!ELEMENT P50B.is_current_keeper_of (%ATTRIB;)>
+
+<!ELEMENT P51F.has_former_or_current_owner (%ATTRIB;)>
+
+<!ELEMENT P51B.is_former_or_current_owner_of (%ATTRIB;)>
+
+<!ELEMENT P52F.has_current_owner (%ATTRIB;)>
+
+<!ELEMENT P52B.is_current_owner_of (%ATTRIB;)>
+
+<!ELEMENT P53F.has_former_or_current_location (%ATTRIB;)>
+
+<!ELEMENT P53B.is_former_or_current_location_of (%ATTRIB;)>
+
+<!ELEMENT P54F.has_current_permanent_location (%ATTRIB;)>
+
+<!ELEMENT P54B.is_current_permanent_location_of (%ATTRIB;)>
+
+<!ELEMENT P55F.has_current_location (%ATTRIB;)>
+
+<!ELEMENT P55B.currently_holds (%ATTRIB;)>
+
+<!ELEMENT P56F.bears_feature (%ATTRIB;)>
+
+<!ELEMENT P56B.is_found_on (%ATTRIB;)>
+
+<!ELEMENT P57F.has_number_of_parts (#PCDATA)>
+
+<!ELEMENT P58F.has_section_definition (%ATTRIB;)>
+
+<!ELEMENT P58B.defines_section (%ATTRIB;)>
+
+<!ELEMENT P59F.has_section (%ATTRIB;)>
+
+<!ELEMENT P59B.is_located_on_or_within (%ATTRIB;)>
+
+<!ELEMENT P62F.depicts (P62.1F_mode_of_depiction*, %ATTRIB;)>
+
+<!ELEMENT P62B.is_depicted_by (P62.1F_mode_of_depiction*, %ATTRIB;)>
+
+<!ELEMENT P62.1F_mode_of_depiction (#PCDATA)>
+
+<!ELEMENT P65F.shows_visual_item (%ATTRIB;)>
+
+<!ELEMENT P65B.is_shown_by (%ATTRIB;)>
+
+<!ELEMENT P67F.refers_to (P67.1F_has_type*, %ATTRIB;)>
+
+<!ELEMENT P67B.is_referred_to_by (P67.1F_has_type*, %ATTRIB;)>
+
+<!ELEMENT P67.1F_has_type (#PCDATA)>
+
+<!ELEMENT P68F.usually_employs (%ATTRIB;)>
+
+<!ELEMENT P68B.is_usually_employed_by (%ATTRIB;)>
+
+<!ELEMENT P69F.is_associated_with (P69.1F_has_type*, %ATTRIB;)>
+
+<!ELEMENT P69.1F_has_type (#PCDATA)>
+
+<!ELEMENT P70F.documents (%ATTRIB;)>
+
+<!ELEMENT P70B.is_documented_in (%ATTRIB;)>
+
+<!ELEMENT P71F.lists (%ATTRIB;)>
+
+<!ELEMENT P71B.is_listed_in (%ATTRIB;)>
+
+<!ELEMENT P72F.has_language (%ATTRIB;)>
+
+<!ELEMENT P72B.is_language_of (%ATTRIB;)>
+
+<!ELEMENT P73F.has_translation (%ATTRIB;)>
+
+<!ELEMENT P73B.is_translation_of (%ATTRIB;)>
+
+<!ELEMENT P74F.has_current_or_former_residence (%ATTRIB;)>
+
+<!ELEMENT P74B.is_current_or_former_residence_of (%ATTRIB;)>
+
+<!ELEMENT P75F.possesses (%ATTRIB;)>
+
+<!ELEMENT P75B.is_possessed_by (%ATTRIB;)>
+
+<!ELEMENT P76F.has_contact_point (%ATTRIB;)>
+
+<!ELEMENT P76B.provides_access_to (%ATTRIB;)>
+
+<!ELEMENT P78F.is_identified_by (%ATTRIB;)>
+
+<!ELEMENT P78B.identifies (%ATTRIB;)>
+
+<!ELEMENT P79F.beginning_is_qualified_by (#PCDATA)>
+
+<!ELEMENT P80F.end_is_qualified_by (#PCDATA)>
+
+<!ELEMENT P81F.ongoing_throughout (#PCDATA)>
+
+<!ELEMENT P82F.at_some_time_within (#PCDATA)>
+
+<!ELEMENT P83F.had_at_least_duration (%ATTRIB;)>
+
+<!ELEMENT P83B.was_minimum_duration_of (%ATTRIB;)>
+
+<!ELEMENT P84F.had_at_most_duration (%ATTRIB;)>
+
+<!ELEMENT P84B.was_maximum_duration_of (%ATTRIB;)>
+
+<!ELEMENT P86F.falls_within (%ATTRIB;)>
+
+<!ELEMENT P86B.contains (%ATTRIB;)>
+
+<!ELEMENT P87F.is_identified_by (%ATTRIB;)>
+
+<!ELEMENT P87B.identifies (%ATTRIB;)>
+
+<!ELEMENT P88F.consists_of (%ATTRIB;)>
+
+<!ELEMENT P88B.forms_part_of (%ATTRIB;)>
+
+<!ELEMENT P89F.falls_within (%ATTRIB;)>
+
+<!ELEMENT P89B.contains (%ATTRIB;)>
+
+<!ELEMENT P90F.has_value (#PCDATA)>
+
+<!ELEMENT P91F.has_unit (%ATTRIB;)>
+
+<!ELEMENT P91B.is_unit_of (%ATTRIB;)>
+
+<!ELEMENT P92F.brought_into_existence (%ATTRIB;)>
+
+<!ELEMENT P92B.was_brought_into_existence_by (%ATTRIB;)>
+
+<!ELEMENT P93F.took_out_of_existence (%ATTRIB;)>
+
+<!ELEMENT P93B.was_taken_out_of_existence_by (%ATTRIB;)>
+
+<!ELEMENT P94F.has_created (%ATTRIB;)>
+
+<!ELEMENT P94B.was_created_by (%ATTRIB;)>
+
+<!ELEMENT P95F.has_formed (%ATTRIB;)>
+
+<!ELEMENT P95B.was_formed_by (%ATTRIB;)>
+
+<!ELEMENT P96F.by_mother (%ATTRIB;)>
+
+<!ELEMENT P96B.gave_birth (%ATTRIB;)>
+
+<!ELEMENT P97F.from_father (%ATTRIB;)>
+
+<!ELEMENT P97B.was_father_for (%ATTRIB;)>
+
+<!ELEMENT P98F.brought_into_life (%ATTRIB;)>
+
+<!ELEMENT P98B.was_born (%ATTRIB;)>
+
+<!ELEMENT P99F.dissolved (%ATTRIB;)>
+
+<!ELEMENT P99B.was_dissolved_by (%ATTRIB;)>
+
+<!ELEMENT P100F.was_death_of (%ATTRIB;)>
+
+<!ELEMENT P100B.died_in (%ATTRIB;)>
+
+<!ELEMENT P101F.had_as_general_use (%ATTRIB;)>
+
+<!ELEMENT P101B.was_use_of (%ATTRIB;)>
+
+<!ELEMENT P102F.has_title (P102.1F_has_type*, %ATTRIB;)>
+
+<!ELEMENT P102B.is_title_of (P102.1F_has_type*, %ATTRIB;)>
+
+<!ELEMENT P102.1F_has_type (#PCDATA)>
+
+<!ELEMENT P103F.was_intended_for (%ATTRIB;)>
+
+<!ELEMENT P103B.was_intention_of (%ATTRIB;)>
+
+<!ELEMENT P104F.is_subject_to (%ATTRIB;)>
+
+<!ELEMENT P104B.applies_to (%ATTRIB;)>
+
+<!ELEMENT P105F.right_held_by (%ATTRIB;)>
+
+<!ELEMENT P105B.has_right_on (%ATTRIB;)>
+
+<!ELEMENT P106F.is_composed_of (%ATTRIB;)>
+
+<!ELEMENT P106B.forms_part_of (%ATTRIB;)>
+
+<!ELEMENT P107F.has_current_or_former_member (%ATTRIB;)>
+
+<!ELEMENT P107B.is_current_or_former_member_of (%ATTRIB;)>
+
+<!ELEMENT P108F.has_produced (%ATTRIB;)>
+
+<!ELEMENT P108B.was_produced_by (%ATTRIB;)>
+
+<!ELEMENT P109F.has_current_or_former_curator (%ATTRIB;)>
+
+<!ELEMENT P109B.is_current_or_former_curator_of (%ATTRIB;)>
+
+<!ELEMENT P110F.augmented (%ATTRIB;)>
+
+<!ELEMENT P110B.was_augmented_by (%ATTRIB;)>
+
+<!ELEMENT P111F.added (%ATTRIB;)>
+
+<!ELEMENT P111B.was_added_by (%ATTRIB;)>
+
+<!ELEMENT P112F.diminished (%ATTRIB;)>
+
+<!ELEMENT P112B.was_diminished_by (%ATTRIB;)>
+
+<!ELEMENT P113F.removed (%ATTRIB;)>
+
+<!ELEMENT P113B.was_removed_by (%ATTRIB;)>
+
+<!ELEMENT P114F.is_equal_in_time_to (%ATTRIB;)>
+
+<!ELEMENT P115F.finishes (%ATTRIB;)>
+
+<!ELEMENT P115B.is_finished_by (%ATTRIB;)>
+
+<!ELEMENT P116F.starts (%ATTRIB;)>
+
+<!ELEMENT P116B.is_started_by (%ATTRIB;)>
+
+<!ELEMENT P117F.occurs_during (%ATTRIB;)>
+
+<!ELEMENT P117B.includes (%ATTRIB;)>
+
+<!ELEMENT P118F.overlaps_in_time_with (%ATTRIB;)>
+
+<!ELEMENT P118B.is_overlapped_in_time_by (%ATTRIB;)>
+
+<!ELEMENT P119F.meets_in_time_with (%ATTRIB;)>
+
+<!ELEMENT P119B.is_met_in_time_by (%ATTRIB;)>
+
+<!ELEMENT P120F.occurs_before (%ATTRIB;)>
+
+<!ELEMENT P120B.occurs_after (%ATTRIB;)>
+
+<!ELEMENT P121F.overlaps_with (%ATTRIB;)>
+
+<!ELEMENT P122F.borders_with (%ATTRIB;)>
+
+<!ELEMENT P123F.resulted_in (%ATTRIB;)>
+
+<!ELEMENT P123B.resulted_from (%ATTRIB;)>
+
+<!ELEMENT P124F.transformed (%ATTRIB;)>
+
+<!ELEMENT P124B.was_transformed_by (%ATTRIB;)>
+
+<!ELEMENT P125F.used_object_of_type (%ATTRIB;)>
+
+<!ELEMENT P125B.was_type_of_object_used_in (%ATTRIB;)>
+
+<!ELEMENT P126F.employed (%ATTRIB;)>
+
+<!ELEMENT P126B.was_employed_in (%ATTRIB;)>
+
+<!ELEMENT P127F.has_broader_term (%ATTRIB;)>
+
+<!ELEMENT P127B.has_narrower_term (%ATTRIB;)>
+
+<!ELEMENT P128F.carries (%ATTRIB;)>
+
+<!ELEMENT P128B.is_carried_by (%ATTRIB;)>
+
+<!ELEMENT P129F.is_about (%ATTRIB;)>
+
+<!ELEMENT P129B.is_subject_of (%ATTRIB;)>
+
+<!ELEMENT P130F.shows_features_of (P130.1F_kind_of_similarity*, %ATTRIB;)>
+
+<!ELEMENT P130B.features_are_also_found_on (P130.1F_kind_of_similarity*, %ATTRIB;)>
+
+<!ELEMENT P130.1F_kind_of_similarity (#PCDATA)>
+
+<!ELEMENT P131F.is_identified_by (%ATTRIB;)>
+
+<!ELEMENT P131B.identifies (%ATTRIB;)>
+
+<!ELEMENT P132F.overlaps_with (%ATTRIB;)>
+
+<!ELEMENT P133F.is_separated_from (%ATTRIB;)>
+
+<!ELEMENT P134F.continued (%ATTRIB;)>
+
+<!ELEMENT P134B.was_continued_by (%ATTRIB;)>
+
+<!ELEMENT P135F.created_type (%ATTRIB;)>
+
+<!ELEMENT P135B.was_created_by (%ATTRIB;)>
+
+<!ELEMENT P136F.was_based_on (P136.1F_in_the_taxonomic_role*, %ATTRIB;)>
+
+<!ELEMENT P136B.supported_type_creation (P136.1F_in_the_taxonomic_role*, %ATTRIB;)>
+
+<!ELEMENT P136.1F_in_the_taxonomic_role (#PCDATA)>
+
+<!ELEMENT P137F.is_exemplified_by (P137.1F_in_the_taxonomic_role*, %ATTRIB;)>
+
+<!ELEMENT P137B.exemplifies (P137.1F_in_the_taxonomic_role*, %ATTRIB;)>
+
+<!ELEMENT P137.1F_in_the_taxonomic_role (#PCDATA)>
+
+<!ELEMENT P138F.represents (P138.1F_mode_of_representation*, %ATTRIB;)>
+
+<!ELEMENT P138B.has_representation (P138.1F_mode_of_representation*, %ATTRIB;)>
+
+<!ELEMENT P138.1F_mode_of_representation (#PCDATA)>
+
+<!ELEMENT P139F.has_alternative_form (P139.1F_has_type*, %ATTRIB;)>
+
+<!ELEMENT P139.1F_has_type (#PCDATA)>
+
+<!ELEMENT P140F.assigned_attribute_to (%ATTRIB;)>
+
+<!ELEMENT P140B.was_attributed_by (%ATTRIB;)>
+
+<!ELEMENT P141F.assigned (#PCDATA)>
+
+<!ELEMENT P141B.was_assigned_by (%ATTRIB;)>

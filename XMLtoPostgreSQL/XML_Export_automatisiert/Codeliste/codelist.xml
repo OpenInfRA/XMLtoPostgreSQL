@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--XML-Beispieldatei von XMLSpy generiert v2013 rel. 2 sp1 (http://www.altova.com)-->
+<gmx:CT_CodelistCatalogue xsi:schemaLocation="http://www.isotc211.org/2005/gmx http://schemas.opengis.net/iso/19139/20070417/gmx/gmx.xsd" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2">
+	<gmx:name>
+		<gco:CharacterString>gmxCodelists</gco:CharacterString>
+	</gmx:name>
+	<gmx:scope>
+		<gco:CharacterString>Codelists</gco:CharacterString>
+	</gmx:scope>
+	<gmx:versionNumber>
+		<gco:CharacterString>0.0</gco:CharacterString>
+	</gmx:versionNumber>
+	<gmx:versionDate>
+		<gco:Date>2013-06-25</gco:Date>
+	</gmx:versionDate>
+	<!--======================================Codelists=========================================-->
+	<!-- CharacterSetCode (ISO19115) -->
+	<gmx:codelistItem>
+		<gmx:CodeListDictionary gml:id="MD_CharacterSetCode">
+			<gml:identifier codeSpace="ISOTC211/19115">MD_CharacterSetCode</gml:identifier>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_ucs2">
+					<gml:identifier codeSpace="ISOTC211/19115">ucs2</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_ucs4">
+					<gml:identifier codeSpace="ISOTC211/19115">ucs4</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_utf7">
+					<gml:identifier codeSpace="ISOTC211/19115">utf7</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_utf8">
+					<gml:identifier codeSpace="ISOTC211/19115">utf8</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_utf16">
+					<gml:identifier codeSpace="ISOTC211/19115">utf16</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_8859part1">
+					<gml:identifier codeSpace="ISOTC211/19115">8859part1</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_8859part2">
+					<gml:identifier codeSpace="ISOTC211/19115">8859part2</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_8859part3">
+					<gml:identifier codeSpace="ISOTC211/19115">8859part3</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_8859part4">
+					<gml:identifier codeSpace="ISOTC211/19115">8859part4</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_8859part5">
+					<gml:identifier codeSpace="ISOTC211/19115">8859part5</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_8859part6">
+					<gml:identifier codeSpace="ISOTC211/19115">8859part6</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_8859part7">
+					<gml:identifier codeSpace="ISOTC211/19115">8859part7</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_8859part8">
+					<gml:identifier codeSpace="ISOTC211/19115">8859part8</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_8859part9">
+					<gml:identifier codeSpace="ISOTC211/19115">8859part9</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_8859part10">
+					<gml:identifier codeSpace="ISOTC211/19115">8859part10</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="MD_CharacterSetCode_8859part11">
+					<gml:identifier codeSpace="ISOTC211/19115">8859part11</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+		</gmx:CodeListDictionary>
+	</gmx:codelistItem>
+	<!-- LanguageCode (ISO 639-2) -->
+	<gmx:codelistItem>
+		<gmx:CodeListDictionary gml:id="LanguageCode">
+			<gml:identifier codeSpace="ISO 639-2">LanguageCode</gml:identifier>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="LanguageCode_eng">
+					<gml:identifier codeSpace="ISO 639-2">eng</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="LanguageCode_fra">
+					<gml:identifier codeSpace="ISO 639-2">fra</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="LanguageCode_deu">
+					<gml:identifier codeSpace="ISO 639-2">deu</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+		</gmx:CodeListDictionary>	
+	</gmx:codelistItem>
+	<!-- CountryCode (ISO 3166-2) -->
+	<gmx:codelistItem>
+		<gmx:CodeListDictionary gml:id="CountryCode">
+			<gml:identifier codeSpace="ISO 3166-2">CountryCode</gml:identifier>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CountryCode_UK">
+					<gml:identifier codeSpace="ISO 3166-2">UK</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CountryCode_FR">
+					<gml:identifier codeSpace="ISO 3166-2">FR</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CountryCode_DE">
+					<gml:identifier codeSpace="ISO 3166-2">DE</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+		</gmx:CodeListDictionary>
+	</gmx:codelistItem>
+	<!-- CI_DateTypeCode -->
+	<gmx:codelistItem>
+		<gmx:CodeListDictionary gml:id="CI_DateTypeCode">
+			<gml:description>identification of when a given event occurred</gml:description>
+			<gml:identifier codeSpace="ISOTC211/19115">CI_DateTypeCode</gml:identifier>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_DateTypeCode_creation">
+					<gml:description>date identifies when the resource was brought into existence</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">creation</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_DateTypeCode_publication">
+					<gml:description>date identifies when the resource was issued</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">publication</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_DateTypeCode_revision">
+					<gml:description>date identifies when the resource was examined or re-examined and imporved or amended</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">revision</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+		</gmx:CodeListDictionary>
+	</gmx:codelistItem>
+	<!-- CI_RoleCode -->
+	<gmx:codelistItem>
+		<gmx:CodeListDictionary gml:id="CI_RoleCode">
+			<gml:description>function performed by the responsible party</gml:description>
+			<gml:identifier codeSpace="ISOTC211/19115">CI_RoleCode</gml:identifier>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_RoleCode_resourceProvider">
+					<gml:description>party that supplies the resource</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">resourceProvider</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_RoleCode_custodian">
+					<gml:description>party that accepts accountability and responsability for the data and ensures appropriate care and maintenance of the resource</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">custodian</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_RoleCode_owner">
+					<gml:description>party that owns the resource</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">owner</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_RoleCode_user">
+					<gml:description>party who uses the resource</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">user</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_RoleCode_distributor">
+					<gml:description>party who distributes the resource</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">distributor</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_RoleCode_originator">
+					<gml:description>party who created the resource</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">originator</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_RoleCode_pointOfContact">
+					<gml:description>party who can be contacted for acquiring knowledge about or acquisition of the resource</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">pointOfContact</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_RoleCode_principalInvestigator">
+					<gml:description>key party responsible for gathering information and conducting research</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">principalInvestigator</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_RoleCode_processor">
+					<gml:description>party wha has processed the data in a manner such that the resource has been modified</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">processor</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_RoleCode_publisher">
+					<gml:description>party who published the resource</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">publisher</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+			<gmx:codeEntry>
+				<gmx:CodeDefinition gml:id="CI_RoleCode_author">
+					<gml:description>party who authored the resource</gml:description>
+					<gml:identifier codeSpace="ISOTC211/19115">author</gml:identifier>
+				</gmx:CodeDefinition>
+			</gmx:codeEntry>
+		</gmx:CodeListDictionary>
+	</gmx:codelistItem>
+</gmx:CT_CodelistCatalogue>

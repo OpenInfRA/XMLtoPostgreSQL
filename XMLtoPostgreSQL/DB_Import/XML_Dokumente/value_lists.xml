@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lists xmlns="OpenInfRA"
+       xmlns:xlink="http://www.w3.org/1999/xlink"
+       xmlns:gmd="http://www.isotc211.org/2005/gmd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="OpenInfRA ../../XSD/OpenInfRA_xsd_v12.xsd">
+   <value_lists>
+      <value_list id="uuid_5bf49d8e-498c-421e-b4fe-5ac56b87339b">
+         <id>5bf49d8e-498c-421e-b4fe-5ac56b87339b</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_c0d5a1fa-9a57-433e-ac98-6b85f47eebb7.xml#uuid_01211b1e-63ff-42fd-ab9d-f6ca717d44e0"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+      </value_list>
+      <value_list id="uuid_6e5f9e08-bf65-41e1-b850-ed5f95a1cb00">
+         <id>6e5f9e08-bf65-41e1-b850-ed5f95a1cb00</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_0959092c-4b73-406c-a6e3-fea386463fcd"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+      </value_list>
+      <value_list id="uuid_fa4783a8-74fa-478d-b21d-fff9b4df6345">
+         <id>fa4783a8-74fa-478d-b21d-fff9b4df6345</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_17dcaeb5-eba6-42ac-b380-7161c17a7367"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+      </value_list>
+      <value_list id="uuid_f11d2658-a82d-4396-8571-310482b7850e">
+         <id>f11d2658-a82d-4396-8571-310482b7850e</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_1b75d369-be6d-4298-933c-cdeac2a9d1a4"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+      </value_list>
+      <value_list id="uuid_66f557c9-6adf-407c-9b4e-8f930a2d7789">
+         <id>66f557c9-6adf-407c-9b4e-8f930a2d7789</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_2b228193-845c-48b8-985d-3665ff235da1"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+      </value_list>
+      <value_list id="uuid_f5f1692d-d01f-40b2-9716-a679c4a4678a">
+         <id>f5f1692d-d01f-40b2-9716-a679c4a4678a</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_31228f48-05dc-4e7b-8c4d-b8ffa7165d24"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+      </value_list>
+      <value_list id="uuid_da3c8c33-6a1f-4ebb-ad82-332db918c39c">
+         <id>da3c8c33-6a1f-4ebb-ad82-332db918c39c</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_36418963-5e72-4cc1-8b59-ff2d54eb00ed"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+      </value_list>
+      <value_list id="uuid_949c1398-f083-4c5e-8238-ebbb210badb0">
+         <id>949c1398-f083-4c5e-8238-ebbb210badb0</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_38f8e31b-4f40-4fc7-a1e3-a2b0b8b7e031"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+      </value_list>
+      <value_list id="uuid_32e3b75d-07cd-4a6e-bf27-30e534c6e821">
+         <id>32e3b75d-07cd-4a6e-bf27-30e534c6e821</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_3be4068e-e938-4497-bdf3-3bf8348d58de"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+      </value_list>
+      <value_list id="uuid_4ff77ae0-6b63-41e5-8731-2539be6894b7">
+         <id>4ff77ae0-6b63-41e5-8731-2539be6894b7</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_3f359089-2af1-44a0-a54d-26db4772dc68"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+      </value_list>
+      <value_list id="uuid_ba9ae6a5-509a-4f02-9b42-1ef55af71ea3">
+         <id>ba9ae6a5-509a-4f02-9b42-1ef55af71ea3</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_43846806-2a37-41a9-99db-5eb4c83dc4f5"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <rel_value_list>
+            <reference idref="uuid_949c1398-f083-4c5e-8238-ebbb210badb0"/>
+            <SKOS_relationship>
+               <reference idref="uuid_b4254889-0e4c-4619-9405-c726ec157bdb"/>
+            </SKOS_relationship>
+         </rel_value_list>
+      </value_list>
+   </value_lists>
+   <value_list_values>
+      <value_list_value id="uuid_fbd8cf99-d59a-4d09-b513-66631d4b948f">
+         <id>fbd8cf99-d59a-4d09-b513-66631d4b948f</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4b20f395-f518-4271-b04d-ff1a4937a573"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_5bf49d8e-498c-421e-b4fe-5ac56b87339b"/>
+         </belongs_to_value_list>
+         <rel_value_list_value>
+            <reference idref="uuid_8962cd0b-bb23-4f7f-9a0d-b74aa8b7b49d"/>
+            <SKOS_relationship>
+               <reference idref="uuid_aa9e2b1c-1a1b-49b8-8d6e-0f39b3ec7577"/>
+            </SKOS_relationship>
+         </rel_value_list_value>
+      </value_list_value>
+      <value_list_value id="uuid_8962cd0b-bb23-4f7f-9a0d-b74aa8b7b49d">
+         <id>8962cd0b-bb23-4f7f-9a0d-b74aa8b7b49d</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_53804350-c23e-4646-80cb-1847ad72ff3f"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_5bf49d8e-498c-421e-b4fe-5ac56b87339b"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_161dbf1f-a5c4-4d49-89c0-e9eb87993c1e">
+         <id>161dbf1f-a5c4-4d49-89c0-e9eb87993c1e</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_556b3ca6-fee4-4e52-9232-3779e6392141"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_5bf49d8e-498c-421e-b4fe-5ac56b87339b"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_f3c002a3-0f5d-4ec9-95c3-d8e6924bc05d">
+         <id>f3c002a3-0f5d-4ec9-95c3-d8e6924bc05d</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_63049d71-2faf-4538-9f62-97157565543c"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_5bf49d8e-498c-421e-b4fe-5ac56b87339b"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_58228f04-b097-4df1-9f82-aa5b1222e56e">
+         <id>58228f04-b097-4df1-9f82-aa5b1222e56e</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_645cdda1-b0f3-4604-83b4-c5bb711bef19"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_5bf49d8e-498c-421e-b4fe-5ac56b87339b"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_4baf22b9-71ef-441c-a230-542ccb8a37df">
+         <id>4baf22b9-71ef-441c-a230-542ccb8a37df</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_659e7d1d-0efa-4723-a5bd-9782eb43b0c2"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_5bf49d8e-498c-421e-b4fe-5ac56b87339b"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_1f4a3747-cd86-4009-95e5-04763161fc0d">
+         <id>1f4a3747-cd86-4009-95e5-04763161fc0d</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_671b1182-998f-4a46-bc09-d8550b8628a8"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_6e5f9e08-bf65-41e1-b850-ed5f95a1cb00"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_ffd91d8c-8c9b-4e0a-98d1-5c5fae43b0b9">
+         <id>ffd91d8c-8c9b-4e0a-98d1-5c5fae43b0b9</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_6dfc3bfa-ba5e-4edf-9b4f-494f6fad5e9b"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_6e5f9e08-bf65-41e1-b850-ed5f95a1cb00"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_81d47538-7748-483a-a8a9-078943b9f84d">
+         <id>81d47538-7748-483a-a8a9-078943b9f84d</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_6e82a417-f038-4fd2-8c72-8dcad5b1614a"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_6e5f9e08-bf65-41e1-b850-ed5f95a1cb00"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_afa7206c-18c8-4470-a48e-393ebf6d826c">
+         <id>afa7206c-18c8-4470-a48e-393ebf6d826c</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_6f858f7a-6814-4e54-94b7-1b2769afbdfc"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_fa4783a8-74fa-478d-b21d-fff9b4df6345"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_704c6489-3219-4728-9fde-1cfce655816c">
+         <id>704c6489-3219-4728-9fde-1cfce655816c</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_72dbda3e-1480-4795-9136-29947e9a01a9"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_fa4783a8-74fa-478d-b21d-fff9b4df6345"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_03db96cd-6eeb-4f41-b7a0-0c2e6a5a29b7">
+         <id>03db96cd-6eeb-4f41-b7a0-0c2e6a5a29b7</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_74b4162b-23b4-4a2d-9906-263e46b41fdb"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_fa4783a8-74fa-478d-b21d-fff9b4df6345"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_9390c2c9-d0a9-41de-bdb7-fc67b4d4ab13">
+         <id>9390c2c9-d0a9-41de-bdb7-fc67b4d4ab13</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_7a983bd6-1c4c-4e4d-9a9e-99b75f89bb9a"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_fa4783a8-74fa-478d-b21d-fff9b4df6345"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_8495c71c-c619-45fc-acb7-e19f90571115">
+         <id>8495c71c-c619-45fc-acb7-e19f90571115</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_82f0c336-c488-49c5-b00e-b0aa73caa8a4"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_fa4783a8-74fa-478d-b21d-fff9b4df6345"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_a8a49f16-896b-4c0f-835f-e99334bf92e2">
+         <id>a8a49f16-896b-4c0f-835f-e99334bf92e2</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_85f74e0d-ad95-46bc-b861-952aadedd182"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_f11d2658-a82d-4396-8571-310482b7850e"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_b64fe122-1cac-434d-bb2f-3c54edb90f12">
+         <id>b64fe122-1cac-434d-bb2f-3c54edb90f12</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_9e64f566-9471-4a6a-81db-9e79a14d3767"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_66f557c9-6adf-407c-9b4e-8f930a2d7789"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_4df55acc-0cf3-431e-b5c5-d93586c1849e">
+         <id>4df55acc-0cf3-431e-b5c5-d93586c1849e</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_8d4cc61c-7dba-44d0-badf-c354fcd4f920"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_f5f1692d-d01f-40b2-9716-a679c4a4678a"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_874e4888-b4d2-46cb-96f5-e9c7cd06c294">
+         <id>874e4888-b4d2-46cb-96f5-e9c7cd06c294</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_938093a4-4f38-4715-b4fa-b7b6a0742047"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_949c1398-f083-4c5e-8238-ebbb210badb0"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_74afddc3-f797-4fee-a49f-d29e2b03cdc6">
+         <id>74afddc3-f797-4fee-a49f-d29e2b03cdc6</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_942f04bd-d8ae-4830-a8c2-16004e904486"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_949c1398-f083-4c5e-8238-ebbb210badb0"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_8da5fb81-ea67-4564-a3fd-7ea8dc172690">
+         <id>8da5fb81-ea67-4564-a3fd-7ea8dc172690</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_95f4dd88-95f6-470a-b930-4f8dfff55c15"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_949c1398-f083-4c5e-8238-ebbb210badb0"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_21a7d694-7974-4baa-bf39-05cb52784361">
+         <id>21a7d694-7974-4baa-bf39-05cb52784361</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_9761398f-cfa6-4fb5-929d-4ad8f246664e"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_32e3b75d-07cd-4a6e-bf27-30e534c6e821"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_01ece322-1dcd-449d-92bc-02a413fa5693">
+         <id>01ece322-1dcd-449d-92bc-02a413fa5693</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_979d12fd-c74a-4a20-87d7-ca9ef8ca695d"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_32e3b75d-07cd-4a6e-bf27-30e534c6e821"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_e6886ff9-bbd5-4475-b7eb-2d46cfa95909">
+         <id>e6886ff9-bbd5-4475-b7eb-2d46cfa95909</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_97c975b3-1e43-40e4-9ad1-1227eeb4e30d"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_32e3b75d-07cd-4a6e-bf27-30e534c6e821"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_62a0a69e-013f-414e-9027-5cabd8bbea88">
+         <id>62a0a69e-013f-414e-9027-5cabd8bbea88</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_9b8aab95-8239-4697-a48f-1114bd7510b5"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_4ff77ae0-6b63-41e5-8731-2539be6894b7"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_f208012e-38ab-4f1c-b930-9af51fe2cafd">
+         <id>f208012e-38ab-4f1c-b930-9af51fe2cafd</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_9e4dfaf8-f095-4fbb-9b54-1f026eeb803e"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_4ff77ae0-6b63-41e5-8731-2539be6894b7"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_b075b508-ac8f-43e4-9dc3-569049cfdfb7">
+         <id>b075b508-ac8f-43e4-9dc3-569049cfdfb7</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_9e64f566-9471-4a6a-81db-9e79a14d3767"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_ba9ae6a5-509a-4f02-9b42-1ef55af71ea3"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_cbe4b9cc-dae0-426e-a1f9-d4818559e73b">
+         <id>cbe4b9cc-dae0-426e-a1f9-d4818559e73b</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_9f03d607-9fc3-485b-be33-0fb14059b690"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_ba9ae6a5-509a-4f02-9b42-1ef55af71ea3"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_ac518e5c-5fc7-4083-a538-cc94747c0adc">
+         <id>ac518e5c-5fc7-4083-a538-cc94747c0adc</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_9f957ba3-585e-4354-81ab-6aa10a650664"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_ba9ae6a5-509a-4f02-9b42-1ef55af71ea3"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_b4254889-0e4c-4619-9405-c726ec157bdb">
+         <id>b4254889-0e4c-4619-9405-c726ec157bdb</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_c42f44b5-56f6-4dfd-a0b7-9ab6411513b2"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_da3c8c33-6a1f-4ebb-ad82-332db918c39c"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_038707c6-79df-4df3-9c89-f52b9d3cef91">
+         <id>038707c6-79df-4df3-9c89-f52b9d3cef91</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_c9c3af77-6c2c-440f-831c-32142595b895"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_da3c8c33-6a1f-4ebb-ad82-332db918c39c"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_aa9e2b1c-1a1b-49b8-8d6e-0f39b3ec7577">
+         <id>aa9e2b1c-1a1b-49b8-8d6e-0f39b3ec7577</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_d5d54726-d4d9-423d-b7d6-ca2ed23da483"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_da3c8c33-6a1f-4ebb-ad82-332db918c39c"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_717c5f37-9912-49d5-a12a-e271361f287e">
+         <id>717c5f37-9912-49d5-a12a-e271361f287e</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_d9350ebd-0dd7-4d19-9328-829737b40004"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_da3c8c33-6a1f-4ebb-ad82-332db918c39c"/>
+         </belongs_to_value_list>
+      </value_list_value>
+      <value_list_value id="uuid_aa542f16-2f57-4bdc-bf2a-3270552706f5">
+         <id>aa542f16-2f57-4bdc-bf2a-3270552706f5</id>
+         <name>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_d9e96fa0-3ee2-4e23-8453-0db8fe50e21f"/>
+            </gmd:PT_FreeText>
+         </name>
+         <description>
+            <gmd:PT_FreeText>
+               <gmd:textGroup xlink:href="locale_e8361247-949f-45ec-bca1-9fde35b15668.xml#uuid_4989e279-daa1-4b7c-844b-ce89bd3ddaed"/>
+            </gmd:PT_FreeText>
+         </description>
+         <visibility>true</visibility>
+         <belongs_to_value_list>
+            <reference idref="uuid_da3c8c33-6a1f-4ebb-ad82-332db918c39c"/>
+         </belongs_to_value_list>
+      </value_list_value>
+   </value_list_values>
+</lists>

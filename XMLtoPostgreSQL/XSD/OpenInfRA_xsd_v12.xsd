@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:OpenInfRA="OpenInfRA" xmlns:gml="http://www.opengis.net/gml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" targetNamespace="OpenInfRA" elementFormDefault="qualified" version="1.0">
+	<xs:import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="gmd/gmd.xsd"/>
+	<xs:import namespace="http://www.isotc211.org/2005/gco" schemaLocation="gco/gco.xsd"/>
+	<xs:import namespace="http://www.opengis.net/gml" schemaLocation="gml/3.1.1/base/gml.xsd"/>
+	<!--Wurzelelemente-->
+	<xs:element name="dataset">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="OpenInfRA:attribute_type" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="OpenInfRA:attribute_type_group" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="OpenInfRA:attribute_type_to_topic_characteristic" maxOccurs="unbounded"/>
+				<xs:element ref="OpenInfRA:attribute_value" maxOccurs="unbounded"/>
+				<xs:element ref="OpenInfRA:relationship_type" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="OpenInfRA:relationship_type_to_topic_characteristic" maxOccurs="unbounded"/>
+				<xs:element ref="OpenInfRA:multiplicity" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="OpenInfRA:project" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="OpenInfRA:topic" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="OpenInfRA:topic_characteristic" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element ref="OpenInfRA:topic_instance" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+		<!--Schlüssel-->
+		<xs:key name="attribute_typeKey">
+			<xs:selector xpath="OpenInfRA:attribute_type"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="attribute_type_groupKey">
+			<xs:selector xpath="OpenInfRA:attribute_type_group"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="attribute_valueKey">
+			<xs:selector xpath="OpenInfRA:attribute_value"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="relationship_typeKey">
+			<xs:selector xpath="OpenInfRA:relationship_type"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="multiplicityKey">
+			<xs:selector xpath="OpenInfRA:multiplicity"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="projectKey">
+			<xs:selector xpath="OpenInfRA:project"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="topicKey">
+			<xs:selector xpath="OpenInfRA:topic"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="topic_characteristicKey">
+			<xs:selector xpath="OpenInfRA:topic_characteristic"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="topic_instanceKey">
+			<xs:selector xpath="OpenInfRA:topic_instance"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<!--Schlüsselreferenzen-->
+		<xs:keyref name="attribute_typeToattribute_type" refer="OpenInfRA:attribute_typeKey">
+			<xs:selector xpath="OpenInfRA:attribute_type/OpenInfRA:rel_attribute_type/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="attribute_typeToattribute_type_group" refer="OpenInfRA:attribute_type_groupKey">
+			<xs:selector xpath="OpenInfRA:attribute_type/OpenInfRA:rel_attribute_type_group/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="attribute_type_groupToattribute_type" refer="OpenInfRA:attribute_typeKey">
+			<xs:selector xpath="OpenInfRA:attribute_type_group/OpenInfRA:rel_attribute_type/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="attribute_type_to_topic_characteristicToattribute_type" refer="OpenInfRA:attribute_typeKey">
+			<xs:selector xpath="OpenInfRA:attribute_type_to_topic_characteristic/OpenInfRA:rel_attribute_type/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="attribute_type_to_topic_characteristicTomultiplicity" refer="OpenInfRA:multiplicityKey">
+			<xs:selector xpath="OpenInfRA:attribute_type_to_topic_characteristic/OpenInfRA:multiplicity/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="attribute_type_to_topic_characteristicTotopic_characteristic" refer="OpenInfRA:topic_characteristicKey">
+			<xs:selector xpath="OpenInfRA:attribute_type_to_topic_characteristic/OpenInfRA:rel_topic_characteristic/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="attribute_valueToattribute_type" refer="OpenInfRA:attribute_typeKey">
+			<xs:selector xpath="OpenInfRA:attribute_value/OpenInfRA:rel_attribute_type/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="attribute_valueTotopic_instance" refer="OpenInfRA:topic_instanceKey">
+			<xs:selector xpath="OpenInfRA:attribute_value/OpenInfRA:rel_topic_instance/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="relationship_type_to_topic_characteristicTorelationship_type" refer="OpenInfRA:relationship_typeKey">
+			<xs:selector xpath="OpenInfRA:relationship_type_to_topic_characteristic/OpenInfRA:rel_relationship_type/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="relationship_type_to_topic_characteristicTomultiplicity" refer="OpenInfRA:multiplicityKey">
+			<xs:selector xpath="OpenInfRA:relationship_type_to_topic_characteristic/OpenInfRA:multiplicity/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="relationship_type_to_topic_characteristicTotopic_characteristic" refer="OpenInfRA:topic_characteristicKey">
+			<xs:selector xpath="OpenInfRA:relationship_type_to_topic_characteristic/OpenInfRA:rel_topic_characteristic/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="subproject_of" refer="OpenInfRA:projectKey">
+			<xs:selector xpath="OpenInfRA:project/OpenInfRA:subproject_of/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="topic_characteristicToproject" refer="OpenInfRA:projectKey">
+			<xs:selector xpath="OpenInfRA:topic_characteristic/OpenInfRA:project/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="topic_characteristicTotopic" refer="OpenInfRA:topicKey">
+			<xs:selector xpath="OpenInfRA:topic_characteristic/OpenInfRA:rel_topic/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="topic_instanceTotopic_characteristic" refer="OpenInfRA:topic_characteristicKey">
+			<xs:selector xpath="OpenInfRA:topic_instance/OpenInfRA:rel_topic_characteristic/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="topic_instanceTotopic_instance" refer="OpenInfRA:topic_instanceKey">
+			<xs:selector xpath="OpenInfRA:topic_instance/OpenInfRA:rel_topic_instance/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="topic_instanceTorelationship_type" refer="OpenInfRA:relationship_typeKey">
+			<xs:selector xpath="OpenInfRA:topic_instance/OpenInfRA:rel_topic_instance/OpenInfRA:reference_relationship_type"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+	</xs:element>
+	<xs:element name="lists">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="value_lists">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="OpenInfRA:value_list" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="value_list_values">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="OpenInfRA:value_list_value" maxOccurs="unbounded"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+		<!--Schlüssel-->
+		<xs:key name="value_listKey">
+			<xs:selector xpath="OpenInfRA:value_lists/OpenInfRA:value_list"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<xs:key name="value_list_valueKey">
+			<xs:selector xpath="OpenInfRA:value_list_values/OpenInfRA:value_list_value"/>
+			<xs:field xpath="@id"/>
+		</xs:key>
+		<!--Schlüsselreferenzen-->
+		<xs:keyref name="value_listTovalue_list_value" refer="OpenInfRA:value_list_valueKey">
+			<xs:selector xpath="OpenInfRA:value_lists/OpenInfRA:value_list/OpenInfRA:rel_value_list/OpenInfRA:SKOS_relationship/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="value_listTovalue_list" refer="OpenInfRA:value_listKey">
+			<xs:selector xpath="OpenInfRA:value_lists/OpenInfRA:value_list/OpenInfRA:rel_value_list/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="value_list_valueTovalue_list_valueSKOS" refer="OpenInfRA:value_list_valueKey">
+			<xs:selector xpath="OpenInfRA:value_list_values/OpenInfRA:value_list_value/OpenInfRA:rel_value_list_value/OpenInfRA:SKOS_relationship/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="value_list_valueTovalue_list_value" refer="OpenInfRA:value_list_valueKey">
+			<xs:selector xpath="OpenInfRA:value_list_values/OpenInfRA:value_list_value/OpenInfRA:rel_value_list_value/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+		<xs:keyref name="value_list_valueTovalue_list" refer="OpenInfRA:value_listKey">
+			<xs:selector xpath="OpenInfRA:value_list_values/OpenInfRA:value_list_value/OpenInfRA:belongs_to_value_list/OpenInfRA:reference"/>
+			<xs:field xpath="@idref"/>
+		</xs:keyref>
+	</xs:element>
+	<!--globale Elemente-->
+	<xs:element name="attribute_type" type="OpenInfRA:attribute_type_Type"/>
+	<xs:element name="attribute_type_group" type="OpenInfRA:attribute_type_group_Type"/>
+	<xs:element name="attribute_type_to_topic_characteristic" type="OpenInfRA:attribute_type_to_topic_characteristic_Type"/>
+	<xs:element name="attribute_value" type="OpenInfRA:attribute_value_Type"/>
+	<xs:element name="relationship_type" type="OpenInfRA:relationship_type_Type"/>
+	<xs:element name="relationship_type_to_topic_characteristic" type="OpenInfRA:relationship_type_to_topic_characteristic_Type"/>
+	<xs:element name="multiplicity" type="OpenInfRA:multiplicity_Type"/>
+	<xs:element name="project" type="OpenInfRA:project_Type"/>
+	<xs:element name="topic" type="OpenInfRA:topic_Type"/>
+	<xs:element name="topic_characteristic" type="OpenInfRA:topic_characteristic_Type"/>
+	<xs:element name="topic_instance" type="OpenInfRA:topic_instance_Type"/>
+	<xs:element name="value_list" type="OpenInfRA:value_list_Type"/>
+	<xs:element name="value_list_value" type="OpenInfRA:value_list_value_Type"/>
+	<!--Gruppierung attribute_value-->
+	<xs:group name="attribute_value">
+		<xs:choice>
+			<xs:element name="value" type="gmd:PT_FreeText_PropertyType"/>
+			<xs:element name="domain" type="OpenInfRA:value_list_values_reference_Type"/>
+			<xs:element name="geometry" type="gml:GeometryPropertyType"/>
+			<xs:element name="geometryZ" type="gml:GeometryPropertyType"/>
+		</xs:choice>
+	</xs:group>
+	<!--data_types-->
+	<xs:complexType name="attribute_type_Type">
+		<xs:sequence>
+			<xs:element name="id" type="OpenInfRA:Uuid_Type"/>
+			<xs:element name="name" type="gmd:PT_FreeText_PropertyType"/>
+			<xs:element name="description" type="gmd:PT_FreeText_PropertyType" minOccurs="0"/>
+			<xs:element name="data_type" type="OpenInfRA:value_list_values_reference_Type"/>
+			<xs:element name="domain" type="OpenInfRA:value_list_reference_Type" minOccurs="0"/>
+			<xs:element name="unit" type="OpenInfRA:value_list_values_reference_Type" minOccurs="0"/>
+			<xs:element name="rel_attribute_type_group" type="OpenInfRA:attribute_type_group_PropertyType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="rel_attribute_type" type="OpenInfRA:SKOS_reference_Type" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="OpenInfRA:Id_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="attribute_type_group_Type">
+		<xs:sequence>
+			<xs:element name="description" type="OpenInfRA:value_list_values_reference_Type"/>
+			<xs:element name="rel_attribute_type" type="OpenInfRA:attribute_type_PropertyType" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="OpenInfRA:Id_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="attribute_type_to_topic_characteristic_Type">
+		<xs:sequence>
+			<xs:element name="multiplicity" type="OpenInfRA:multiplicity_PropertyType"/>
+			<xs:element name="default_value" type="OpenInfRA:value_list_values_reference_Type" minOccurs="0"/>
+			<xs:element name="rel_attribute_type" type="OpenInfRA:attribute_type_PropertyType"/>
+			<xs:element name="rel_topic_characteristic" type="OpenInfRA:topic_characteristic_PropertyType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="attribute_value_Type">
+		<xs:sequence>
+			<xs:group ref="OpenInfRA:attribute_value"/>
+			<xs:element name="rel_attribute_type" type="OpenInfRA:attribute_type_PropertyType"/>
+			<xs:element name="rel_topic_instance" type="OpenInfRA:topic_instance_PropertyType"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="OpenInfRA:Id_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="relationship_type_Type">
+		<xs:sequence>
+			<xs:element name="id" type="OpenInfRA:Uuid_Type"/>
+			<xs:element name="reference_to" type="OpenInfRA:value_list_values_reference_Type"/>
+			<xs:element name="description" type="OpenInfRA:value_list_values_reference_Type"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="OpenInfRA:Id_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="relationship_type_to_topic_characteristic_Type">
+		<xs:sequence>
+			<xs:element name="multiplicity" type="OpenInfRA:multiplicity_PropertyType"/>
+			<xs:element name="rel_relationship_type" type="OpenInfRA:relationship_type_PropertyType"/>
+			<xs:element name="rel_topic_characteristic" type="OpenInfRA:topic_characteristic_PropertyType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="multiplicity_Type">
+		<xs:sequence>
+			<xs:element name="min_value" type="xs:unsignedInt"/>
+			<xs:element name="max_value" type="xs:unsignedInt" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="OpenInfRA:Id_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="project_Type">
+		<xs:sequence>
+			<xs:element name="id" type="OpenInfRA:Uuid_Type"/>
+			<xs:element name="name" type="gmd:PT_FreeText_PropertyType"/>
+			<xs:element name="description" type="gmd:PT_FreeText_PropertyType" minOccurs="0"/>
+			<xs:element name="subproject_of" type="OpenInfRA:project_PropertyType" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="OpenInfRA:Id_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="topic_Type">
+		<xs:sequence>
+			<xs:element name="description" type="OpenInfRA:value_list_values_reference_Type"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="OpenInfRA:Id_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="topic_characteristic_Type">
+		<xs:sequence>
+			<xs:element name="id" type="OpenInfRA:Uuid_Type"/>
+			<xs:element name="description" type="gmd:PT_FreeText_PropertyType"/>
+			<xs:element name="project" type="OpenInfRA:project_PropertyType"/>
+			<xs:element name="rel_topic" type="OpenInfRA:topic_PropertyType"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="OpenInfRA:Id_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="topic_instance_Type">
+		<xs:sequence>
+			<xs:element name="id" type="OpenInfRA:Uuid_Type"/>
+			<xs:element name="rel_topic_characteristic" type="OpenInfRA:topic_characteristic_PropertyType"/>
+			<xs:element name="rel_topic_instance" type="OpenInfRA:rel_topic_instance_Type" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="OpenInfRA:Id_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="value_list_Type">
+		<xs:sequence>
+			<xs:element name="id" type="OpenInfRA:Uuid_Type"/>
+			<xs:element name="name" type="gmd:PT_FreeText_PropertyType"/>
+			<xs:element name="description" type="gmd:PT_FreeText_PropertyType" minOccurs="0"/>
+			<xs:element name="rel_value_list" type="OpenInfRA:value_list_SKOS_reference_Type" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="OpenInfRA:Id_Type" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="value_list_value_Type">
+		<xs:sequence>
+			<xs:element name="id" type="OpenInfRA:Uuid_Type"/>
+			<xs:element name="name" type="gmd:PT_FreeText_PropertyType"/>
+			<xs:element name="description" type="gmd:PT_FreeText_PropertyType" minOccurs="0"/>
+			<xs:element name="visibility" type="xs:boolean" default="1"/>
+			<xs:element name="belongs_to_value_list" type="OpenInfRA:value_list_PropertyType"/>
+			<xs:element name="rel_value_list_value" type="OpenInfRA:value_list_values_SKOS_reference_Type" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="OpenInfRA:Id_Type" use="required"/>
+	</xs:complexType>
+	<xs:simpleType name="Id_Type">
+		<xs:restriction base="xs:ID">
+			<xs:pattern value="uuid_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Uuid_Type">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--references-->
+	<xs:complexType name="attribute_type_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:attribute_type"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="attribute_type_group_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:attribute_type_group"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="attribute_type_to_topic_characteristic_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:attribute_type_to_topic_characteristic"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="attribute_value_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:attribute_value"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="relationship_type_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:relationship_type"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="relationship_type_to_topic_characteristic_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:relationship_type_to_topic_characteristic"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="multiplicity_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:multiplicity"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="project_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:project"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="topic_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:topic"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="topic_characteristic_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:topic_characteristic"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="topic_instance_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:topic_instance"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="value_list_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:value_list"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="value_list_value_PropertyType">
+		<xs:choice>
+			<xs:element ref="OpenInfRA:value_list_value"/>
+			<xs:element name="reference">
+				<xs:complexType>
+					<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="value_list_values_reference_Type">
+		<xs:attribute name="value_list_value" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:anyURI">
+					<xs:pattern value="value_lists.xml#uuid_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="value_list_reference_Type">
+		<xs:attribute name="value_list" use="required">
+			<xs:simpleType>
+				<xs:restriction base="xs:anyURI">
+					<xs:pattern value="value_lists.xml#uuid_[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="value_list_SKOS_reference_Type">
+		<xs:complexContent>
+			<xs:extension base="OpenInfRA:value_list_PropertyType">
+				<xs:sequence>
+					<xs:element name="SKOS_relationship" type="OpenInfRA:value_list_value_PropertyType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="value_list_values_SKOS_reference_Type">
+		<xs:complexContent>
+			<xs:extension base="OpenInfRA:value_list_value_PropertyType">
+				<xs:sequence>
+					<xs:element name="SKOS_relationship" type="OpenInfRA:value_list_value_PropertyType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="SKOS_reference_Type">
+		<xs:complexContent>
+			<xs:extension base="OpenInfRA:attribute_type_PropertyType">
+				<xs:sequence>
+					<xs:element name="SKOS_relationship" type="OpenInfRA:value_list_values_reference_Type"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="rel_topic_instance_Type">
+		<xs:complexContent>
+			<xs:extension base="OpenInfRA:topic_instance_PropertyType">
+				<xs:choice>
+					<xs:element ref="OpenInfRA:relationship_type"/>
+					<xs:element name="reference_relationship_type">
+						<xs:complexType>
+							<xs:attribute name="idref" type="xs:IDREF" use="required"/>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>
+

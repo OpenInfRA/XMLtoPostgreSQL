@@ -1,0 +1,4035 @@
+ <project_e7d42bff-4e40-4f43-9d1b-1dc5a190cd75  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<attribute_type>
+    <id>1d6f37c8-cdb7-4b0a-9a76-c3ae2513a013</id>
+    <name>d73aae78-f4cc-4af7-ae06-9c2b337340e7</name>
+    <data_type>752fc105-f93b-4b22-bae2-87b2e31653b4</data_type>
+</attribute_type>
+
+<attribute_type>
+    <id>091a2936-c1b5-4775-814c-0b4db70fe6cd</id>
+    <name>5903ba62-20ae-46b1-a191-407d8e90a7f9</name>
+    <data_type>f5a22fd3-1b19-408c-8b6a-94f5d090d89f</data_type>
+</attribute_type>
+
+<attribute_type>
+    <id>8c3b7917-8975-46bb-8c08-3aa5076f8580</id>
+    <name>738e8c2e-7c9e-45c4-ba38-8c5e4a114729</name>
+    <data_type>f5a22fd3-1b19-408c-8b6a-94f5d090d89f</data_type>
+</attribute_type>
+
+<attribute_type>
+    <id>1f39489b-657d-4568-bbaa-ea191131814d</id>
+    <name>1674f343-7393-4e00-b3c0-3b6f365e061b</name>
+    <data_type>752fc105-f93b-4b22-bae2-87b2e31653b4</data_type>
+</attribute_type>
+
+<attribute_type>
+    <id>0226a839-4d1e-4a6f-aa67-d57dd5ea7de2</id>
+    <name>116f90de-38ef-411a-a248-6649fb5d53aa</name>
+    <data_type>1453be24-2b0c-4b40-a648-ecccf0f382a3</data_type>
+</attribute_type>
+
+<attribute_type>
+    <id>48f06316-f5e6-441a-a5e7-77291f3879e7</id>
+    <name>71c6827d-513b-4d80-bec4-b956ac595d2a</name>
+    <data_type>752fc105-f93b-4b22-bae2-87b2e31653b4</data_type>
+</attribute_type>
+
+<attribute_type>
+    <id>6c7fe6cc-0e1e-4dbd-a7a8-396dee490a8a</id>
+    <name>143aa8f5-0916-4a27-82ef-d06fadc1f9e5</name>
+    <data_type>752fc105-f93b-4b22-bae2-87b2e31653b4</data_type>
+    <domain>7f9d62d4-a7f2-48b7-95e1-ae52a45ea6e8</domain>
+</attribute_type>
+
+
+<attribute_type_group>
+    <id>92c8b3ee-61cb-44ec-be29-312c1fbb33d6</id>
+    <name>e12fef7c-872a-4ab3-970c-98e19d682726</name>
+</attribute_type_group>
+
+<attribute_type_group>
+    <id>dbe9b7d4-710d-4418-bd28-95004dece304</id>
+    <name>f876dcac-a36d-4cde-871f-e1f18a70e24f</name>
+    <description>6d95ecf8-7a60-48a0-8de0-ee5926c708bf</description>
+</attribute_type_group>
+
+<attribute_type_group>
+    <id>24e81d76-b7ea-4adf-bb46-4ee81b5b83ec</id>
+    <name>f6038513-5d0f-4392-877d-7727cbe2bbda</name>
+</attribute_type_group>
+
+
+<attribute_type_group_to_topic_characteristic>
+    <id>b92c8ce1-278b-4926-8490-24918ac1799a</id>
+    <attribute_type_group_id>92c8b3ee-61cb-44ec-be29-312c1fbb33d6</attribute_type_group_id>
+    <topic_characteristic_id>3aac556e-0ca7-4d0f-8f6a-1886174b00c7</topic_characteristic_id>
+    <multiplicity>2d8bc741-c775-4932-b9ea-83f7251eee04</multiplicity>
+    <order>1</order>
+</attribute_type_group_to_topic_characteristic>
+
+<attribute_type_group_to_topic_characteristic>
+    <id>4b75cfc5-cf3b-4ac0-b132-75bcf83b8e19</id>
+    <attribute_type_group_id>dbe9b7d4-710d-4418-bd28-95004dece304</attribute_type_group_id>
+    <topic_characteristic_id>3b218dd8-09a0-42e0-b570-efaba66c4c31</topic_characteristic_id>
+    <multiplicity>2d8bc741-c775-4932-b9ea-83f7251eee04</multiplicity>
+    <order>1</order>
+</attribute_type_group_to_topic_characteristic>
+
+<attribute_type_group_to_topic_characteristic>
+    <id>a381262e-2d5f-405e-9e8b-98bd43155ea0</id>
+    <attribute_type_group_id>24e81d76-b7ea-4adf-bb46-4ee81b5b83ec</attribute_type_group_id>
+    <topic_characteristic_id>5bb8588a-8f0a-4198-a7cc-96ce498731a9</topic_characteristic_id>
+    <multiplicity>2d8bc741-c775-4932-b9ea-83f7251eee04</multiplicity>
+    <order>1</order>
+</attribute_type_group_to_topic_characteristic>
+
+
+<attribute_type_to_attribute_type_group>
+    <id>d0fb2968-0186-4d15-b7a0-895678cf2657</id>
+    <attribute_type_id>091a2936-c1b5-4775-814c-0b4db70fe6cd</attribute_type_id>
+    <attribute_type_group_id>92c8b3ee-61cb-44ec-be29-312c1fbb33d6</attribute_type_group_id>
+    <attribute_type_group_to_topic_characteristic_id>b92c8ce1-278b-4926-8490-24918ac1799a</attribute_type_group_to_topic_characteristic_id>
+    <multiplicity>dd051168-b938-4b2f-9361-cfbc7fc5dce4</multiplicity>
+    <order>1</order>
+</attribute_type_to_attribute_type_group>
+
+<attribute_type_to_attribute_type_group>
+    <id>dd0f585e-b270-4140-a2be-eaff549e7dd1</id>
+    <attribute_type_id>8c3b7917-8975-46bb-8c08-3aa5076f8580</attribute_type_id>
+    <attribute_type_group_id>92c8b3ee-61cb-44ec-be29-312c1fbb33d6</attribute_type_group_id>
+    <attribute_type_group_to_topic_characteristic_id>b92c8ce1-278b-4926-8490-24918ac1799a</attribute_type_group_to_topic_characteristic_id>
+    <multiplicity>dd051168-b938-4b2f-9361-cfbc7fc5dce4</multiplicity>
+    <order>1</order>
+</attribute_type_to_attribute_type_group>
+
+<attribute_type_to_attribute_type_group>
+    <id>193b97e6-e8f8-4a4e-aa47-2b72916d24e8</id>
+    <attribute_type_id>1d6f37c8-cdb7-4b0a-9a76-c3ae2513a013</attribute_type_id>
+    <attribute_type_group_id>dbe9b7d4-710d-4418-bd28-95004dece304</attribute_type_group_id>
+    <attribute_type_group_to_topic_characteristic_id>4b75cfc5-cf3b-4ac0-b132-75bcf83b8e19</attribute_type_group_to_topic_characteristic_id>
+    <multiplicity>dd051168-b938-4b2f-9361-cfbc7fc5dce4</multiplicity>
+    <order>1</order>
+</attribute_type_to_attribute_type_group>
+
+<attribute_type_to_attribute_type_group>
+    <id>7dee86a0-b04d-4236-8516-bc7aa8baba98</id>
+    <attribute_type_id>8c3b7917-8975-46bb-8c08-3aa5076f8580</attribute_type_id>
+    <attribute_type_group_id>dbe9b7d4-710d-4418-bd28-95004dece304</attribute_type_group_id>
+    <attribute_type_group_to_topic_characteristic_id>4b75cfc5-cf3b-4ac0-b132-75bcf83b8e19</attribute_type_group_to_topic_characteristic_id>
+    <multiplicity>dd051168-b938-4b2f-9361-cfbc7fc5dce4</multiplicity>
+    <order>1</order>
+</attribute_type_to_attribute_type_group>
+
+<attribute_type_to_attribute_type_group>
+    <id>df853fd6-c1eb-48a0-91ab-9bf194ca4dd5</id>
+    <attribute_type_id>1f39489b-657d-4568-bbaa-ea191131814d</attribute_type_id>
+    <attribute_type_group_id>24e81d76-b7ea-4adf-bb46-4ee81b5b83ec</attribute_type_group_id>
+    <attribute_type_group_to_topic_characteristic_id>a381262e-2d5f-405e-9e8b-98bd43155ea0</attribute_type_group_to_topic_characteristic_id>
+    <multiplicity>dd051168-b938-4b2f-9361-cfbc7fc5dce4</multiplicity>
+    <order>1</order>
+</attribute_type_to_attribute_type_group>
+
+<attribute_type_to_attribute_type_group>
+    <id>005d75d2-bd72-4a81-a83f-ec0596225581</id>
+    <attribute_type_id>0226a839-4d1e-4a6f-aa67-d57dd5ea7de2</attribute_type_id>
+    <attribute_type_group_id>24e81d76-b7ea-4adf-bb46-4ee81b5b83ec</attribute_type_group_id>
+    <attribute_type_group_to_topic_characteristic_id>a381262e-2d5f-405e-9e8b-98bd43155ea0</attribute_type_group_to_topic_characteristic_id>
+    <multiplicity>dd051168-b938-4b2f-9361-cfbc7fc5dce4</multiplicity>
+    <order>1</order>
+</attribute_type_to_attribute_type_group>
+
+<attribute_type_to_attribute_type_group>
+    <id>c05bbd28-a61f-4e98-9553-0dd599f755c8</id>
+    <attribute_type_id>48f06316-f5e6-441a-a5e7-77291f3879e7</attribute_type_id>
+    <attribute_type_group_id>92c8b3ee-61cb-44ec-be29-312c1fbb33d6</attribute_type_group_id>
+    <attribute_type_group_to_topic_characteristic_id>b92c8ce1-278b-4926-8490-24918ac1799a</attribute_type_group_to_topic_characteristic_id>
+    <multiplicity>2d8bc741-c775-4932-b9ea-83f7251eee04</multiplicity>
+    <order>1</order>
+</attribute_type_to_attribute_type_group>
+
+<attribute_type_to_attribute_type_group>
+    <id>c9bbf3a5-9bf0-4e3d-aea6-a5a63f4e2a31</id>
+    <attribute_type_id>6c7fe6cc-0e1e-4dbd-a7a8-396dee490a8a</attribute_type_id>
+    <attribute_type_group_id>92c8b3ee-61cb-44ec-be29-312c1fbb33d6</attribute_type_group_id>
+    <attribute_type_group_to_topic_characteristic_id>b92c8ce1-278b-4926-8490-24918ac1799a</attribute_type_group_to_topic_characteristic_id>
+    <multiplicity>dd051168-b938-4b2f-9361-cfbc7fc5dce4</multiplicity>
+    <default_value>d926bf7f-9b1f-43ac-a112-2123236e8643</default_value>
+    <order>1</order>
+</attribute_type_to_attribute_type_group>
+
+
+<attribute_type_x005F_x_attribute_type>
+    <id>dda25557-0fb1-4dae-bd64-44c4dd58d1d0</id>
+    <attribute_type_1>091a2936-c1b5-4775-814c-0b4db70fe6cd</attribute_type_1>
+    <attribute_type_2>8c3b7917-8975-46bb-8c08-3aa5076f8580</attribute_type_2>
+    <relationship>9ce4a45e-13b3-4bbe-ae14-04e8bc2654bb</relationship>
+</attribute_type_x005F_x_attribute_type>
+
+
+<attribute_value>
+    <id>3a1175c5-9a7a-4526-b0f3-03b85a4ec770</id>
+    <attribute_type_to_attribute_type_group_id>d0fb2968-0186-4d15-b7a0-895678cf2657</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>d8f54644-6f0e-4bef-b1f7-d088c06c1c88</id>
+    <attribute_type_to_attribute_type_group_id>dd0f585e-b270-4140-a2be-eaff549e7dd1</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>b1b9277d-eb84-4308-b127-1b5fdc5677dd</id>
+    <attribute_type_to_attribute_type_group_id>7dee86a0-b04d-4236-8516-bc7aa8baba98</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>53f85242-2cb0-427c-882b-d4bdbf27e360</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>f0a4e4cd-d1af-4e58-be92-487b4cd45160</id>
+    <attribute_type_to_attribute_type_group_id>193b97e6-e8f8-4a4e-aa47-2b72916d24e8</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>53f85242-2cb0-427c-882b-d4bdbf27e360</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>01e85d4d-a620-420a-81fc-224ecf51f73f</id>
+    <attribute_type_to_attribute_type_group_id>7dee86a0-b04d-4236-8516-bc7aa8baba98</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>07be6a08-d8a7-4c80-ae7e-281d2d306a59</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>cfdeb3d7-a3c5-4a5e-9a2e-145b08c7d203</id>
+    <attribute_type_to_attribute_type_group_id>193b97e6-e8f8-4a4e-aa47-2b72916d24e8</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>07be6a08-d8a7-4c80-ae7e-281d2d306a59</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>5b658b7b-e035-449e-9403-0a319654be68</id>
+    <attribute_type_to_attribute_type_group_id>7dee86a0-b04d-4236-8516-bc7aa8baba98</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>0e15494c-e461-448c-81a3-f362b782feaa</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>f156b555-4603-473a-b21c-d5211601aedb</id>
+    <attribute_type_to_attribute_type_group_id>193b97e6-e8f8-4a4e-aa47-2b72916d24e8</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>0e15494c-e461-448c-81a3-f362b782feaa</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>d6fbc1ec-c0cd-43f4-8f26-0b8f15070d50</id>
+    <attribute_type_to_attribute_type_group_id>7dee86a0-b04d-4236-8516-bc7aa8baba98</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>d99a195f-f977-4b88-8246-1c3caca45fd4</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>76fab6bf-1402-4691-8bd2-4deb3dbd0bd6</id>
+    <attribute_type_to_attribute_type_group_id>193b97e6-e8f8-4a4e-aa47-2b72916d24e8</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>d99a195f-f977-4b88-8246-1c3caca45fd4</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>faaac2c3-07f5-4c9b-bdd1-ed65f146d14d</id>
+    <attribute_type_to_attribute_type_group_id>df853fd6-c1eb-48a0-91ab-9bf194ca4dd5</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>e01a9b89-a9dd-4a18-ac60-3bdf08dff492</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>d0a6222c-f38a-40d1-af2c-9ea8633d6d1b</id>
+    <attribute_type_to_attribute_type_group_id>005d75d2-bd72-4a81-a83f-ec0596225581</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>e01a9b89-a9dd-4a18-ac60-3bdf08dff492</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>2174b9d1-785e-4b0f-9a7d-37649697eeec</id>
+    <attribute_type_to_attribute_type_group_id>df853fd6-c1eb-48a0-91ab-9bf194ca4dd5</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>c335daac-5bb3-4152-9b47-84b9694a7fbe</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>01f00f36-ac30-4c83-9dac-ef1b24abc79c</id>
+    <attribute_type_to_attribute_type_group_id>005d75d2-bd72-4a81-a83f-ec0596225581</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>c335daac-5bb3-4152-9b47-84b9694a7fbe</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>9e48554c-f787-461d-94c0-a81bfdefa021</id>
+    <attribute_type_to_attribute_type_group_id>c05bbd28-a61f-4e98-9553-0dd599f755c8</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>d6e303f1-cc19-4b5f-be95-5b7f582737d3</id>
+    <attribute_type_to_attribute_type_group_id>c05bbd28-a61f-4e98-9553-0dd599f755c8</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_id>
+</attribute_value>
+
+<attribute_value>
+    <id>12557eb3-7b46-4245-ad6c-9b7b4278c191</id>
+    <attribute_type_to_attribute_type_group_id>c9bbf3a5-9bf0-4e3d-aea6-a5a63f4e2a31</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_id>
+</attribute_value>
+
+
+<attribute_value_domain>
+    <id>12557eb3-7b46-4245-ad6c-9b7b4278c191</id>
+    <attribute_type_to_attribute_type_group_id>c9bbf3a5-9bf0-4e3d-aea6-a5a63f4e2a31</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_id>
+    <domain>18478c40-74b2-4aea-8895-40e10fbf42bf</domain>
+</attribute_value_domain>
+
+
+
+
+<attribute_value_value>
+    <id>3a1175c5-9a7a-4526-b0f3-03b85a4ec770</id>
+    <attribute_type_to_attribute_type_group_id>d0fb2968-0186-4d15-b7a0-895678cf2657</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_id>
+    <value>7fb8bce8-b246-4fca-9c6c-23d3b8d6b6cd</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>d8f54644-6f0e-4bef-b1f7-d088c06c1c88</id>
+    <attribute_type_to_attribute_type_group_id>dd0f585e-b270-4140-a2be-eaff549e7dd1</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_id>
+    <value>d5375e94-d7e8-45e0-af52-08d952d8f3f0</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>b1b9277d-eb84-4308-b127-1b5fdc5677dd</id>
+    <attribute_type_to_attribute_type_group_id>7dee86a0-b04d-4236-8516-bc7aa8baba98</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>53f85242-2cb0-427c-882b-d4bdbf27e360</topic_instance_id>
+    <value>8e7db6d5-cfe9-48a4-a6fb-01631b43a0c9</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>f0a4e4cd-d1af-4e58-be92-487b4cd45160</id>
+    <attribute_type_to_attribute_type_group_id>193b97e6-e8f8-4a4e-aa47-2b72916d24e8</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>53f85242-2cb0-427c-882b-d4bdbf27e360</topic_instance_id>
+    <value>d2f2b8f8-d4cd-4132-a594-f77057a85842</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>01e85d4d-a620-420a-81fc-224ecf51f73f</id>
+    <attribute_type_to_attribute_type_group_id>7dee86a0-b04d-4236-8516-bc7aa8baba98</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>07be6a08-d8a7-4c80-ae7e-281d2d306a59</topic_instance_id>
+    <value>d97352e5-35a6-485b-adb1-b2b16fb70c01</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>cfdeb3d7-a3c5-4a5e-9a2e-145b08c7d203</id>
+    <attribute_type_to_attribute_type_group_id>193b97e6-e8f8-4a4e-aa47-2b72916d24e8</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>07be6a08-d8a7-4c80-ae7e-281d2d306a59</topic_instance_id>
+    <value>104e48ce-3b77-420a-8615-f7f83acbd675</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>5b658b7b-e035-449e-9403-0a319654be68</id>
+    <attribute_type_to_attribute_type_group_id>7dee86a0-b04d-4236-8516-bc7aa8baba98</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>0e15494c-e461-448c-81a3-f362b782feaa</topic_instance_id>
+    <value>ef77bac4-4756-4020-9e77-db0e70d3c86c</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>f156b555-4603-473a-b21c-d5211601aedb</id>
+    <attribute_type_to_attribute_type_group_id>193b97e6-e8f8-4a4e-aa47-2b72916d24e8</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>0e15494c-e461-448c-81a3-f362b782feaa</topic_instance_id>
+    <value>1512b94c-dd78-4d16-99ed-ca03b5a0b769</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>d6fbc1ec-c0cd-43f4-8f26-0b8f15070d50</id>
+    <attribute_type_to_attribute_type_group_id>7dee86a0-b04d-4236-8516-bc7aa8baba98</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>d99a195f-f977-4b88-8246-1c3caca45fd4</topic_instance_id>
+    <value>6989ec52-5c5e-4179-abd0-fb3c212974d0</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>76fab6bf-1402-4691-8bd2-4deb3dbd0bd6</id>
+    <attribute_type_to_attribute_type_group_id>193b97e6-e8f8-4a4e-aa47-2b72916d24e8</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>d99a195f-f977-4b88-8246-1c3caca45fd4</topic_instance_id>
+    <value>28a15c62-239e-474e-8785-ddab759022c6</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>faaac2c3-07f5-4c9b-bdd1-ed65f146d14d</id>
+    <attribute_type_to_attribute_type_group_id>df853fd6-c1eb-48a0-91ab-9bf194ca4dd5</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>e01a9b89-a9dd-4a18-ac60-3bdf08dff492</topic_instance_id>
+    <value>d5a0b050-1a4c-4b7e-a412-8d408eb5ef2d</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>d0a6222c-f38a-40d1-af2c-9ea8633d6d1b</id>
+    <attribute_type_to_attribute_type_group_id>005d75d2-bd72-4a81-a83f-ec0596225581</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>e01a9b89-a9dd-4a18-ac60-3bdf08dff492</topic_instance_id>
+    <value>5833a6d2-373f-416b-8ceb-daab82c05da6</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>2174b9d1-785e-4b0f-9a7d-37649697eeec</id>
+    <attribute_type_to_attribute_type_group_id>df853fd6-c1eb-48a0-91ab-9bf194ca4dd5</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>c335daac-5bb3-4152-9b47-84b9694a7fbe</topic_instance_id>
+    <value>bbb5af67-d5f9-4dba-9c74-fd5a8c6fbc8e</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>01f00f36-ac30-4c83-9dac-ef1b24abc79c</id>
+    <attribute_type_to_attribute_type_group_id>005d75d2-bd72-4a81-a83f-ec0596225581</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>c335daac-5bb3-4152-9b47-84b9694a7fbe</topic_instance_id>
+    <value>9e4e7cbc-9537-4e21-a377-3e73a6da301d</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>9e48554c-f787-461d-94c0-a81bfdefa021</id>
+    <attribute_type_to_attribute_type_group_id>c05bbd28-a61f-4e98-9553-0dd599f755c8</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_id>
+    <value>79ff2ce3-dae5-4b13-b227-59cbb6281d23</value>
+</attribute_value_value>
+
+<attribute_value_value>
+    <id>d6e303f1-cc19-4b5f-be95-5b7f582737d3</id>
+    <attribute_type_to_attribute_type_group_id>c05bbd28-a61f-4e98-9553-0dd599f755c8</attribute_type_to_attribute_type_group_id>
+    <topic_instance_id>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_id>
+    <value>0628d4e1-0b14-41be-ad6a-8e67a15c22cf</value>
+</attribute_value_value>
+
+
+<character_code>
+    <id>c4d53f98-04af-4d04-9073-4f040a60c64b</id>
+    <character_code>UTF8</character_code>
+</character_code>
+
+
+<country_code>
+    <id>0a50e74e-e606-4932-a1d0-47917474d38a</id>
+    <country_code>AD</country_code>
+</country_code>
+
+<country_code>
+    <id>b7e83fd6-b52f-4fcd-9bbd-e8b2014abdb5</id>
+    <country_code>AE</country_code>
+</country_code>
+
+<country_code>
+    <id>b0c4d60b-c628-4cda-bdd5-52f025dc0647</id>
+    <country_code>AF</country_code>
+</country_code>
+
+<country_code>
+    <id>4acaf643-485b-4fc4-9c2a-28fa342e592c</id>
+    <country_code>AG</country_code>
+</country_code>
+
+<country_code>
+    <id>6838ef93-be16-4179-b98d-e4c030d3c68f</id>
+    <country_code>AI</country_code>
+</country_code>
+
+<country_code>
+    <id>03350cbb-e21e-4815-819e-01cc8c64bf70</id>
+    <country_code>AL</country_code>
+</country_code>
+
+<country_code>
+    <id>b5c665c5-f95d-47e8-a6ea-d45f119b7ade</id>
+    <country_code>AM</country_code>
+</country_code>
+
+<country_code>
+    <id>bb2b4831-4dae-4cf7-8c64-5382649f7526</id>
+    <country_code>AO</country_code>
+</country_code>
+
+<country_code>
+    <id>4455df26-e626-47af-a740-78870acb7277</id>
+    <country_code>AQ</country_code>
+</country_code>
+
+<country_code>
+    <id>9e9f16fc-cb1c-4dc1-9a0e-ef4edf952aaf</id>
+    <country_code>AR</country_code>
+</country_code>
+
+<country_code>
+    <id>26aa1e02-1c81-45b7-b223-e8b843666caa</id>
+    <country_code>AS</country_code>
+</country_code>
+
+<country_code>
+    <id>830ffb96-2baa-46ab-9c9b-a21b06c610d5</id>
+    <country_code>AT</country_code>
+</country_code>
+
+<country_code>
+    <id>6838304e-35c9-483b-afee-9dcfdc33b4e9</id>
+    <country_code>AU</country_code>
+</country_code>
+
+<country_code>
+    <id>d67fe435-7dc6-4dcc-9dd4-3635d16eeb34</id>
+    <country_code>AW</country_code>
+</country_code>
+
+<country_code>
+    <id>fb5862ec-7867-4918-8219-14a541a4ce81</id>
+    <country_code>AX</country_code>
+</country_code>
+
+<country_code>
+    <id>1bda28db-1b0c-4430-9155-5d22d5faf3cd</id>
+    <country_code>AZ</country_code>
+</country_code>
+
+<country_code>
+    <id>4867a7b0-e6c4-4502-bd3d-adc6218571d9</id>
+    <country_code>BA</country_code>
+</country_code>
+
+<country_code>
+    <id>7fe43b42-4338-4cc7-bdd2-0b0b02bc6d18</id>
+    <country_code>BB</country_code>
+</country_code>
+
+<country_code>
+    <id>73082e77-8568-4a0b-9e34-080f1eb6e967</id>
+    <country_code>BD</country_code>
+</country_code>
+
+<country_code>
+    <id>1c2a3707-4723-45a6-b7c6-db1572a6a1a7</id>
+    <country_code>BE</country_code>
+</country_code>
+
+<country_code>
+    <id>d7f14935-e78f-4c24-b2b4-a124e30eb0e6</id>
+    <country_code>BF</country_code>
+</country_code>
+
+<country_code>
+    <id>e85c6909-e51c-4b1c-8016-f22a0b986d6c</id>
+    <country_code>BG</country_code>
+</country_code>
+
+<country_code>
+    <id>49b63442-c5b4-47de-801a-bdbbf109904f</id>
+    <country_code>BH</country_code>
+</country_code>
+
+<country_code>
+    <id>e98df693-bc17-4c3a-babb-cecb53bee175</id>
+    <country_code>BI</country_code>
+</country_code>
+
+<country_code>
+    <id>b776836d-a1f7-4a59-80fa-d78f6e288c0d</id>
+    <country_code>BJ</country_code>
+</country_code>
+
+<country_code>
+    <id>ffd140c3-1572-488b-a51d-5265030fb40d</id>
+    <country_code>BL</country_code>
+</country_code>
+
+<country_code>
+    <id>a148c3ad-1192-42a0-8574-55af3854fb58</id>
+    <country_code>BM</country_code>
+</country_code>
+
+<country_code>
+    <id>7416b482-f3e9-491b-83a1-f598fbc1b889</id>
+    <country_code>BN</country_code>
+</country_code>
+
+<country_code>
+    <id>c03230c6-3327-402b-b79c-4cabb27cdc81</id>
+    <country_code>BO</country_code>
+</country_code>
+
+<country_code>
+    <id>64664946-62ac-4ea0-b3c8-7ca94bf74ec9</id>
+    <country_code>BQ</country_code>
+</country_code>
+
+<country_code>
+    <id>3926e2b5-a5fa-4a14-9e86-a7d623b97fd9</id>
+    <country_code>BR</country_code>
+</country_code>
+
+<country_code>
+    <id>5d0b0aeb-52df-4670-9ae3-6f7caeb87c4f</id>
+    <country_code>BS</country_code>
+</country_code>
+
+<country_code>
+    <id>8a398c93-5f6e-4fe7-96e7-044d0328221f</id>
+    <country_code>BT</country_code>
+</country_code>
+
+<country_code>
+    <id>09017c43-b691-475f-a9e1-8ac2f0d4ac3f</id>
+    <country_code>BV</country_code>
+</country_code>
+
+<country_code>
+    <id>39c2a287-05d7-4ea2-ac0e-b911be0ce088</id>
+    <country_code>BW</country_code>
+</country_code>
+
+<country_code>
+    <id>879f81eb-39b0-48d7-bc0e-1db983be2717</id>
+    <country_code>BY</country_code>
+</country_code>
+
+<country_code>
+    <id>7bb12065-4ee2-4e18-9dee-e8c2b494e4ae</id>
+    <country_code>BZ</country_code>
+</country_code>
+
+<country_code>
+    <id>953b3114-e2ff-4c5f-a118-4e14e2d0a2b7</id>
+    <country_code>CA</country_code>
+</country_code>
+
+<country_code>
+    <id>4a43b447-b513-41dc-ada4-705aa0e3ad86</id>
+    <country_code>CC</country_code>
+</country_code>
+
+<country_code>
+    <id>d09579b7-b7b6-42cd-83e4-19a28a22b1bd</id>
+    <country_code>CD</country_code>
+</country_code>
+
+<country_code>
+    <id>14d8701d-a831-4465-8a9b-57e23a5ce9bf</id>
+    <country_code>CF</country_code>
+</country_code>
+
+<country_code>
+    <id>85ed3f09-031c-45e2-a0bf-423cf22d4f46</id>
+    <country_code>CG</country_code>
+</country_code>
+
+<country_code>
+    <id>06dcba82-68e3-49fb-84a1-b9d7d8f499e0</id>
+    <country_code>CH</country_code>
+</country_code>
+
+<country_code>
+    <id>66969a62-0056-44b9-9e28-cbdab4f3c3e3</id>
+    <country_code>CI</country_code>
+</country_code>
+
+<country_code>
+    <id>bc672b3d-91fc-4013-9085-126cd1870f78</id>
+    <country_code>CK</country_code>
+</country_code>
+
+<country_code>
+    <id>f99050fc-5bd6-40dc-a102-f19fcbe551c1</id>
+    <country_code>CL</country_code>
+</country_code>
+
+<country_code>
+    <id>06416661-1d50-483a-b61d-7d490abcc7c1</id>
+    <country_code>CM</country_code>
+</country_code>
+
+<country_code>
+    <id>a44f54d8-843d-429c-a458-39185888ad2b</id>
+    <country_code>CN</country_code>
+</country_code>
+
+<country_code>
+    <id>89272d27-13e2-40fc-8d33-0cc1c51ca0bf</id>
+    <country_code>CO</country_code>
+</country_code>
+
+<country_code>
+    <id>e6864b57-4547-4011-b75f-ba3d60958415</id>
+    <country_code>CR</country_code>
+</country_code>
+
+<country_code>
+    <id>15e63009-d67f-4248-9085-171406ffb311</id>
+    <country_code>CU</country_code>
+</country_code>
+
+<country_code>
+    <id>6c583289-5dae-4bbe-9397-1cf71d95e70c</id>
+    <country_code>CV</country_code>
+</country_code>
+
+<country_code>
+    <id>5d6f9d28-fd07-4fae-8921-4802a2e08e78</id>
+    <country_code>CW</country_code>
+</country_code>
+
+<country_code>
+    <id>223b6d51-6691-46d1-b290-a2ae1fa5c1f7</id>
+    <country_code>CX</country_code>
+</country_code>
+
+<country_code>
+    <id>2eac2278-671e-4e61-8173-2357cabf36e6</id>
+    <country_code>CY</country_code>
+</country_code>
+
+<country_code>
+    <id>47c0fd67-dca8-414f-a377-80dfb1bec20a</id>
+    <country_code>CZ</country_code>
+</country_code>
+
+<country_code>
+    <id>036cf8ee-a2c0-45f3-89e4-1f2a32739a6d</id>
+    <country_code>DE</country_code>
+</country_code>
+
+<country_code>
+    <id>ffd99b21-e197-4526-8560-f2c6ca4e36da</id>
+    <country_code>DJ</country_code>
+</country_code>
+
+<country_code>
+    <id>ad4ec410-af6d-4a9a-ba52-97baf7cdc649</id>
+    <country_code>DK</country_code>
+</country_code>
+
+<country_code>
+    <id>0cf4cebf-8f05-4b7a-9d56-c26223ed534d</id>
+    <country_code>DM</country_code>
+</country_code>
+
+<country_code>
+    <id>7f0d77e2-1be1-4032-a90b-f7f83fbedd8d</id>
+    <country_code>DO</country_code>
+</country_code>
+
+<country_code>
+    <id>bceca440-c9e9-41d8-8da7-683edd1bf41d</id>
+    <country_code>DZ</country_code>
+</country_code>
+
+<country_code>
+    <id>f1a82aaa-b1d5-40df-b68b-ea969ccc4f23</id>
+    <country_code>EC</country_code>
+</country_code>
+
+<country_code>
+    <id>d2261d31-37a7-4698-b970-f3308f58ce7e</id>
+    <country_code>EE</country_code>
+</country_code>
+
+<country_code>
+    <id>924d9fd6-d1b6-46d7-9e81-f4f1c63b3381</id>
+    <country_code>EG</country_code>
+</country_code>
+
+<country_code>
+    <id>75abac10-519b-44ad-b840-ba98d6cfe978</id>
+    <country_code>EH</country_code>
+</country_code>
+
+<country_code>
+    <id>b093818b-b222-4e9d-a70d-7f901ea2f2d1</id>
+    <country_code>ER</country_code>
+</country_code>
+
+<country_code>
+    <id>7346c84c-b0bb-4924-9b70-5273d6951ced</id>
+    <country_code>ES</country_code>
+</country_code>
+
+<country_code>
+    <id>c6838e1f-be38-4d60-b67b-276da1ce9b16</id>
+    <country_code>ET</country_code>
+</country_code>
+
+<country_code>
+    <id>ad97481d-103b-4cf7-b966-042f651d44f7</id>
+    <country_code>FI</country_code>
+</country_code>
+
+<country_code>
+    <id>f7239728-cc66-45e9-8f29-bdeefbef5c72</id>
+    <country_code>FJ</country_code>
+</country_code>
+
+<country_code>
+    <id>30cf8f95-e6c6-4a75-9291-7a55cab44b5a</id>
+    <country_code>FK</country_code>
+</country_code>
+
+<country_code>
+    <id>9c917c06-4158-495c-bf9e-76f01f4ce2e5</id>
+    <country_code>FM</country_code>
+</country_code>
+
+<country_code>
+    <id>22fc40d4-1dc7-4619-bb03-6b3480806b2f</id>
+    <country_code>FO</country_code>
+</country_code>
+
+<country_code>
+    <id>39111919-1e28-4491-843b-73d77dee7e72</id>
+    <country_code>FR</country_code>
+</country_code>
+
+<country_code>
+    <id>366e50eb-6e32-4684-9e09-4e545fa56006</id>
+    <country_code>GA</country_code>
+</country_code>
+
+<country_code>
+    <id>e7b9e71b-b095-4bad-b2c1-c617ef65548e</id>
+    <country_code>GB</country_code>
+</country_code>
+
+<country_code>
+    <id>49068a26-752a-4700-85f5-88d28f20fda9</id>
+    <country_code>GD</country_code>
+</country_code>
+
+<country_code>
+    <id>66cd03d7-95a8-4959-99cf-32c2f9a74710</id>
+    <country_code>GE</country_code>
+</country_code>
+
+<country_code>
+    <id>6c13bede-83b5-401d-8b9a-19e0ed7790aa</id>
+    <country_code>GF</country_code>
+</country_code>
+
+<country_code>
+    <id>154fe841-82d9-4d80-aebd-9ae21317374d</id>
+    <country_code>GG</country_code>
+</country_code>
+
+<country_code>
+    <id>a54b087d-88e1-4c9d-bffd-4cbfee29ee15</id>
+    <country_code>GH</country_code>
+</country_code>
+
+<country_code>
+    <id>ef7e9209-5875-437c-b68e-da5a36ce832a</id>
+    <country_code>GI</country_code>
+</country_code>
+
+<country_code>
+    <id>82fc8f7c-47ee-4ab5-8455-9210f5a81e8c</id>
+    <country_code>GL</country_code>
+</country_code>
+
+<country_code>
+    <id>07e46456-adf0-4e26-b78e-67230f2341a9</id>
+    <country_code>GM</country_code>
+</country_code>
+
+<country_code>
+    <id>d6f3913e-1a25-4ff9-9008-9912500e6db2</id>
+    <country_code>GN</country_code>
+</country_code>
+
+<country_code>
+    <id>1f8281c5-68e6-4ad5-8e53-a802d6af5c50</id>
+    <country_code>GP</country_code>
+</country_code>
+
+<country_code>
+    <id>553d1fbc-042f-4ad5-bc9f-64ac33779d68</id>
+    <country_code>GQ</country_code>
+</country_code>
+
+<country_code>
+    <id>13f5afb9-ffd5-45b7-b1e7-bb876b0f7495</id>
+    <country_code>GR</country_code>
+</country_code>
+
+<country_code>
+    <id>3723c08f-814d-4843-9be6-14379da5a823</id>
+    <country_code>GS</country_code>
+</country_code>
+
+<country_code>
+    <id>62139729-32e3-4b6e-9b1c-af8e19a7505c</id>
+    <country_code>GT</country_code>
+</country_code>
+
+<country_code>
+    <id>d2517b43-ca7a-47a4-9922-98b54cd991f2</id>
+    <country_code>GU</country_code>
+</country_code>
+
+<country_code>
+    <id>0154c6f3-dbb0-4057-ba6a-fd27f9723060</id>
+    <country_code>GW</country_code>
+</country_code>
+
+<country_code>
+    <id>9bea6b4f-e209-4188-9ef4-ccb8fd1ebfe1</id>
+    <country_code>GY</country_code>
+</country_code>
+
+<country_code>
+    <id>cdd9578c-284b-43e8-91a6-e4ed6614db4c</id>
+    <country_code>HK</country_code>
+</country_code>
+
+<country_code>
+    <id>4c50247c-b3a1-4771-a787-6c6d9f4e2ad4</id>
+    <country_code>HM</country_code>
+</country_code>
+
+<country_code>
+    <id>006c0151-401f-45fa-92b6-293d15d390e5</id>
+    <country_code>HN</country_code>
+</country_code>
+
+<country_code>
+    <id>8ca0b6fe-cf22-48fd-939c-b13a9636b559</id>
+    <country_code>HR</country_code>
+</country_code>
+
+<country_code>
+    <id>fa05e5b1-5caf-476f-9ace-c6dce63a41f2</id>
+    <country_code>HT</country_code>
+</country_code>
+
+<country_code>
+    <id>c90a2657-feab-4568-a073-aa5ce3ea12f4</id>
+    <country_code>HU</country_code>
+</country_code>
+
+<country_code>
+    <id>111b39b5-4dea-47d7-b468-ce22195ca5a4</id>
+    <country_code>ID</country_code>
+</country_code>
+
+<country_code>
+    <id>b0552018-d99f-4eca-b4aa-f5b2e11a3bef</id>
+    <country_code>IE</country_code>
+</country_code>
+
+<country_code>
+    <id>33239c89-c8d6-46c8-ad4a-f5923f36cab5</id>
+    <country_code>IL</country_code>
+</country_code>
+
+<country_code>
+    <id>267acef3-e8cf-4275-bf64-4975718cd8be</id>
+    <country_code>IM</country_code>
+</country_code>
+
+<country_code>
+    <id>12d5968a-e47a-4b22-b506-c17c5d061bbb</id>
+    <country_code>IN</country_code>
+</country_code>
+
+<country_code>
+    <id>3f2c451d-54e9-4383-8cd1-fcdb95cb9af2</id>
+    <country_code>IO</country_code>
+</country_code>
+
+<country_code>
+    <id>6a8d1702-21c7-43d2-be32-d155fab06096</id>
+    <country_code>IQ</country_code>
+</country_code>
+
+<country_code>
+    <id>6ebf022b-5809-470e-93a6-7c0b7216b0cb</id>
+    <country_code>IR</country_code>
+</country_code>
+
+<country_code>
+    <id>0e45f8e8-4941-4ed8-b412-5ee58c2d33dc</id>
+    <country_code>IS</country_code>
+</country_code>
+
+<country_code>
+    <id>f3aa4250-fc68-4232-a086-b88cd83fa80f</id>
+    <country_code>IT</country_code>
+</country_code>
+
+<country_code>
+    <id>37b49cbb-9a31-4721-a87e-1aee9d529729</id>
+    <country_code>JE</country_code>
+</country_code>
+
+<country_code>
+    <id>8e619c2d-09e5-424d-9d86-6c79e673a84b</id>
+    <country_code>JM</country_code>
+</country_code>
+
+<country_code>
+    <id>d237d7be-f9c5-45d7-ab03-4a517e7c495d</id>
+    <country_code>JO</country_code>
+</country_code>
+
+<country_code>
+    <id>f0e2ae38-769b-474b-bc81-c64897d8444b</id>
+    <country_code>JP</country_code>
+</country_code>
+
+<country_code>
+    <id>81683932-a3a9-4517-a3aa-0e8af92f3391</id>
+    <country_code>KE</country_code>
+</country_code>
+
+<country_code>
+    <id>83ec9688-5687-488c-9be7-2031b5086b2f</id>
+    <country_code>KG</country_code>
+</country_code>
+
+<country_code>
+    <id>6b7f6346-3772-44ab-b35f-2a7ea76c703b</id>
+    <country_code>KH</country_code>
+</country_code>
+
+<country_code>
+    <id>d3e626a9-0c6e-4a76-9278-984335ac6f8d</id>
+    <country_code>KI</country_code>
+</country_code>
+
+<country_code>
+    <id>8b83e957-adae-4b1e-9c99-5305f1ca0e2c</id>
+    <country_code>KM</country_code>
+</country_code>
+
+<country_code>
+    <id>a505eabb-307c-401e-98a5-b738760418ae</id>
+    <country_code>KN</country_code>
+</country_code>
+
+<country_code>
+    <id>bdea7958-3126-4531-9f74-754790a9fcec</id>
+    <country_code>KP</country_code>
+</country_code>
+
+<country_code>
+    <id>b17bc96e-452f-475f-8a2e-0753f7c03bfb</id>
+    <country_code>KR</country_code>
+</country_code>
+
+<country_code>
+    <id>01f0a5d3-21a3-445f-bb9f-cce0680b5fcf</id>
+    <country_code>KW</country_code>
+</country_code>
+
+<country_code>
+    <id>ae967dc5-fe62-4020-be0b-bbdc8dd9bf0b</id>
+    <country_code>KY</country_code>
+</country_code>
+
+<country_code>
+    <id>b14527cb-57cc-41a5-a3d2-95c9e4187ad3</id>
+    <country_code>KZ</country_code>
+</country_code>
+
+<country_code>
+    <id>870a544a-674b-4fcb-9fbc-d1d8ce9f7155</id>
+    <country_code>LA</country_code>
+</country_code>
+
+<country_code>
+    <id>aa8722e3-187c-49a4-9a3a-fc143ed48781</id>
+    <country_code>LB</country_code>
+</country_code>
+
+<country_code>
+    <id>ea5c4a00-55ca-4b25-9bef-47ec0adebadc</id>
+    <country_code>LC</country_code>
+</country_code>
+
+<country_code>
+    <id>d059254f-af62-436a-abea-9b51616d97ba</id>
+    <country_code>LI</country_code>
+</country_code>
+
+<country_code>
+    <id>9d836c93-1d1a-4f47-9c52-801aeb44aba5</id>
+    <country_code>LK</country_code>
+</country_code>
+
+<country_code>
+    <id>30c56b11-490f-426b-875d-e2c8c3e439b9</id>
+    <country_code>LR</country_code>
+</country_code>
+
+<country_code>
+    <id>d6cebb63-4404-41b9-a042-8d90b25834ba</id>
+    <country_code>LS</country_code>
+</country_code>
+
+<country_code>
+    <id>f6ecd3cd-e7fe-4f4c-981f-651af0ffd11d</id>
+    <country_code>LT</country_code>
+</country_code>
+
+<country_code>
+    <id>97ff7596-6175-47a6-8592-c7b9a7d28902</id>
+    <country_code>LU</country_code>
+</country_code>
+
+<country_code>
+    <id>f82187cd-5de0-473c-8001-cc3434732edb</id>
+    <country_code>LV</country_code>
+</country_code>
+
+<country_code>
+    <id>a7c9a643-434b-4b7f-ab33-16fbef056cff</id>
+    <country_code>LY</country_code>
+</country_code>
+
+<country_code>
+    <id>619a89a5-b0a1-4933-ab40-31d69b6a317e</id>
+    <country_code>MA</country_code>
+</country_code>
+
+<country_code>
+    <id>9ba68cfb-881f-4d68-bd76-603f681eec0f</id>
+    <country_code>MC</country_code>
+</country_code>
+
+<country_code>
+    <id>53866085-155b-4dbd-aeea-be0e1fb52056</id>
+    <country_code>MD</country_code>
+</country_code>
+
+<country_code>
+    <id>fa151be8-9cc7-48c7-bcd6-5f9bb9871b36</id>
+    <country_code>ME</country_code>
+</country_code>
+
+<country_code>
+    <id>2645799f-8238-4277-9318-131a76b5266d</id>
+    <country_code>MF</country_code>
+</country_code>
+
+<country_code>
+    <id>e8a19805-23a7-485a-8ad7-934b4701beeb</id>
+    <country_code>MG</country_code>
+</country_code>
+
+<country_code>
+    <id>6f4be0f7-f9fd-414e-aa8b-91ab03ea77bc</id>
+    <country_code>MH</country_code>
+</country_code>
+
+<country_code>
+    <id>579254bf-6bd0-4e1b-8bec-b656739496a0</id>
+    <country_code>MK</country_code>
+</country_code>
+
+<country_code>
+    <id>b9c3f055-1693-41b9-b6a3-f84726bf526f</id>
+    <country_code>ML</country_code>
+</country_code>
+
+<country_code>
+    <id>11d5f267-9742-4bf0-9d91-3b9111d326d1</id>
+    <country_code>MM</country_code>
+</country_code>
+
+<country_code>
+    <id>90d8253c-a9f2-41d6-b2fd-32d060822322</id>
+    <country_code>MN</country_code>
+</country_code>
+
+<country_code>
+    <id>27c075b4-24b7-4027-85ae-baef6a5f79cc</id>
+    <country_code>MO</country_code>
+</country_code>
+
+<country_code>
+    <id>12bf88f5-70d5-4767-9e88-132503b5d3c5</id>
+    <country_code>MP</country_code>
+</country_code>
+
+<country_code>
+    <id>ea861644-4b8e-4e73-b787-dca427f2e0d4</id>
+    <country_code>MQ</country_code>
+</country_code>
+
+<country_code>
+    <id>e582717f-26d8-40b3-8b3f-8936eb86df8e</id>
+    <country_code>MR</country_code>
+</country_code>
+
+<country_code>
+    <id>fd02ea53-a643-40bd-909f-87476434db40</id>
+    <country_code>MS</country_code>
+</country_code>
+
+<country_code>
+    <id>47a59d4c-377a-473b-8de1-d1c6bd84da4a</id>
+    <country_code>MT</country_code>
+</country_code>
+
+<country_code>
+    <id>d4db2d45-6988-42a8-9fb3-caf66651eb0a</id>
+    <country_code>MU</country_code>
+</country_code>
+
+<country_code>
+    <id>df6aad45-78b7-4c67-97d3-aa798b333002</id>
+    <country_code>MV</country_code>
+</country_code>
+
+<country_code>
+    <id>a258c572-80fb-47b7-b7c8-d83c6737802b</id>
+    <country_code>MW</country_code>
+</country_code>
+
+<country_code>
+    <id>7602e66f-d292-4a8c-8134-06b762dff775</id>
+    <country_code>MX</country_code>
+</country_code>
+
+<country_code>
+    <id>dbdb37e1-9322-4fa3-a3b8-de0846572741</id>
+    <country_code>MY</country_code>
+</country_code>
+
+<country_code>
+    <id>86fea9c9-065e-4d2b-8894-7dc0b90801d2</id>
+    <country_code>MZ</country_code>
+</country_code>
+
+<country_code>
+    <id>167f5d2d-38ae-44a6-8a57-5552bb6d265e</id>
+    <country_code>NA</country_code>
+</country_code>
+
+<country_code>
+    <id>b2bc1a27-7a82-4cf8-9b7f-c68134cbbc0c</id>
+    <country_code>NC</country_code>
+</country_code>
+
+<country_code>
+    <id>bea10ce5-5860-4fa3-94b0-ffb47b8e7d19</id>
+    <country_code>NE</country_code>
+</country_code>
+
+<country_code>
+    <id>fd4e0b01-9579-4a8e-aff9-e302dbc547c2</id>
+    <country_code>NF</country_code>
+</country_code>
+
+<country_code>
+    <id>f2fa8435-5c6d-4ff1-95f4-46d776e59e7e</id>
+    <country_code>NG</country_code>
+</country_code>
+
+<country_code>
+    <id>11d95f3f-f062-4176-a24d-1387950dd761</id>
+    <country_code>NI</country_code>
+</country_code>
+
+<country_code>
+    <id>1d0eb82a-1f27-4127-a0be-335f20693eae</id>
+    <country_code>NL</country_code>
+</country_code>
+
+<country_code>
+    <id>0ed88ef4-5eb2-4632-967f-ae7648dbc9b0</id>
+    <country_code>NO</country_code>
+</country_code>
+
+<country_code>
+    <id>09cfdc13-639c-4ee2-9bc0-decf072ff824</id>
+    <country_code>NP</country_code>
+</country_code>
+
+<country_code>
+    <id>06b80b0f-93cb-4d09-b491-758d6b538e7c</id>
+    <country_code>NR</country_code>
+</country_code>
+
+<country_code>
+    <id>152667a5-9d6a-455d-a3ed-78bea093b29b</id>
+    <country_code>NU</country_code>
+</country_code>
+
+<country_code>
+    <id>d1a9213f-05f0-43e4-b2e4-7602a785da76</id>
+    <country_code>NZ</country_code>
+</country_code>
+
+<country_code>
+    <id>380b9100-ec10-4853-92bd-7d1fb8399b53</id>
+    <country_code>OM</country_code>
+</country_code>
+
+<country_code>
+    <id>7d6f4d28-4b8c-4973-baa7-fbbe42d42e2f</id>
+    <country_code>PA</country_code>
+</country_code>
+
+<country_code>
+    <id>22ca440f-9b64-4312-8b6f-4d86fee3a25c</id>
+    <country_code>PE</country_code>
+</country_code>
+
+<country_code>
+    <id>6bcbd5b6-87b9-4138-b6d8-38de4f15fbae</id>
+    <country_code>PF</country_code>
+</country_code>
+
+<country_code>
+    <id>5bf44dd0-2f29-49ba-a3ed-1e3980248106</id>
+    <country_code>PG</country_code>
+</country_code>
+
+<country_code>
+    <id>c26f0453-6d81-40f5-9d78-f1d40c9267a4</id>
+    <country_code>PH</country_code>
+</country_code>
+
+<country_code>
+    <id>b74464a1-d311-4ffd-8d82-21090b3e2487</id>
+    <country_code>PK</country_code>
+</country_code>
+
+<country_code>
+    <id>5144e311-f2e9-43df-82cc-d9f9299dfd94</id>
+    <country_code>PL</country_code>
+</country_code>
+
+<country_code>
+    <id>994a3007-cacc-4e00-9aa4-f0e0921234e5</id>
+    <country_code>PM</country_code>
+</country_code>
+
+<country_code>
+    <id>cca38a05-cbe2-440f-aa30-cc4c8d2bb50f</id>
+    <country_code>PN</country_code>
+</country_code>
+
+<country_code>
+    <id>541e2a70-52f0-49ef-a1e8-76e718aa6819</id>
+    <country_code>PR</country_code>
+</country_code>
+
+<country_code>
+    <id>54b6b804-599c-4c52-8284-83f26d028c0d</id>
+    <country_code>PS</country_code>
+</country_code>
+
+<country_code>
+    <id>27e5c73c-0630-4296-90e4-070d2b221c91</id>
+    <country_code>PT</country_code>
+</country_code>
+
+<country_code>
+    <id>baa8146d-c7d5-413d-9c23-5912f4b26206</id>
+    <country_code>PW</country_code>
+</country_code>
+
+<country_code>
+    <id>6a844262-330d-4111-a6b7-bc8f68ad5a51</id>
+    <country_code>PY</country_code>
+</country_code>
+
+<country_code>
+    <id>bfa194d8-fd8a-4969-b286-1cf4f22b03b6</id>
+    <country_code>QA</country_code>
+</country_code>
+
+<country_code>
+    <id>9ef96a9c-d5fe-4dcb-acdf-a6d72af97e64</id>
+    <country_code>RE</country_code>
+</country_code>
+
+<country_code>
+    <id>ea8dc3a8-982d-4ce7-8995-050545d4e954</id>
+    <country_code>RO</country_code>
+</country_code>
+
+<country_code>
+    <id>157cad16-0613-47b6-b134-3e127a1caf2f</id>
+    <country_code>RS</country_code>
+</country_code>
+
+<country_code>
+    <id>7b962a49-a773-4b00-87d5-f6620ca65ce8</id>
+    <country_code>RU</country_code>
+</country_code>
+
+<country_code>
+    <id>5333b8b4-5ee2-4138-b3df-afaac9ad6126</id>
+    <country_code>RW</country_code>
+</country_code>
+
+<country_code>
+    <id>24bc4e2f-cde1-44b1-baa1-11d1644c69fb</id>
+    <country_code>SA</country_code>
+</country_code>
+
+<country_code>
+    <id>1c6da19d-c171-4f97-93d3-49d811191d5e</id>
+    <country_code>SB</country_code>
+</country_code>
+
+<country_code>
+    <id>182cdaa0-8155-4ec9-ae8e-a46cd627ae59</id>
+    <country_code>SC</country_code>
+</country_code>
+
+<country_code>
+    <id>f1f0d7ba-bd96-4e03-bcc9-ced0af71f468</id>
+    <country_code>SD</country_code>
+</country_code>
+
+<country_code>
+    <id>22bd74db-96b0-459a-b52d-2e547a65e564</id>
+    <country_code>SE</country_code>
+</country_code>
+
+<country_code>
+    <id>6e33927c-bb5b-4465-99b5-1622f34c76a3</id>
+    <country_code>SG</country_code>
+</country_code>
+
+<country_code>
+    <id>1d2df10c-1c0e-4433-bc8b-2f80eb4a5f6c</id>
+    <country_code>SH</country_code>
+</country_code>
+
+<country_code>
+    <id>7104aba3-f6f3-4976-891e-a7bf177f19f4</id>
+    <country_code>SI</country_code>
+</country_code>
+
+<country_code>
+    <id>c62cfa8c-c897-4735-afe2-cf2786831890</id>
+    <country_code>SJ</country_code>
+</country_code>
+
+<country_code>
+    <id>2ff8334f-b26c-43f3-bfe2-35d15d801fac</id>
+    <country_code>SK</country_code>
+</country_code>
+
+<country_code>
+    <id>854b020e-a6f0-4ef4-9ea3-438edd2ce932</id>
+    <country_code>SL</country_code>
+</country_code>
+
+<country_code>
+    <id>8f368282-e945-4fc6-8799-e4c7edab6c3d</id>
+    <country_code>SM</country_code>
+</country_code>
+
+<country_code>
+    <id>75074f39-239f-4137-bed8-0fd9131cd611</id>
+    <country_code>SN</country_code>
+</country_code>
+
+<country_code>
+    <id>b426c398-fd3f-4f67-9abc-8b7de1eb582e</id>
+    <country_code>SO</country_code>
+</country_code>
+
+<country_code>
+    <id>6495ce00-222f-4f0d-a708-3740bc5d3152</id>
+    <country_code>SR</country_code>
+</country_code>
+
+<country_code>
+    <id>3c9a02b4-4338-4da6-a095-475e5b8c3107</id>
+    <country_code>SS</country_code>
+</country_code>
+
+<country_code>
+    <id>41dfbad8-9bae-4005-9856-6c21bff63a3e</id>
+    <country_code>ST</country_code>
+</country_code>
+
+<country_code>
+    <id>a4e1a7ca-70bf-4476-af12-063242e95e24</id>
+    <country_code>SV</country_code>
+</country_code>
+
+<country_code>
+    <id>954d9e8b-2434-420b-a271-29320a68085f</id>
+    <country_code>SX</country_code>
+</country_code>
+
+<country_code>
+    <id>ecb267a7-9df9-4c78-bb87-34d76927570f</id>
+    <country_code>SY</country_code>
+</country_code>
+
+<country_code>
+    <id>6f4f5ab4-cb9d-46c4-bd6a-2500a09ce54d</id>
+    <country_code>SZ</country_code>
+</country_code>
+
+<country_code>
+    <id>1e4496d8-d526-4417-b384-c4abc746a708</id>
+    <country_code>TC</country_code>
+</country_code>
+
+<country_code>
+    <id>ef369f61-ee46-4c76-8164-b1f3d60d8ddc</id>
+    <country_code>TD</country_code>
+</country_code>
+
+<country_code>
+    <id>4f3d1504-169b-407a-80b8-0488b9ae9ab0</id>
+    <country_code>TF</country_code>
+</country_code>
+
+<country_code>
+    <id>6318596a-3008-4628-a295-7deda86814fc</id>
+    <country_code>TG</country_code>
+</country_code>
+
+<country_code>
+    <id>f2cc5d36-979c-4b44-8c5e-238dcbcb1eea</id>
+    <country_code>TH</country_code>
+</country_code>
+
+<country_code>
+    <id>108bf19a-a3a0-42c3-9b58-24dd6f61d3d6</id>
+    <country_code>TJ</country_code>
+</country_code>
+
+<country_code>
+    <id>e1d01809-f08e-42d8-911f-53e45ec46175</id>
+    <country_code>TK</country_code>
+</country_code>
+
+<country_code>
+    <id>4a4e1951-e017-44b0-9f1d-0b7cc5b6e164</id>
+    <country_code>TL</country_code>
+</country_code>
+
+<country_code>
+    <id>926f7069-679f-4cd1-a81e-b61dda4bff53</id>
+    <country_code>TM</country_code>
+</country_code>
+
+<country_code>
+    <id>a703002a-a420-40cb-b369-8c1d380a85b7</id>
+    <country_code>TN</country_code>
+</country_code>
+
+<country_code>
+    <id>e8525a7b-28fd-4887-9674-d6d8db2e4116</id>
+    <country_code>TO</country_code>
+</country_code>
+
+<country_code>
+    <id>e1cc9c2c-a972-4bb0-9663-f9b5d6534114</id>
+    <country_code>TR</country_code>
+</country_code>
+
+<country_code>
+    <id>99d7f40e-a1a2-4ca6-b228-225d5a8362d5</id>
+    <country_code>TT</country_code>
+</country_code>
+
+<country_code>
+    <id>13240cd2-eb11-4aca-b85f-d1b87809c1cf</id>
+    <country_code>TV</country_code>
+</country_code>
+
+<country_code>
+    <id>d9c5189a-df8b-49c2-aa4c-5901de7868d0</id>
+    <country_code>TW</country_code>
+</country_code>
+
+<country_code>
+    <id>56d1740c-aa5c-4858-bdd4-4b10f024448d</id>
+    <country_code>TZ</country_code>
+</country_code>
+
+<country_code>
+    <id>601d7666-c4f0-4b95-81f4-fd158ed51123</id>
+    <country_code>UA</country_code>
+</country_code>
+
+<country_code>
+    <id>7406f0a6-f9ab-4eba-8970-1da9d8e399c7</id>
+    <country_code>UG</country_code>
+</country_code>
+
+<country_code>
+    <id>751c30d7-580c-410c-8025-c57db14c0dd8</id>
+    <country_code>UM</country_code>
+</country_code>
+
+<country_code>
+    <id>bc7a1c04-b9e0-45d9-85b5-1ad06ba55344</id>
+    <country_code>US</country_code>
+</country_code>
+
+<country_code>
+    <id>27b0f226-f1b7-4b6c-9162-ff9b0828a72c</id>
+    <country_code>UY</country_code>
+</country_code>
+
+<country_code>
+    <id>34b4b160-671c-41da-9b63-f6a5bc1c8743</id>
+    <country_code>UZ</country_code>
+</country_code>
+
+<country_code>
+    <id>226fb979-307d-4a54-a776-905d6ed8d6b6</id>
+    <country_code>VA</country_code>
+</country_code>
+
+<country_code>
+    <id>b38b999c-f154-4a55-a85b-eab5dff271fa</id>
+    <country_code>VC</country_code>
+</country_code>
+
+<country_code>
+    <id>55ca227c-0ab0-43b6-b845-580ba02591c3</id>
+    <country_code>VE</country_code>
+</country_code>
+
+<country_code>
+    <id>62545afc-44b9-4d2a-85dd-87b528b9b4c0</id>
+    <country_code>VG</country_code>
+</country_code>
+
+<country_code>
+    <id>c8f6c5db-0185-41be-a0ba-d552e9e9dfcf</id>
+    <country_code>VI</country_code>
+</country_code>
+
+<country_code>
+    <id>bca4985f-ae78-4c19-bb23-cec5aeb380ec</id>
+    <country_code>VN</country_code>
+</country_code>
+
+<country_code>
+    <id>6739e80f-9328-49cd-b2a8-1a5d0dd14173</id>
+    <country_code>VU</country_code>
+</country_code>
+
+<country_code>
+    <id>9a064c5b-48da-4b53-867b-0c89b4ab56d5</id>
+    <country_code>WF</country_code>
+</country_code>
+
+<country_code>
+    <id>7f96ecc2-dc12-4c88-9540-0e9f796f73f5</id>
+    <country_code>WS</country_code>
+</country_code>
+
+<country_code>
+    <id>44f1dc2e-86d2-4736-a5ae-cbdcf612b0d8</id>
+    <country_code>YE</country_code>
+</country_code>
+
+<country_code>
+    <id>71657f68-7da6-4576-ab07-191d3992ab30</id>
+    <country_code>YT</country_code>
+</country_code>
+
+<country_code>
+    <id>62efa0f0-a9a4-40c5-84ed-8dba8171a126</id>
+    <country_code>ZA</country_code>
+</country_code>
+
+<country_code>
+    <id>516b2e54-40e8-4e07-8195-3d79676e0b25</id>
+    <country_code>ZM</country_code>
+</country_code>
+
+<country_code>
+    <id>1c297bfa-ebb9-42d5-aacf-e269cad62dd0</id>
+    <country_code>ZW</country_code>
+</country_code>
+
+
+<language_code>
+    <id>38c77145-135f-469f-9baa-e3c076f43506</id>
+    <language_code>aa</language_code>
+</language_code>
+
+<language_code>
+    <id>d4734641-4751-4b7d-904f-f50c15d98d3d</id>
+    <language_code>ab</language_code>
+</language_code>
+
+<language_code>
+    <id>76770ac3-7fa0-43e6-a647-03fec370ec11</id>
+    <language_code>ae</language_code>
+</language_code>
+
+<language_code>
+    <id>8fe4ca28-2c4b-4d27-b9f7-55b69d8efeaf</id>
+    <language_code>af</language_code>
+</language_code>
+
+<language_code>
+    <id>3db96366-9d3b-4eec-bfab-ad7282a1016c</id>
+    <language_code>ak</language_code>
+</language_code>
+
+<language_code>
+    <id>5237ceca-c8ed-4549-9879-6bd3d00bb4ab</id>
+    <language_code>am</language_code>
+</language_code>
+
+<language_code>
+    <id>b94d3229-8b5f-438e-94e3-258e45c2db4f</id>
+    <language_code>an</language_code>
+</language_code>
+
+<language_code>
+    <id>241fe6c7-bab1-494b-a586-65a8235bbef6</id>
+    <language_code>ar</language_code>
+</language_code>
+
+<language_code>
+    <id>a188becf-68f3-4209-8e9d-a8aa5ae03e98</id>
+    <language_code>as</language_code>
+</language_code>
+
+<language_code>
+    <id>f1823ed4-51e4-4412-b623-4ead7bdd5787</id>
+    <language_code>av</language_code>
+</language_code>
+
+<language_code>
+    <id>1aff00a6-440a-4eb8-9773-0fb01727447f</id>
+    <language_code>ay</language_code>
+</language_code>
+
+<language_code>
+    <id>a94a05ea-a8ee-4311-88ad-ba3e45d9b3dd</id>
+    <language_code>az</language_code>
+</language_code>
+
+<language_code>
+    <id>254cdc77-7037-4db9-a7a8-b93d735035c6</id>
+    <language_code>ba</language_code>
+</language_code>
+
+<language_code>
+    <id>ba70fb7f-d5b2-4e0a-83c1-dcd2a957013b</id>
+    <language_code>be</language_code>
+</language_code>
+
+<language_code>
+    <id>9eb1ed27-40d9-4dc3-b1b3-b2f9a92bc848</id>
+    <language_code>bg</language_code>
+</language_code>
+
+<language_code>
+    <id>bf24436d-1ef8-4565-a25c-eb2f59b58b63</id>
+    <language_code>bh</language_code>
+</language_code>
+
+<language_code>
+    <id>b6a065ab-ba6f-43fd-beea-da6aa876ddb8</id>
+    <language_code>bi</language_code>
+</language_code>
+
+<language_code>
+    <id>e7a14f99-a8a8-4ff2-90ef-f77dd0f3d34d</id>
+    <language_code>bm</language_code>
+</language_code>
+
+<language_code>
+    <id>0f025b60-afb1-4e05-888c-88dfcfcbd71a</id>
+    <language_code>bn</language_code>
+</language_code>
+
+<language_code>
+    <id>9e406215-540e-4bdf-87c2-5e6b73d19cf7</id>
+    <language_code>bo</language_code>
+</language_code>
+
+<language_code>
+    <id>a71a5e6e-27aa-4fc7-af7a-0e613c862188</id>
+    <language_code>br</language_code>
+</language_code>
+
+<language_code>
+    <id>90ddcc22-3e0f-49bf-aa58-0b62ade575fb</id>
+    <language_code>bs</language_code>
+</language_code>
+
+<language_code>
+    <id>51d53f5e-8c0a-442a-b92a-92d074aa1b78</id>
+    <language_code>ca</language_code>
+</language_code>
+
+<language_code>
+    <id>5714370a-af2d-4cfe-a9f0-61eca128086f</id>
+    <language_code>ce</language_code>
+</language_code>
+
+<language_code>
+    <id>797a205a-cddc-43ec-9d59-893b56fb79c2</id>
+    <language_code>ch</language_code>
+</language_code>
+
+<language_code>
+    <id>2b5f6c5d-5e7d-40c0-a714-00356f9ef44f</id>
+    <language_code>co</language_code>
+</language_code>
+
+<language_code>
+    <id>fcf687ad-23e6-475f-a295-98f9267cd68b</id>
+    <language_code>cr</language_code>
+</language_code>
+
+<language_code>
+    <id>1d2cef95-d847-4673-bf60-ab35fea8c528</id>
+    <language_code>cs</language_code>
+</language_code>
+
+<language_code>
+    <id>e3eed905-73d5-42bd-ab74-69e3178d4b5e</id>
+    <language_code>cu</language_code>
+</language_code>
+
+<language_code>
+    <id>fe53a456-cab0-4dce-877b-e7610973e2db</id>
+    <language_code>cv</language_code>
+</language_code>
+
+<language_code>
+    <id>d77b6ab0-b7a6-4b05-bb9e-649748713450</id>
+    <language_code>cy</language_code>
+</language_code>
+
+<language_code>
+    <id>b55bd1a7-3a24-4f0b-a2e2-a0367c0b31e1</id>
+    <language_code>da</language_code>
+</language_code>
+
+<language_code>
+    <id>06d10fb8-4665-4e2a-82d5-a0b6a4862f28</id>
+    <language_code>de</language_code>
+</language_code>
+
+<language_code>
+    <id>df27d6ad-73cb-49bb-88cf-69e821e5be88</id>
+    <language_code>dv</language_code>
+</language_code>
+
+<language_code>
+    <id>94f7f318-0a82-4f96-8082-8ff02c36b688</id>
+    <language_code>dz</language_code>
+</language_code>
+
+<language_code>
+    <id>575e5c54-f95d-4a20-aac1-90eed832b884</id>
+    <language_code>ee</language_code>
+</language_code>
+
+<language_code>
+    <id>e22ed377-b831-47bc-8d27-4e2ae0aaa123</id>
+    <language_code>el</language_code>
+</language_code>
+
+<language_code>
+    <id>8be78ea0-45e4-4904-ba0c-efb39574d3c2</id>
+    <language_code>en</language_code>
+</language_code>
+
+<language_code>
+    <id>8df30268-07f9-4e16-8471-14d5c7a30750</id>
+    <language_code>eo</language_code>
+</language_code>
+
+<language_code>
+    <id>54ee28a9-47af-4c17-88ec-d6936d3f7ac6</id>
+    <language_code>es</language_code>
+</language_code>
+
+<language_code>
+    <id>c04c6cb8-7376-4288-9da8-8de199fd15ac</id>
+    <language_code>et</language_code>
+</language_code>
+
+<language_code>
+    <id>3df89574-e9bd-4304-8ba8-439d57b47955</id>
+    <language_code>eu</language_code>
+</language_code>
+
+<language_code>
+    <id>7f0c563c-ce9b-4baa-ab0a-7b36c2de3c71</id>
+    <language_code>fa</language_code>
+</language_code>
+
+<language_code>
+    <id>68693f90-ddc4-427f-8bbf-03925e30316b</id>
+    <language_code>ff</language_code>
+</language_code>
+
+<language_code>
+    <id>d23eb8b2-427d-4f56-88fc-7eac866ffcee</id>
+    <language_code>fi</language_code>
+</language_code>
+
+<language_code>
+    <id>46632f94-923a-49e4-bf13-259334e555c6</id>
+    <language_code>fj</language_code>
+</language_code>
+
+<language_code>
+    <id>7480ddd7-c6de-4403-87df-5fbbdba18d19</id>
+    <language_code>fo</language_code>
+</language_code>
+
+<language_code>
+    <id>a1e4d64a-142e-4856-ba31-c1506bf2c678</id>
+    <language_code>fr</language_code>
+</language_code>
+
+<language_code>
+    <id>a515977d-ff72-4eec-844b-01578c7cb8c1</id>
+    <language_code>fy</language_code>
+</language_code>
+
+<language_code>
+    <id>15535a5a-147b-476b-b3d4-a70867b69c2b</id>
+    <language_code>ga</language_code>
+</language_code>
+
+<language_code>
+    <id>ff38aec6-2e91-4433-b57d-2ef3fe99d124</id>
+    <language_code>gd</language_code>
+</language_code>
+
+<language_code>
+    <id>05f8dc42-dd6e-46ce-af00-96606f929b7d</id>
+    <language_code>gl</language_code>
+</language_code>
+
+<language_code>
+    <id>699b57fd-c1bb-4dbc-9f5d-7971d14d37a8</id>
+    <language_code>gn</language_code>
+</language_code>
+
+<language_code>
+    <id>0426aa6a-f603-4c14-b4a6-485949c42192</id>
+    <language_code>gu</language_code>
+</language_code>
+
+<language_code>
+    <id>07f22e0c-08a5-458a-8cf4-c4b556db77ca</id>
+    <language_code>gv</language_code>
+</language_code>
+
+<language_code>
+    <id>4a740dd8-064f-4452-9915-3108585543d7</id>
+    <language_code>ha</language_code>
+</language_code>
+
+<language_code>
+    <id>e7685c09-be6b-48f8-8d1c-eb77591707d2</id>
+    <language_code>he</language_code>
+</language_code>
+
+<language_code>
+    <id>5102bfea-97b3-4263-a44d-c06ec86e53ae</id>
+    <language_code>hi</language_code>
+</language_code>
+
+<language_code>
+    <id>33df1a92-a482-4322-bc9d-142211da25c3</id>
+    <language_code>ho</language_code>
+</language_code>
+
+<language_code>
+    <id>718fa0dd-fea0-4aca-8b21-6e4cafcdef13</id>
+    <language_code>hr</language_code>
+</language_code>
+
+<language_code>
+    <id>852d6e57-68a7-4669-80f5-3aa7d4fd7df0</id>
+    <language_code>ht</language_code>
+</language_code>
+
+<language_code>
+    <id>90fcf947-7fd1-4cd3-8758-8760c912f01f</id>
+    <language_code>hu</language_code>
+</language_code>
+
+<language_code>
+    <id>631f45ce-9123-4d42-899f-f99c0fe610d1</id>
+    <language_code>hy</language_code>
+</language_code>
+
+<language_code>
+    <id>3fa03352-0e80-479d-a6a4-78016e899d9f</id>
+    <language_code>hz</language_code>
+</language_code>
+
+<language_code>
+    <id>026f1c16-680c-471b-8791-cdec7ad695d8</id>
+    <language_code>ia</language_code>
+</language_code>
+
+<language_code>
+    <id>521a5657-4167-459f-8d6a-0fe1a1d5900b</id>
+    <language_code>id</language_code>
+</language_code>
+
+<language_code>
+    <id>4088fc17-97ba-433c-a1d8-33d1b49dab3c</id>
+    <language_code>ie</language_code>
+</language_code>
+
+<language_code>
+    <id>e238b4a4-ce8d-455a-b88e-131ed9bc50c7</id>
+    <language_code>ig</language_code>
+</language_code>
+
+<language_code>
+    <id>897edf7a-14e7-4d47-b3a6-00a28f5dae85</id>
+    <language_code>ii</language_code>
+</language_code>
+
+<language_code>
+    <id>2dcb6a84-feec-4d74-aeb7-516810e92fce</id>
+    <language_code>ik</language_code>
+</language_code>
+
+<language_code>
+    <id>08850962-7909-4da6-ad4d-1b2032e8cbc5</id>
+    <language_code>io</language_code>
+</language_code>
+
+<language_code>
+    <id>dd8a0507-1e27-4720-9c32-ce292d7c7962</id>
+    <language_code>is</language_code>
+</language_code>
+
+<language_code>
+    <id>7d28a1fc-1116-45eb-828b-3664fa2f3ff2</id>
+    <language_code>it</language_code>
+</language_code>
+
+<language_code>
+    <id>77c3c158-9b4c-44b2-aa1f-277725a94975</id>
+    <language_code>iu</language_code>
+</language_code>
+
+<language_code>
+    <id>1b569c37-3878-46de-bccb-4c2a720fb64d</id>
+    <language_code>ja</language_code>
+</language_code>
+
+<language_code>
+    <id>98294a9b-6385-4aaf-9ed5-1b300a8864c9</id>
+    <language_code>jv</language_code>
+</language_code>
+
+<language_code>
+    <id>f706c71e-b543-47c0-835b-485739e59ec7</id>
+    <language_code>ka</language_code>
+</language_code>
+
+<language_code>
+    <id>4529df58-bec3-48db-a23a-03b97df1c4ff</id>
+    <language_code>kg</language_code>
+</language_code>
+
+<language_code>
+    <id>be07e948-84a5-4041-a4ff-84e38a14579f</id>
+    <language_code>ki</language_code>
+</language_code>
+
+<language_code>
+    <id>b3101459-3d89-4690-aea6-59f3b07b6f33</id>
+    <language_code>kj</language_code>
+</language_code>
+
+<language_code>
+    <id>de2d4b5b-efa6-4f49-ac42-35aed042acc5</id>
+    <language_code>kk</language_code>
+</language_code>
+
+<language_code>
+    <id>b4820f64-0323-4fe2-82eb-e77d81ad5fd3</id>
+    <language_code>kl</language_code>
+</language_code>
+
+<language_code>
+    <id>b0a3f533-ff8b-4be8-800b-1c5625ea8894</id>
+    <language_code>km</language_code>
+</language_code>
+
+<language_code>
+    <id>4ad54b47-7df8-45eb-81c2-e050bd7328af</id>
+    <language_code>kn</language_code>
+</language_code>
+
+<language_code>
+    <id>ce028933-3aab-4f05-9a0f-eceb0261b04b</id>
+    <language_code>ko</language_code>
+</language_code>
+
+<language_code>
+    <id>50966a04-9249-4fa2-bfbc-4b2b9d925d49</id>
+    <language_code>kr</language_code>
+</language_code>
+
+<language_code>
+    <id>3bea5437-68dd-47ce-81e5-cd35936b5503</id>
+    <language_code>ks</language_code>
+</language_code>
+
+<language_code>
+    <id>8f98ffb2-e34b-470f-a4d1-7e4dd095f830</id>
+    <language_code>ku</language_code>
+</language_code>
+
+<language_code>
+    <id>92e2aa21-cb8a-48be-a540-8ecafb821664</id>
+    <language_code>kv</language_code>
+</language_code>
+
+<language_code>
+    <id>57037e10-1d88-4c0c-af51-68537a6bae6d</id>
+    <language_code>kw</language_code>
+</language_code>
+
+<language_code>
+    <id>8abbda15-48f3-4b24-abd6-7e46af77469c</id>
+    <language_code>ky</language_code>
+</language_code>
+
+<language_code>
+    <id>0ff6ed1f-a858-4473-ad88-f2cf3e434fd3</id>
+    <language_code>la</language_code>
+</language_code>
+
+<language_code>
+    <id>13bf8c9a-9d14-4043-96a5-f817a42da3ef</id>
+    <language_code>lb</language_code>
+</language_code>
+
+<language_code>
+    <id>d0145b67-827f-4a20-9ba0-5021c1da5f43</id>
+    <language_code>lg</language_code>
+</language_code>
+
+<language_code>
+    <id>2de25940-8708-40c3-af4e-962c2f3c006d</id>
+    <language_code>li</language_code>
+</language_code>
+
+<language_code>
+    <id>c3f20c4d-3fec-45aa-8d0d-b16b6c8f100c</id>
+    <language_code>ln</language_code>
+</language_code>
+
+<language_code>
+    <id>211ebef3-e4d2-4577-b55a-240fc29fdb14</id>
+    <language_code>lo</language_code>
+</language_code>
+
+<language_code>
+    <id>85e6e7bc-0495-42c7-b8ef-7e4a23edbcee</id>
+    <language_code>lt</language_code>
+</language_code>
+
+<language_code>
+    <id>2dbb1775-1949-4041-b994-5f11797fe4f1</id>
+    <language_code>lu</language_code>
+</language_code>
+
+<language_code>
+    <id>f52ac144-114b-4d18-8eda-81384e250b54</id>
+    <language_code>lv</language_code>
+</language_code>
+
+<language_code>
+    <id>c44e65a3-1082-4623-95a8-8142efe8269d</id>
+    <language_code>mg</language_code>
+</language_code>
+
+<language_code>
+    <id>01e3167b-ff18-4a0c-bbc6-71229d9bd44b</id>
+    <language_code>mh</language_code>
+</language_code>
+
+<language_code>
+    <id>03fec901-e762-45db-b43c-c1daf67d5581</id>
+    <language_code>mi</language_code>
+</language_code>
+
+<language_code>
+    <id>eb6f3878-1658-4dc5-9b25-2838f1a76c8d</id>
+    <language_code>mk</language_code>
+</language_code>
+
+<language_code>
+    <id>dc701ee0-d254-49bb-81a1-e34c6da430a2</id>
+    <language_code>ml</language_code>
+</language_code>
+
+<language_code>
+    <id>a7986e83-a69e-4271-b4a1-04c843834461</id>
+    <language_code>mn</language_code>
+</language_code>
+
+<language_code>
+    <id>b0839538-421f-4018-93e7-ec4a26aec31a</id>
+    <language_code>mr</language_code>
+</language_code>
+
+<language_code>
+    <id>6318a740-d153-4ae1-8f3f-5f79b5da26ff</id>
+    <language_code>ms</language_code>
+</language_code>
+
+<language_code>
+    <id>dfbb1ebb-1f16-458e-984e-67621a6d9e3f</id>
+    <language_code>mt</language_code>
+</language_code>
+
+<language_code>
+    <id>3c4d7e9d-9bc3-4cb0-a735-4c7722f60135</id>
+    <language_code>my</language_code>
+</language_code>
+
+<language_code>
+    <id>65c190f7-ec51-48a8-84de-809a6f176e1b</id>
+    <language_code>na</language_code>
+</language_code>
+
+<language_code>
+    <id>7f8fc59d-1490-46fe-b239-7b148b89ed95</id>
+    <language_code>nb</language_code>
+</language_code>
+
+<language_code>
+    <id>5df2e6e5-1442-4142-9812-d432ca1cf2d1</id>
+    <language_code>nd</language_code>
+</language_code>
+
+<language_code>
+    <id>6b9fbd03-1f7f-4c47-94f5-0af60217ea0b</id>
+    <language_code>ne</language_code>
+</language_code>
+
+<language_code>
+    <id>ce2f9c80-60f6-48d3-b0a2-411a8f2083da</id>
+    <language_code>ng</language_code>
+</language_code>
+
+<language_code>
+    <id>701bfccd-44c7-4a08-8c41-60a11a5f11a1</id>
+    <language_code>nl</language_code>
+</language_code>
+
+<language_code>
+    <id>9e07cc42-0e0a-480b-a5a0-bb9dde1af54d</id>
+    <language_code>nn</language_code>
+</language_code>
+
+<language_code>
+    <id>0391b139-b518-485d-87af-d9eb75c69264</id>
+    <language_code>no</language_code>
+</language_code>
+
+<language_code>
+    <id>2fd3f8cf-4797-4b55-b77e-61aaf4395e6f</id>
+    <language_code>nr</language_code>
+</language_code>
+
+<language_code>
+    <id>19802087-675d-4356-9c9a-2dca2e1a6f5f</id>
+    <language_code>nv</language_code>
+</language_code>
+
+<language_code>
+    <id>79ddc906-550c-4bdd-b4b6-670efe0730c2</id>
+    <language_code>ny</language_code>
+</language_code>
+
+<language_code>
+    <id>2121d1b5-b5d0-43dd-b233-6ac4f1709202</id>
+    <language_code>oc</language_code>
+</language_code>
+
+<language_code>
+    <id>754d6520-1b4a-41b0-a9a6-021d2c967e8f</id>
+    <language_code>oj</language_code>
+</language_code>
+
+<language_code>
+    <id>9bdbf4a4-5c51-49ec-8133-017d1c80d7bc</id>
+    <language_code>om</language_code>
+</language_code>
+
+<language_code>
+    <id>8ee0b94f-4e53-459a-8b52-686dcbcaba78</id>
+    <language_code>or</language_code>
+</language_code>
+
+<language_code>
+    <id>2945169a-7a1e-4fee-b5f6-96881a1358e7</id>
+    <language_code>os</language_code>
+</language_code>
+
+<language_code>
+    <id>629f40df-629c-4c25-a3f3-83c94a2bb41f</id>
+    <language_code>pa</language_code>
+</language_code>
+
+<language_code>
+    <id>5ade6f8a-9459-4738-b2ce-33645b7c7c87</id>
+    <language_code>pi</language_code>
+</language_code>
+
+<language_code>
+    <id>fc420752-d244-4b6d-9161-99d952cea14a</id>
+    <language_code>pl</language_code>
+</language_code>
+
+<language_code>
+    <id>fbb11bdc-20d6-408d-a51c-2ec703b2e22f</id>
+    <language_code>ps</language_code>
+</language_code>
+
+<language_code>
+    <id>c54eed2d-117e-46a8-a3fb-edd0b1b9101b</id>
+    <language_code>pt</language_code>
+</language_code>
+
+<language_code>
+    <id>30448514-c7cf-4e52-8e1f-354d2304f60c</id>
+    <language_code>qu</language_code>
+</language_code>
+
+<language_code>
+    <id>b556ba70-5cf8-4496-b0ef-98e004037574</id>
+    <language_code>rm</language_code>
+</language_code>
+
+<language_code>
+    <id>bf40e074-91ab-435b-b828-c4a5e51807fa</id>
+    <language_code>rn</language_code>
+</language_code>
+
+<language_code>
+    <id>d8adf7ef-d3bc-4960-8597-dca21d55f4e8</id>
+    <language_code>ro</language_code>
+</language_code>
+
+<language_code>
+    <id>b49eacb1-e824-487d-8a5b-955fa1ad8bd6</id>
+    <language_code>ru</language_code>
+</language_code>
+
+<language_code>
+    <id>903530a5-6ee6-4619-ac95-71734e0707ab</id>
+    <language_code>rw</language_code>
+</language_code>
+
+<language_code>
+    <id>73addae0-9f63-49d7-bec5-bfb82a127def</id>
+    <language_code>sa</language_code>
+</language_code>
+
+<language_code>
+    <id>0aad0c79-5a8c-420d-8b11-64a6ccd98042</id>
+    <language_code>sc</language_code>
+</language_code>
+
+<language_code>
+    <id>b2bb09ca-60e4-4b08-b910-badca3d166c8</id>
+    <language_code>sd</language_code>
+</language_code>
+
+<language_code>
+    <id>5e2db208-5e94-4d93-9a8d-c3440a5f4cbb</id>
+    <language_code>se</language_code>
+</language_code>
+
+<language_code>
+    <id>a4b94d25-cb67-4434-859d-397b7cdfafec</id>
+    <language_code>sg</language_code>
+</language_code>
+
+<language_code>
+    <id>0477cc38-4f95-4d3e-bd0f-282c7cf68861</id>
+    <language_code>si</language_code>
+</language_code>
+
+<language_code>
+    <id>f6277ef3-76d4-456c-8e94-79834c81a24b</id>
+    <language_code>sk</language_code>
+</language_code>
+
+<language_code>
+    <id>f09ba76a-9591-4f1f-a27c-4cea5bd6a5f1</id>
+    <language_code>sl</language_code>
+</language_code>
+
+<language_code>
+    <id>f94e68f6-528f-431d-bf00-d30dcb3e5606</id>
+    <language_code>sm</language_code>
+</language_code>
+
+<language_code>
+    <id>cf1dccd5-34f8-4006-a198-38552d17c262</id>
+    <language_code>sn</language_code>
+</language_code>
+
+<language_code>
+    <id>efbb5f40-d9f3-499a-8233-33a9a1365cf4</id>
+    <language_code>so</language_code>
+</language_code>
+
+<language_code>
+    <id>4d75275b-99cd-4bc5-a6aa-4f54524f962d</id>
+    <language_code>sq</language_code>
+</language_code>
+
+<language_code>
+    <id>e1f4b8d3-5281-45b2-8405-9530cbfd4b1b</id>
+    <language_code>sr</language_code>
+</language_code>
+
+<language_code>
+    <id>c3c1e69c-4136-4e08-a643-1d1a240d317a</id>
+    <language_code>ss</language_code>
+</language_code>
+
+<language_code>
+    <id>92899d9b-f0f3-43f2-994d-b8710c4b477f</id>
+    <language_code>st</language_code>
+</language_code>
+
+<language_code>
+    <id>c8a9144e-c2a6-4c5b-bbea-0070cc0796f5</id>
+    <language_code>su</language_code>
+</language_code>
+
+<language_code>
+    <id>1b5dc314-a591-49b1-b95f-811e18403db6</id>
+    <language_code>sv</language_code>
+</language_code>
+
+<language_code>
+    <id>6a1b5c49-a08d-4871-8741-f18b0c0e85ce</id>
+    <language_code>sw</language_code>
+</language_code>
+
+<language_code>
+    <id>b86fc350-f060-466f-a099-3062109eea98</id>
+    <language_code>ta</language_code>
+</language_code>
+
+<language_code>
+    <id>c6edd0dd-a23c-4353-8d45-0e4454110bdd</id>
+    <language_code>te</language_code>
+</language_code>
+
+<language_code>
+    <id>3275295e-018a-47d1-8ad5-1a3eb0b8d104</id>
+    <language_code>tg</language_code>
+</language_code>
+
+<language_code>
+    <id>872d8a7d-d85e-40be-9199-27ca1b5a5dc4</id>
+    <language_code>th</language_code>
+</language_code>
+
+<language_code>
+    <id>45567dd0-c687-4ca9-bf56-ad1d7e95c6b5</id>
+    <language_code>ti</language_code>
+</language_code>
+
+<language_code>
+    <id>f56114c2-30be-438e-aef6-3ffd7812f8eb</id>
+    <language_code>tk</language_code>
+</language_code>
+
+<language_code>
+    <id>a1fb7bdf-501f-42a2-80da-8f14cdd40793</id>
+    <language_code>tl</language_code>
+</language_code>
+
+<language_code>
+    <id>e62e0c81-5988-424c-8490-04a9d9f02be2</id>
+    <language_code>tn</language_code>
+</language_code>
+
+<language_code>
+    <id>9adb512c-073b-47aa-a635-d55b8b19e066</id>
+    <language_code>to</language_code>
+</language_code>
+
+<language_code>
+    <id>eaa8c157-b92a-42c5-bc13-49485c8fbd62</id>
+    <language_code>tr</language_code>
+</language_code>
+
+<language_code>
+    <id>5a71764e-0455-4fd5-bdcb-48017f4542cf</id>
+    <language_code>ts</language_code>
+</language_code>
+
+<language_code>
+    <id>2415727a-66cf-46c9-b682-3e2ce0a7bd5a</id>
+    <language_code>tt</language_code>
+</language_code>
+
+<language_code>
+    <id>03b718bd-4bb3-4220-b656-c2a8859a9bb8</id>
+    <language_code>tw</language_code>
+</language_code>
+
+<language_code>
+    <id>2230bdc4-38ca-4c40-b240-eed6d0a88812</id>
+    <language_code>ty</language_code>
+</language_code>
+
+<language_code>
+    <id>8bdaced4-1465-4426-919c-3965fc903558</id>
+    <language_code>ug</language_code>
+</language_code>
+
+<language_code>
+    <id>89806761-e8ed-4936-8ba5-5c3e3f5bc277</id>
+    <language_code>uk</language_code>
+</language_code>
+
+<language_code>
+    <id>9084684c-d790-4bfb-a197-4e1522992940</id>
+    <language_code>ur</language_code>
+</language_code>
+
+<language_code>
+    <id>8f98fbb7-7698-458b-8383-e86dd025c663</id>
+    <language_code>uz</language_code>
+</language_code>
+
+<language_code>
+    <id>dc3a22f2-f9ed-4f6f-91a3-50b0d59ef481</id>
+    <language_code>ve</language_code>
+</language_code>
+
+<language_code>
+    <id>18cf01aa-5982-4eaf-b6e5-98f5690dce0b</id>
+    <language_code>vi</language_code>
+</language_code>
+
+<language_code>
+    <id>297f06b1-e660-4ff7-b36d-aacd23002769</id>
+    <language_code>vo</language_code>
+</language_code>
+
+<language_code>
+    <id>6cac8a61-0805-461e-af98-52d558037305</id>
+    <language_code>wa</language_code>
+</language_code>
+
+<language_code>
+    <id>f911ae78-9e67-4d6c-9e84-6e4f80d59621</id>
+    <language_code>wo</language_code>
+</language_code>
+
+<language_code>
+    <id>b4d24305-a25a-4656-9394-f1dd102bf23f</id>
+    <language_code>xh</language_code>
+</language_code>
+
+<language_code>
+    <id>620dd60d-14a4-4e61-9cb6-686bee970b8c</id>
+    <language_code>xx</language_code>
+</language_code>
+
+<language_code>
+    <id>47302bb2-5018-41e2-a608-27a9ae37c866</id>
+    <language_code>yi</language_code>
+</language_code>
+
+<language_code>
+    <id>09da9081-d077-4e3f-beb7-7e1da7236714</id>
+    <language_code>yo</language_code>
+</language_code>
+
+<language_code>
+    <id>bb05386a-45dc-409a-81f4-40d3aebe7886</id>
+    <language_code>za</language_code>
+</language_code>
+
+<language_code>
+    <id>42860ee0-a570-4d36-a765-99c3d819b424</id>
+    <language_code>zh</language_code>
+</language_code>
+
+<language_code>
+    <id>53e241d4-0bf0-4567-8bf3-cee2c5df5a0e</id>
+    <language_code>zu</language_code>
+</language_code>
+
+
+<localized_character_string>
+    <pt_free_text_id>0f21c198-7724-49b3-b630-050054c14f7d</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>WL_Thema</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>0f21c198-7724-49b3-b630-050054c14f7d</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>vl_topic</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>21302306-cbad-4351-86ca-be1e91cd4133</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>WL_Einheit</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>21302306-cbad-4351-86ca-be1e91cd4133</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>vl_unit</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>eb1dc339-7305-45c3-91ca-792bffc009cb</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>WL_Datentyp</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>eb1dc339-7305-45c3-91ca-792bffc009cb</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>vl_data_type</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>65705f5b-48b2-47b3-8fb3-cbfc0681ba98</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>WL_Beziehungstyp</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>65705f5b-48b2-47b3-8fb3-cbfc0681ba98</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>vl_relationship_type</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>328905fc-f0de-4902-b604-f0da363c6b6f</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>WL_SKOSBeziehungsart</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>328905fc-f0de-4902-b604-f0da363c6b6f</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>vl_skos_relationship</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>6b2929cf-4e66-4c4a-a43a-535df42c240f</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>km</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>fcdb8707-da29-466c-898a-6d08de85ee9c</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>km²</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>5407be7c-0812-450f-90de-aa3279ae7e42</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>m</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>141315c2-8a6e-4e14-98dc-0b3283006cfa</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>m²</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>64023cb6-f807-46c1-b63e-1dac9088a750</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>cm</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>bac60238-f809-4ec3-9010-1ac4f86c1e6a</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>cm²</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>c4891097-d895-4bfb-9a9a-2fd55d63d978</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>mm</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>5ae60eee-c8f4-42b6-8deb-dcfe4059c5d7</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>mm²</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>cbf04994-30a5-455d-9aab-95a798ae7b67</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>mg</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>82314e55-e51f-4e82-ab26-534cac409001</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>g</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>412646a4-548d-4d42-9d29-8658ff2958c5</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>kg</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>b8025f00-e1a0-4385-8ce1-7f3669dc87e8</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>t</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>9813e085-a96c-4aeb-a10b-fabbe8af8edf</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>ml</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>0d5566df-d984-4f3d-8136-3d7f5a89c339</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>cl</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>1ee25c54-3b42-4389-9335-01bd17e287eb</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>l</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>3339150e-8593-4cd3-b725-b2c6baec7322</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>varchar</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>76943c12-ba86-4d13-a465-0a9ee5fd3e0b</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>text</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>af460423-307d-4279-a28e-39095e1d62e3</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>integer</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>ca5645ff-d523-46ab-8a14-85a93d6cf78f</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>numeric</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>8e43906c-7b91-4237-bc63-00c18941be3e</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>boolean</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>a8536d3e-ecac-47eb-95a0-19251933bb6b</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>date</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>59da8265-4d09-4392-b9b2-3ec1823b693b</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>geometry(Geometry)</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>5832596c-cf60-4ec3-a9be-e8ceda5268ae</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>geometry(GeometryZ)</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>68d42cfb-b350-45e4-a313-00c7d690d7fb</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>url</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>fc6af4fa-2cc1-40c3-a59e-ff64203ea1fb</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>file</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>37103971-3927-4d2b-9ee2-84531c962891</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>image</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>414fbfcb-178e-4eb2-9626-ad449817e951</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>skos:semanticRelation</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>8c9cd4cf-0457-4b4b-b7e2-799768eb4695</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>skos:broader</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>b4fd7232-85c7-4962-b749-d5d9fbc60010</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>skos:narrower</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>5891a851-21b9-4601-92b8-c78513ab4ea0</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>skos:related</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>6b8160a3-d176-428b-8a58-68ec76a7c81d</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>skos:broaderTransitive</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>2459dcd0-d67e-439e-a0e4-2b70d1721985</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>skos:narrowerTransitive</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>d4bbc73b-85ed-4b63-9568-061d71742063</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Test-Projekt</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>d4bbc73b-85ed-4b63-9568-061d71742063</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Test  project</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>b40828c1-6ba8-4a84-aa32-6b234774a819</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Dies  ist  ein  Test  Projekt!</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>b40828c1-6ba8-4a84-aa32-6b234774a819</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>This  is  a  test  project!</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>829b6c94-e5db-4b78-ae90-fe3be19ee261</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Raum  TC</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>829b6c94-e5db-4b78-ae90-fe3be19ee261</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Room  TC</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>6dcec2b0-5231-42f2-a65d-42eeacdbba70</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Wand  TC</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>6dcec2b0-5231-42f2-a65d-42eeacdbba70</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Wall  TC</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>52b01345-2afb-4fef-93c7-9b9c08ae9761</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Metadaten  TC</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>52b01345-2afb-4fef-93c7-9b9c08ae9761</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Meta  data  TC</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>beafb936-9e2e-4ff0-a035-fdc787cef5b7</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Raum</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>beafb936-9e2e-4ff0-a035-fdc787cef5b7</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Room</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>25018772-54bb-4682-b4fe-856fdda2eda4</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Wand</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>25018772-54bb-4682-b4fe-856fdda2eda4</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Wall</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>3c164632-1db0-471c-abc7-7c8634ad24e1</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Metadaten</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>3c164632-1db0-471c-abc7-7c8634ad24e1</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Meta  data</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>e12fef7c-872a-4ab3-970c-98e19d682726</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Raum-Gruppe</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>e12fef7c-872a-4ab3-970c-98e19d682726</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>room  group</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>f876dcac-a36d-4cde-871f-e1f18a70e24f</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Wand-Gruppe</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>f876dcac-a36d-4cde-871f-e1f18a70e24f</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>wall  group</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>f6038513-5d0f-4392-877d-7727cbe2bbda</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Metadaten-Gruppe</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>f6038513-5d0f-4392-877d-7727cbe2bbda</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Meta  data  group</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>d73aae78-f4cc-4af7-ae06-9c2b337340e7</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Farbe</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>d73aae78-f4cc-4af7-ae06-9c2b337340e7</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Color</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>738e8c2e-7c9e-45c4-ba38-8c5e4a114729</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Höhe</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>738e8c2e-7c9e-45c4-ba38-8c5e4a114729</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Height</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>5903ba62-20ae-46b1-a191-407d8e90a7f9</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Quadratmeter</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>5903ba62-20ae-46b1-a191-407d8e90a7f9</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Square  metre</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>1674f343-7393-4e00-b3c0-3b6f365e061b</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Bearbeiter</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>1674f343-7393-4e00-b3c0-3b6f365e061b</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Editor</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>116f90de-38ef-411a-a248-6649fb5d53aa</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>letzte  Bearbeitung</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>116f90de-38ef-411a-a248-6649fb5d53aa</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Last  edit</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>d5a0b050-1a4c-4b7e-a412-8d408eb5ef2d</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Alex</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>d5a0b050-1a4c-4b7e-a412-8d408eb5ef2d</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Alex</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>5833a6d2-373f-416b-8ceb-daab82c05da6</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>2015-05-20  09:30:00+02</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>bbb5af67-d5f9-4dba-9c74-fd5a8c6fbc8e</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Tino</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>bbb5af67-d5f9-4dba-9c74-fd5a8c6fbc8e</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Tino</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>9e4e7cbc-9537-4e21-a377-3e73a6da301d</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>2014-02-19  08:45:00+01</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>7fb8bce8-b246-4fca-9c6c-23d3b8d6b6cd</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>25.0</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>d5375e94-d7e8-45e0-af52-08d952d8f3f0</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>5.0</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>8e7db6d5-cfe9-48a4-a6fb-01631b43a0c9</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>5.0</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>6989ec52-5c5e-4179-abd0-fb3c212974d0</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>5.0</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>d97352e5-35a6-485b-adb1-b2b16fb70c01</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>5.2</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>ef77bac4-4756-4020-9e77-db0e70d3c86c</pt_free_text_id>
+    <pt_locale_id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</pt_locale_id>
+    <free_text>4.8</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>d2f2b8f8-d4cd-4132-a594-f77057a85842</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>gelb</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>d2f2b8f8-d4cd-4132-a594-f77057a85842</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>yellow</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>104e48ce-3b77-420a-8615-f7f83acbd675</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>blau</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>104e48ce-3b77-420a-8615-f7f83acbd675</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>blue</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>1512b94c-dd78-4d16-99ed-ca03b5a0b769</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>rot</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>1512b94c-dd78-4d16-99ed-ca03b5a0b769</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>red</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>28a15c62-239e-474e-8785-ddab759022c6</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>grün</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>28a15c62-239e-474e-8785-ddab759022c6</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>green</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>4902bc22-1591-428b-b456-885a8b451b1e</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>ist  Teil  von</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>4902bc22-1591-428b-b456-885a8b451b1e</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>is  part  of</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>6d95ecf8-7a60-48a0-8de0-ee5926c708bf</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Diese  Gruppe  fasst  sämtliche  Eigenschaften  von  Wänden  zusammen.</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>6d95ecf8-7a60-48a0-8de0-ee5926c708bf</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>This  group  collects  all  properties  of  walls.</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>71c6827d-513b-4d80-bec4-b956ac595d2a</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Schlagwort</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>71c6827d-513b-4d80-bec4-b956ac595d2a</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>Byword</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>79ff2ce3-dae5-4b13-b227-59cbb6281d23</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Bei  altertumswissenschaftlichen  Feldforschungen  unter  Beteiligung  unterschiedlicher  Disziplinen  werden  heute  Daten  zumeist  in  digitaler  Form  gesammelt.  Da  diese  häufig  nicht  nachhaltig  gesichert,  veröffentlicht  und  vernetzt  sind,  soll  ein  webbasiertes  Informationssystem  entwickelt  und  für  die  archäologischen  Fächer  und  die  Bauforschung  frei  zur  Verfügung  gestellt  werden,  sowohl  für  Projekte  an  Universitäten,  Museen,  Akademien,  dem  DAI  und  anderen  Institutionen  als  auch  für  ausländische  Kooperationspartner.  </free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>79ff2ce3-dae5-4b13-b227-59cbb6281d23</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>dark  room</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>0628d4e1-0b14-41be-ad6a-8e67a15c22cf</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>kleiner  Raum</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>0628d4e1-0b14-41be-ad6a-8e67a15c22cf</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>small  Room</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>7e4d22f7-5c39-4532-a627-7d0a3d79ad42</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Test  Werteliste</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>7e4d22f7-5c39-4532-a627-7d0a3d79ad42</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>test  value  list</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>387eaa8d-18e1-4697-81ff-2b286c02280f</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Test  Werteliste  2</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>387eaa8d-18e1-4697-81ff-2b286c02280f</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>test  value  list  2</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>3be28347-ad44-4375-bf07-7a7065142dfb</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Wert  1</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>3be28347-ad44-4375-bf07-7a7065142dfb</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>value  1</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>7a8609b6-23b4-443d-96a1-a597a056709e</pt_free_text_id>
+    <pt_locale_id>c0d76ff3-a711-42af-920d-09132a287015</pt_locale_id>
+    <free_text>Wort  2</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>7a8609b6-23b4-443d-96a1-a597a056709e</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>value  2</free_text>
+</localized_character_string>
+
+<localized_character_string>
+    <pt_free_text_id>143aa8f5-0916-4a27-82ef-d06fadc1f9e5</pt_free_text_id>
+    <pt_locale_id>b36320a4-0c74-484e-8c5b-402693deee0f</pt_locale_id>
+    <free_text>shortlist</free_text>
+</localized_character_string>
+
+
+<meta_data>
+    <id>6372c76e-e105-42b4-8c46-c12814efd024</id>
+    <object_id>3aac556e-0ca7-4d0f-8f6a-1886174b00c7</object_id>
+    <table_name>topic_characteristic</table_name>
+    <pk_column>id</pk_column>
+    <data>["48f06316-f5e6-441a-a5e7-77291f3879e7",  "091a2936-c1b5-4775-814c-0b4db70fe6cd"]</data>
+</meta_data>
+
+
+<multiplicity>
+    <id>2d8bc741-c775-4932-b9ea-83f7251eee04</id>
+    <min_value>0</min_value>
+    <max_value>4</max_value>
+</multiplicity>
+
+<multiplicity>
+    <id>dd051168-b938-4b2f-9361-cfbc7fc5dce4</id>
+    <min_value>1</min_value>
+    <max_value>1</max_value>
+</multiplicity>
+
+
+<project>
+    <id>e7d42bff-4e40-4f43-9d1b-1dc5a190cd75</id>
+    <name>d4bbc73b-85ed-4b63-9568-061d71742063</name>
+    <description>b40828c1-6ba8-4a84-aa32-6b234774a819</description>
+</project>
+
+
+<pt_free_text>
+    <id>0f21c198-7724-49b3-b630-050054c14f7d</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>21302306-cbad-4351-86ca-be1e91cd4133</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>eb1dc339-7305-45c3-91ca-792bffc009cb</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>65705f5b-48b2-47b3-8fb3-cbfc0681ba98</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>328905fc-f0de-4902-b604-f0da363c6b6f</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>6b2929cf-4e66-4c4a-a43a-535df42c240f</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>fcdb8707-da29-466c-898a-6d08de85ee9c</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>5407be7c-0812-450f-90de-aa3279ae7e42</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>141315c2-8a6e-4e14-98dc-0b3283006cfa</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>64023cb6-f807-46c1-b63e-1dac9088a750</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>bac60238-f809-4ec3-9010-1ac4f86c1e6a</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>c4891097-d895-4bfb-9a9a-2fd55d63d978</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>5ae60eee-c8f4-42b6-8deb-dcfe4059c5d7</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>cbf04994-30a5-455d-9aab-95a798ae7b67</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>82314e55-e51f-4e82-ab26-534cac409001</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>412646a4-548d-4d42-9d29-8658ff2958c5</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>b8025f00-e1a0-4385-8ce1-7f3669dc87e8</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>9813e085-a96c-4aeb-a10b-fabbe8af8edf</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>0d5566df-d984-4f3d-8136-3d7f5a89c339</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>1ee25c54-3b42-4389-9335-01bd17e287eb</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>3339150e-8593-4cd3-b725-b2c6baec7322</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>76943c12-ba86-4d13-a465-0a9ee5fd3e0b</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>af460423-307d-4279-a28e-39095e1d62e3</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>ca5645ff-d523-46ab-8a14-85a93d6cf78f</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>8e43906c-7b91-4237-bc63-00c18941be3e</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>a8536d3e-ecac-47eb-95a0-19251933bb6b</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>59da8265-4d09-4392-b9b2-3ec1823b693b</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>5832596c-cf60-4ec3-a9be-e8ceda5268ae</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>68d42cfb-b350-45e4-a313-00c7d690d7fb</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>fc6af4fa-2cc1-40c3-a59e-ff64203ea1fb</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>37103971-3927-4d2b-9ee2-84531c962891</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>414fbfcb-178e-4eb2-9626-ad449817e951</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>8c9cd4cf-0457-4b4b-b7e2-799768eb4695</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>b4fd7232-85c7-4962-b749-d5d9fbc60010</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>5891a851-21b9-4601-92b8-c78513ab4ea0</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>6b8160a3-d176-428b-8a58-68ec76a7c81d</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>2459dcd0-d67e-439e-a0e4-2b70d1721985</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>d4bbc73b-85ed-4b63-9568-061d71742063</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>b40828c1-6ba8-4a84-aa32-6b234774a819</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>829b6c94-e5db-4b78-ae90-fe3be19ee261</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>6dcec2b0-5231-42f2-a65d-42eeacdbba70</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>52b01345-2afb-4fef-93c7-9b9c08ae9761</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>beafb936-9e2e-4ff0-a035-fdc787cef5b7</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>25018772-54bb-4682-b4fe-856fdda2eda4</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>3c164632-1db0-471c-abc7-7c8634ad24e1</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>e12fef7c-872a-4ab3-970c-98e19d682726</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>f876dcac-a36d-4cde-871f-e1f18a70e24f</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>f6038513-5d0f-4392-877d-7727cbe2bbda</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>d73aae78-f4cc-4af7-ae06-9c2b337340e7</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>738e8c2e-7c9e-45c4-ba38-8c5e4a114729</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>5903ba62-20ae-46b1-a191-407d8e90a7f9</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>1674f343-7393-4e00-b3c0-3b6f365e061b</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>116f90de-38ef-411a-a248-6649fb5d53aa</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>d5a0b050-1a4c-4b7e-a412-8d408eb5ef2d</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>5833a6d2-373f-416b-8ceb-daab82c05da6</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>bbb5af67-d5f9-4dba-9c74-fd5a8c6fbc8e</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>9e4e7cbc-9537-4e21-a377-3e73a6da301d</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>7fb8bce8-b246-4fca-9c6c-23d3b8d6b6cd</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>d5375e94-d7e8-45e0-af52-08d952d8f3f0</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>8e7db6d5-cfe9-48a4-a6fb-01631b43a0c9</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>6989ec52-5c5e-4179-abd0-fb3c212974d0</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>d97352e5-35a6-485b-adb1-b2b16fb70c01</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>ef77bac4-4756-4020-9e77-db0e70d3c86c</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>d2f2b8f8-d4cd-4132-a594-f77057a85842</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>104e48ce-3b77-420a-8615-f7f83acbd675</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>1512b94c-dd78-4d16-99ed-ca03b5a0b769</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>28a15c62-239e-474e-8785-ddab759022c6</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>4902bc22-1591-428b-b456-885a8b451b1e</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>6d95ecf8-7a60-48a0-8de0-ee5926c708bf</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>71c6827d-513b-4d80-bec4-b956ac595d2a</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>79ff2ce3-dae5-4b13-b227-59cbb6281d23</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>0628d4e1-0b14-41be-ad6a-8e67a15c22cf</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>7e4d22f7-5c39-4532-a627-7d0a3d79ad42</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>387eaa8d-18e1-4697-81ff-2b286c02280f</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>3be28347-ad44-4375-bf07-7a7065142dfb</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>7a8609b6-23b4-443d-96a1-a597a056709e</id>
+</pt_free_text>
+
+<pt_free_text>
+    <id>143aa8f5-0916-4a27-82ef-d06fadc1f9e5</id>
+</pt_free_text>
+
+
+<pt_locale>
+    <id>bd0fcf55-547a-44da-b7c7-915e6e4ec40e</id>
+    <language_code_id>620dd60d-14a4-4e61-9cb6-686bee970b8c</language_code_id>
+    <character_code_id>c4d53f98-04af-4d04-9073-4f040a60c64b</character_code_id>
+</pt_locale>
+
+<pt_locale>
+    <id>c0d76ff3-a711-42af-920d-09132a287015</id>
+    <language_code_id>06d10fb8-4665-4e2a-82d5-a0b6a4862f28</language_code_id>
+    <country_code_id>036cf8ee-a2c0-45f3-89e4-1f2a32739a6d</country_code_id>
+    <character_code_id>c4d53f98-04af-4d04-9073-4f040a60c64b</character_code_id>
+</pt_locale>
+
+<pt_locale>
+    <id>b36320a4-0c74-484e-8c5b-402693deee0f</id>
+    <language_code_id>8be78ea0-45e4-4904-ba0c-efb39574d3c2</language_code_id>
+    <country_code_id>e7b9e71b-b095-4bad-b2c1-c617ef65548e</country_code_id>
+    <character_code_id>c4d53f98-04af-4d04-9073-4f040a60c64b</character_code_id>
+</pt_locale>
+
+
+<relationship_type>
+    <id>63a9125e-7c0e-4c85-abe5-56905900a150</id>
+    <reference_to>5de1f2f4-e766-400a-a1cb-2fe8a4373fc3</reference_to>
+    <description>c34c9b66-25b8-4e45-9abb-2854fc901aef</description>
+</relationship_type>
+
+
+<relationship_type_to_topic_characteristic>
+    <id>ac2fdceb-92a4-4c19-affe-89a3c34f1562</id>
+    <topic_characteristic_id>3b218dd8-09a0-42e0-b570-efaba66c4c31</topic_characteristic_id>
+    <relationship_type_id>63a9125e-7c0e-4c85-abe5-56905900a150</relationship_type_id>
+    <multiplicity>2d8bc741-c775-4932-b9ea-83f7251eee04</multiplicity>
+</relationship_type_to_topic_characteristic>
+
+
+<topic_characteristic>
+    <id>3aac556e-0ca7-4d0f-8f6a-1886174b00c7</id>
+    <description>829b6c94-e5db-4b78-ae90-fe3be19ee261</description>
+    <topic>5de1f2f4-e766-400a-a1cb-2fe8a4373fc3</topic>
+    <project_id>e7d42bff-4e40-4f43-9d1b-1dc5a190cd75</project_id>
+</topic_characteristic>
+
+<topic_characteristic>
+    <id>3b218dd8-09a0-42e0-b570-efaba66c4c31</id>
+    <description>6dcec2b0-5231-42f2-a65d-42eeacdbba70</description>
+    <topic>f534260a-1173-41e3-99a7-98b4103b5e16</topic>
+    <project_id>e7d42bff-4e40-4f43-9d1b-1dc5a190cd75</project_id>
+</topic_characteristic>
+
+<topic_characteristic>
+    <id>5bb8588a-8f0a-4198-a7cc-96ce498731a9</id>
+    <description>52b01345-2afb-4fef-93c7-9b9c08ae9761</description>
+    <topic>e1d98bbb-d7c7-48fa-a770-57a3664fb38e</topic>
+    <project_id>e7d42bff-4e40-4f43-9d1b-1dc5a190cd75</project_id>
+</topic_characteristic>
+
+
+<topic_instance>
+    <id>fab4e287-3b8e-48fa-9282-63fc123dff47</id>
+    <topic_characteristic_id>3aac556e-0ca7-4d0f-8f6a-1886174b00c7</topic_characteristic_id>
+</topic_instance>
+
+<topic_instance>
+    <id>53f85242-2cb0-427c-882b-d4bdbf27e360</id>
+    <topic_characteristic_id>3b218dd8-09a0-42e0-b570-efaba66c4c31</topic_characteristic_id>
+</topic_instance>
+
+<topic_instance>
+    <id>07be6a08-d8a7-4c80-ae7e-281d2d306a59</id>
+    <topic_characteristic_id>3b218dd8-09a0-42e0-b570-efaba66c4c31</topic_characteristic_id>
+</topic_instance>
+
+<topic_instance>
+    <id>0e15494c-e461-448c-81a3-f362b782feaa</id>
+    <topic_characteristic_id>3b218dd8-09a0-42e0-b570-efaba66c4c31</topic_characteristic_id>
+</topic_instance>
+
+<topic_instance>
+    <id>d99a195f-f977-4b88-8246-1c3caca45fd4</id>
+    <topic_characteristic_id>3b218dd8-09a0-42e0-b570-efaba66c4c31</topic_characteristic_id>
+</topic_instance>
+
+<topic_instance>
+    <id>e01a9b89-a9dd-4a18-ac60-3bdf08dff492</id>
+    <topic_characteristic_id>5bb8588a-8f0a-4198-a7cc-96ce498731a9</topic_characteristic_id>
+</topic_instance>
+
+<topic_instance>
+    <id>c335daac-5bb3-4152-9b47-84b9694a7fbe</id>
+    <topic_characteristic_id>5bb8588a-8f0a-4198-a7cc-96ce498731a9</topic_characteristic_id>
+</topic_instance>
+
+
+<topic_instance_x005F_x_topic_instance>
+    <id>1af5b2d8-5854-4dcb-b31c-1778c5015e1b</id>
+    <topic_instance_1>53f85242-2cb0-427c-882b-d4bdbf27e360</topic_instance_1>
+    <topic_instance_2>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_2>
+    <relationship_type_id>63a9125e-7c0e-4c85-abe5-56905900a150</relationship_type_id>
+</topic_instance_x005F_x_topic_instance>
+
+<topic_instance_x005F_x_topic_instance>
+    <id>aa427e06-8fa1-4df6-a367-39a479d0f29e</id>
+    <topic_instance_1>07be6a08-d8a7-4c80-ae7e-281d2d306a59</topic_instance_1>
+    <topic_instance_2>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_2>
+    <relationship_type_id>63a9125e-7c0e-4c85-abe5-56905900a150</relationship_type_id>
+</topic_instance_x005F_x_topic_instance>
+
+<topic_instance_x005F_x_topic_instance>
+    <id>72892807-6f35-4b21-a3aa-9b346a432671</id>
+    <topic_instance_1>0e15494c-e461-448c-81a3-f362b782feaa</topic_instance_1>
+    <topic_instance_2>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_2>
+    <relationship_type_id>63a9125e-7c0e-4c85-abe5-56905900a150</relationship_type_id>
+</topic_instance_x005F_x_topic_instance>
+
+<topic_instance_x005F_x_topic_instance>
+    <id>8702ac0c-4483-4221-b018-f30c3bdd6b93</id>
+    <topic_instance_1>d99a195f-f977-4b88-8246-1c3caca45fd4</topic_instance_1>
+    <topic_instance_2>fab4e287-3b8e-48fa-9282-63fc123dff47</topic_instance_2>
+    <relationship_type_id>63a9125e-7c0e-4c85-abe5-56905900a150</relationship_type_id>
+</topic_instance_x005F_x_topic_instance>
+
+
+<value_list>
+    <id>d145bf95-f6ea-4405-832b-55da75e825e5</id>
+    <name>0f21c198-7724-49b3-b630-050054c14f7d</name>
+</value_list>
+
+<value_list>
+    <id>b3056afa-160f-45f2-803f-69e276496a56</id>
+    <name>21302306-cbad-4351-86ca-be1e91cd4133</name>
+</value_list>
+
+<value_list>
+    <id>0007cdc1-41c7-4237-841f-af6b63bc6c85</id>
+    <name>eb1dc339-7305-45c3-91ca-792bffc009cb</name>
+</value_list>
+
+<value_list>
+    <id>85bc27a7-dfa5-4a79-adaf-1e8886053b2e</id>
+    <name>65705f5b-48b2-47b3-8fb3-cbfc0681ba98</name>
+</value_list>
+
+<value_list>
+    <id>f64e20bc-55da-4efa-a2f5-ab664faef886</id>
+    <name>328905fc-f0de-4902-b604-f0da363c6b6f</name>
+</value_list>
+
+<value_list>
+    <id>7f9d62d4-a7f2-48b7-95e1-ae52a45ea6e8</id>
+    <name>7e4d22f7-5c39-4532-a627-7d0a3d79ad42</name>
+</value_list>
+
+<value_list>
+    <id>172b7094-88e8-4602-acdf-fca96a4bd614</id>
+    <name>387eaa8d-18e1-4697-81ff-2b286c02280f</name>
+</value_list>
+
+
+<value_list_values>
+    <id>b5a32b37-4459-4050-bda0-fbe8d0d4a020</id>
+    <name>6b2929cf-4e66-4c4a-a43a-535df42c240f</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>1152d640-a796-4a46-92e6-d0df9383d793</id>
+    <name>fcdb8707-da29-466c-898a-6d08de85ee9c</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>46e3afef-d254-4d63-a9de-fd2cabe2dc6e</id>
+    <name>5407be7c-0812-450f-90de-aa3279ae7e42</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>c5fcd4bd-83e6-4ac7-90a0-5d015c89655e</id>
+    <name>141315c2-8a6e-4e14-98dc-0b3283006cfa</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>81f2c264-feef-4d87-bd46-5c3e5e911b8e</id>
+    <name>64023cb6-f807-46c1-b63e-1dac9088a750</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>35256f0c-bad5-4629-9b36-e81c773510ac</id>
+    <name>bac60238-f809-4ec3-9010-1ac4f86c1e6a</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>f28ccc95-729f-461c-980e-ce3744e92db8</id>
+    <name>c4891097-d895-4bfb-9a9a-2fd55d63d978</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>f29c2a56-0fa1-47be-b25a-76abd01e70aa</id>
+    <name>5ae60eee-c8f4-42b6-8deb-dcfe4059c5d7</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>5225e8f5-fde1-4fb2-a02d-fd5321ea21d5</id>
+    <name>cbf04994-30a5-455d-9aab-95a798ae7b67</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>db90bc1e-8ff4-4142-8265-411423da767f</id>
+    <name>82314e55-e51f-4e82-ab26-534cac409001</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>49a73e79-374f-4f37-b93a-6e65e0ff852c</id>
+    <name>412646a4-548d-4d42-9d29-8658ff2958c5</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>6ecaacee-addb-4733-be77-f2a92f3d98ae</id>
+    <name>b8025f00-e1a0-4385-8ce1-7f3669dc87e8</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>6b4f8a00-7c77-40a8-9625-1527ab77b568</id>
+    <name>9813e085-a96c-4aeb-a10b-fabbe8af8edf</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>e04b99e5-b082-475a-96c5-780d0245593c</id>
+    <name>0d5566df-d984-4f3d-8136-3d7f5a89c339</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>9f4041eb-a7d0-4a88-9beb-fd7b28e29568</id>
+    <name>1ee25c54-3b42-4389-9335-01bd17e287eb</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>b3056afa-160f-45f2-803f-69e276496a56</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>752fc105-f93b-4b22-bae2-87b2e31653b4</id>
+    <name>3339150e-8593-4cd3-b725-b2c6baec7322</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>0007cdc1-41c7-4237-841f-af6b63bc6c85</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>7ea709cf-d31d-4c40-bc7a-4e700ae3cb69</id>
+    <name>76943c12-ba86-4d13-a465-0a9ee5fd3e0b</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>0007cdc1-41c7-4237-841f-af6b63bc6c85</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>c10ddb22-babd-437d-a04a-f44f068ff62b</id>
+    <name>af460423-307d-4279-a28e-39095e1d62e3</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>0007cdc1-41c7-4237-841f-af6b63bc6c85</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>f5a22fd3-1b19-408c-8b6a-94f5d090d89f</id>
+    <name>ca5645ff-d523-46ab-8a14-85a93d6cf78f</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>0007cdc1-41c7-4237-841f-af6b63bc6c85</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>e2545e48-b07e-4295-85b5-e68b7f82a0e8</id>
+    <name>8e43906c-7b91-4237-bc63-00c18941be3e</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>0007cdc1-41c7-4237-841f-af6b63bc6c85</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>1453be24-2b0c-4b40-a648-ecccf0f382a3</id>
+    <name>a8536d3e-ecac-47eb-95a0-19251933bb6b</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>0007cdc1-41c7-4237-841f-af6b63bc6c85</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>7c043561-8e6f-41a8-9290-fc81a2582037</id>
+    <name>59da8265-4d09-4392-b9b2-3ec1823b693b</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>0007cdc1-41c7-4237-841f-af6b63bc6c85</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>eaef7daa-8301-4dc1-a763-4edd3ae03b90</id>
+    <name>5832596c-cf60-4ec3-a9be-e8ceda5268ae</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>0007cdc1-41c7-4237-841f-af6b63bc6c85</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>36ca15c3-dc8c-4cf6-a1a3-d015b020bfd3</id>
+    <name>68d42cfb-b350-45e4-a313-00c7d690d7fb</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>0007cdc1-41c7-4237-841f-af6b63bc6c85</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>1b92382e-bdcd-48c1-bf5a-7d084f12cdcf</id>
+    <name>fc6af4fa-2cc1-40c3-a59e-ff64203ea1fb</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>0007cdc1-41c7-4237-841f-af6b63bc6c85</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>fb1c8af6-4ffa-4178-895b-6d9bfbc95c66</id>
+    <name>37103971-3927-4d2b-9ee2-84531c962891</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>0007cdc1-41c7-4237-841f-af6b63bc6c85</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>63ecd3d4-7e5d-4631-b7a4-3843f2866476</id>
+    <name>414fbfcb-178e-4eb2-9626-ad449817e951</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>f64e20bc-55da-4efa-a2f5-ab664faef886</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>35fe2530-fe24-44bf-a55d-020718d51bd1</id>
+    <name>8c9cd4cf-0457-4b4b-b7e2-799768eb4695</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>f64e20bc-55da-4efa-a2f5-ab664faef886</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>0c724d32-5f3b-4278-bdb1-b4352152a99f</id>
+    <name>b4fd7232-85c7-4962-b749-d5d9fbc60010</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>f64e20bc-55da-4efa-a2f5-ab664faef886</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>9ce4a45e-13b3-4bbe-ae14-04e8bc2654bb</id>
+    <name>5891a851-21b9-4601-92b8-c78513ab4ea0</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>f64e20bc-55da-4efa-a2f5-ab664faef886</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>4e73296a-d010-43d5-b21f-c8b82a285318</id>
+    <name>6b8160a3-d176-428b-8a58-68ec76a7c81d</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>f64e20bc-55da-4efa-a2f5-ab664faef886</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>21cf872c-5a0b-4332-a9da-a08b42cbef66</id>
+    <name>2459dcd0-d67e-439e-a0e4-2b70d1721985</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>f64e20bc-55da-4efa-a2f5-ab664faef886</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>5de1f2f4-e766-400a-a1cb-2fe8a4373fc3</id>
+    <name>beafb936-9e2e-4ff0-a035-fdc787cef5b7</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>d145bf95-f6ea-4405-832b-55da75e825e5</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>f534260a-1173-41e3-99a7-98b4103b5e16</id>
+    <name>25018772-54bb-4682-b4fe-856fdda2eda4</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>d145bf95-f6ea-4405-832b-55da75e825e5</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>e1d98bbb-d7c7-48fa-a770-57a3664fb38e</id>
+    <name>3c164632-1db0-471c-abc7-7c8634ad24e1</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>d145bf95-f6ea-4405-832b-55da75e825e5</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>d926bf7f-9b1f-43ac-a112-2123236e8643</id>
+    <name>3be28347-ad44-4375-bf07-7a7065142dfb</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>7f9d62d4-a7f2-48b7-95e1-ae52a45ea6e8</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>18478c40-74b2-4aea-8895-40e10fbf42bf</id>
+    <name>7a8609b6-23b4-443d-96a1-a597a056709e</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>7f9d62d4-a7f2-48b7-95e1-ae52a45ea6e8</belongs_to_value_list>
+</value_list_values>
+
+<value_list_values>
+    <id>c34c9b66-25b8-4e45-9abb-2854fc901aef</id>
+    <name>4902bc22-1591-428b-b456-885a8b451b1e</name>
+    <visibility>true</visibility>
+    <belongs_to_value_list>85bc27a7-dfa5-4a79-adaf-1e8886053b2e</belongs_to_value_list>
+</value_list_values>
+
+
+<value_list_values_x005F_x_value_list_values>
+    <id>69062adc-c20e-4073-ad52-3f3b44cd5e63</id>
+    <value_list_values_1>5de1f2f4-e766-400a-a1cb-2fe8a4373fc3</value_list_values_1>
+    <value_list_values_2>f534260a-1173-41e3-99a7-98b4103b5e16</value_list_values_2>
+    <relationship>9ce4a45e-13b3-4bbe-ae14-04e8bc2654bb</relationship>
+</value_list_values_x005F_x_value_list_values>
+
+
+<value_list_x005F_x_value_list>
+    <id>f9771aa9-9c1f-4221-bf6f-ace38092929e</id>
+    <value_list_1>7f9d62d4-a7f2-48b7-95e1-ae52a45ea6e8</value_list_1>
+    <value_list_2>172b7094-88e8-4602-acdf-fca96a4bd614</value_list_2>
+    <relationship>9ce4a45e-13b3-4bbe-ae14-04e8bc2654bb</relationship>
+</value_list_x005F_x_value_list>
+
+
+</project_e7d42bff-4e40-4f43-9d1b-1dc5a190cd75>
+ 

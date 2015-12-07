@@ -1,0 +1,415 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE CRMset SYSTEM "crm_entity_plhres_shorted.dtd">
+<?xml-stylesheet type="text/xsl" href="cidoc_crm.xsl"?>
+<CRMset>
+	<E1.CRM_Entity>
+		<Identifier>Epitaphios GE34604</Identifier>
+		<in_class>E22.Man-Made_Object</in_class>
+		<P70B.is_documented_in>
+			<Identifier>epitafios.jpg</Identifier>
+			<in_class>E31.Document</in_class>
+		</P70B.is_documented_in>
+		<P1F.is_identified_by>
+			<Identifier>TA 959a</Identifier>
+			<in_class>E42.Identifier</in_class>
+		</P1F.is_identified_by>
+		<P1F.is_identified_by>
+			<Identifier>GE 34604</Identifier>
+			<in_class>E42.Identifier</in_class>
+		</P1F.is_identified_by>
+		<P48F.has_preferred_identifier>
+			<Identifier>GE 34604</Identifier>
+			<in_class>E42.Identifier</in_class>
+		</P48F.has_preferred_identifier>
+		<P2F.has_type>
+			<Identifier>ecclesiastical embroidery</Identifier>
+			<in_class>E55.Type</in_class>
+		</P2F.has_type>
+		<P2F.has_type>
+			<Identifier>liturgical cloth</Identifier>
+			<in_class>E55.Type</in_class>
+		</P2F.has_type>
+		<P52F.has_current_owner>
+			<Identifier>Museum Benaki </Identifier>
+			<in_class>E40.Legal_Body</in_class>
+			<P2F.has_type>
+				<Identifier>private museum</Identifier>
+				<in_class>E55.Type</in_class>
+			</P2F.has_type>
+			<P76F.has_contact_point>
+				<Identifier>Ifigenia Dionissiadou ifi@benaki.gr</Identifier>
+				<in_class>E51.Contact_Point</in_class>
+			</P76F.has_contact_point>
+			<P76F.has_contact_point>
+				<Identifier>Koumbari Street 1, Athens</Identifier>
+				<in_class>E45.Address</in_class>
+			</P76F.has_contact_point>
+		</P52F.has_current_owner>
+		<P51F.has_former_or_current_owner>
+			<Identifier>Georgios, son of Kyriazes</Identifier>
+			<in_class>E21.Person</in_class>
+			<P3F.has_note>
+				<String>'He was pilgrim of the Holy Land'</String>
+			</P3F.has_note>
+		</P51F.has_former_or_current_owner>
+		<P51F.has_former_or_current_owner>
+			<Identifier>Metropolitan Church of the Greek Community of Ankara</Identifier>
+			<in_class>E39.Actor</in_class>
+			<P2F.has_type>
+				<Identifier>ecclesiastical institution</Identifier>
+				<in_class>E55.Type</in_class>
+			</P2F.has_type>
+		</P51F.has_former_or_current_owner>
+		<P51F.has_former_or_current_owner>
+			<Identifier>Museum Benaki</Identifier>
+			<in_class>E40.Legal_Body</in_class>
+		</P51F.has_former_or_current_owner>
+		<P50F.has_current_keeper>
+			<Identifier>Museum Benaki</Identifier>
+			<in_class>E40.Legal_Body</in_class>
+		</P50F.has_current_keeper>
+		<P49F.has_former_or_current_keeper>
+			<Identifier>Metropolitan Church of the Greek Community of Ankara</Identifier>
+			<in_class>E39.Actor</in_class>
+		</P49F.has_former_or_current_keeper>
+		<P49F.has_former_or_current_keeper>
+			<Identifier>Museum Benaki</Identifier>
+			<in_class>E40.Legal_Body</in_class>
+		</P49F.has_former_or_current_keeper>
+		<P30B.custody_transferred_through>
+			<Identifier>Transfer of Epitaphios GE34604</Identifier>
+			<in_class>E10.Transfer_of_Custody</in_class>
+			<in_class>E8.Acquisition</in_class>
+			<P28F.custody_surrendered_by>
+				<Identifier>Metropolitan Church of the Greek Community of Ankara</Identifier>
+				<in_class>E39.Actor</in_class>
+			</P28F.custody_surrendered_by>
+			<P23F.transferred_title_from>
+				<Identifier>Metropolitan Church of the Greek Community of Ankara</Identifier>
+				<in_class>E39.Actor</in_class>
+			</P23F.transferred_title_from>
+			<P29F.custody_received_by>
+				<Identifier>Museum Benaki</Identifier>
+				<in_class>E40.Legal_Body</in_class>
+			</P29F.custody_received_by>
+			<P22F.transferred_title_to>
+				<Identifier>Exchangable Fund of Refugees</Identifier>
+				<in_class>E40.Legal_Body</in_class>
+				<P2F.has_type>
+					<Identifier>national foundation</Identifier>
+					<in_class>E55.Type</in_class>
+				</P2F.has_type>
+			</P22F.transferred_title_to>
+			<P14F.carried_out_by>
+				<Identifier>Exchangable Fund of Refugees</Identifier>
+				<in_class>E40.Legal_Body</in_class>
+			</P14F.carried_out_by>
+			<P4F.has_time-span>
+				<Identifier>Transfer of Epitaphios GE34604</Identifier>
+				<in_class>E52.Time-Span</in_class>
+				<P82F.at_some_time_within>1923  - 1928</P82F.at_some_time_within>
+			</P4F.has_time-span>
+			<P7F.took_place_at>
+				<Identifier>Greece </Identifier>
+				<in_class>E53.Place</in_class>
+				<P2F.has_type>
+					<Identifier>nation</Identifier>
+					<in_class>E55.Type</in_class>
+				</P2F.has_type>
+				<P2F.has_type>
+					<Identifier>republic  </Identifier>
+					<in_class>E55.Type</in_class>
+				</P2F.has_type>
+				<P89F.falls_within>
+					<Identifier>Europe</Identifier>
+					<in_class>E53.Place</in_class>
+					<P2F.has_type>
+						<Identifier>continent</Identifier>
+						<in_class>E55.Type</in_class>
+					</P2F.has_type>
+				</P89F.falls_within>
+			</P7F.took_place_at>
+		</P30B.custody_transferred_through>
+		<P55F.has_current_location>
+			<Identifier>drawer 8 / case 27 / room 6 / floor -1 / new wing</Identifier>
+			<in_class>E53.Place</in_class>
+			<P2F.has_type>
+				<Identifier>drawer  </Identifier>
+				<in_class>E55.Type</in_class>
+			</P2F.has_type>
+			<P89F.falls_within>
+				<Identifier>Museum Benaki Main Building</Identifier>
+				<in_class>E53.Place</in_class>
+				<P2F.has_type>
+					<Identifier>museum building </Identifier>
+					<in_class>E55.Type</in_class>
+				</P2F.has_type>
+				<P87F.is_identified_by>
+					<Identifier>Koumbari Street 1, Athens</Identifier>
+					<in_class>E45.Address</in_class>
+				</P87F.is_identified_by>
+				<P89F.falls_within>
+					<Identifier>Athens</Identifier>
+					<in_class>E53.Place</in_class>
+					<P2F.has_type>
+						<Identifier>city</Identifier>
+						<in_class>E55.Type</in_class>
+					</P2F.has_type>
+					<P2F.has_type>
+						<Identifier>national capital</Identifier>
+						<in_class>E55.Type</in_class>
+					</P2F.has_type>
+					<P89F.falls_within>
+						<Identifier>Greece</Identifier>
+						<in_class>E53.Place</in_class>
+					</P89F.falls_within>
+				</P89F.falls_within>
+			</P89F.falls_within>
+		</P55F.has_current_location>
+		<P54F.has_current_permanent_location>
+			<Identifier>drawer 8 / case 27 / room 6 / floor -1 / new wing</Identifier>
+			<in_class>E53.Place</in_class>
+		</P54F.has_current_permanent_location>
+		<P53F.has_former_or_current_location>
+			<Identifier>drawer 8 / case 27 / room 6 / floor -1 / new wing</Identifier>
+			<in_class>E53.Place</in_class>
+		</P53F.has_former_or_current_location>
+		<P53F.has_former_or_current_location>
+			<Identifier>Ankara </Identifier>
+			<in_class>E53.Place</in_class>
+			<P2F.has_type>
+				<Identifier>city</Identifier>
+				<in_class>E55.Type</in_class>
+			</P2F.has_type>
+			<P2F.has_type>
+				<Identifier>national capital </Identifier>
+				<in_class>E55.Type</in_class>
+			</P2F.has_type>
+			<P89F.falls_within>
+				<Identifier>Asia Minor</Identifier>
+				<in_class>E53.Place</in_class>
+				<P2F.has_type>
+					<Identifier>region</Identifier>
+					<in_class>E55.Type</in_class>
+				</P2F.has_type>
+				<P89F.falls_within>
+					<Identifier>Turkey</Identifier>
+					<in_class>E53.Place</in_class>
+					<P2F.has_type>
+						<Identifier>nation</Identifier>
+						<in_class>E55.Type</in_class>
+					</P2F.has_type>
+					<P2F.has_type>
+						<Identifier>republic</Identifier>
+						<in_class>E55.Type</in_class>
+					</P2F.has_type>
+					<P88F.consists_of>
+						<Identifier>Asia Minor</Identifier>
+						<in_class>E53.Place</in_class>
+					</P88F.consists_of>
+					<P88F.consists_of>
+						<Identifier>Eastern Thrace</Identifier>
+						<in_class>E53.Place</in_class>
+						<P2F.has_type>
+							<Identifier>region</Identifier>
+							<in_class>E55.Type</in_class>
+						</P2F.has_type>
+						<P89F.falls_within>
+							<Identifier>Europe</Identifier>
+							<in_class>E53.Place</in_class>
+						</P89F.falls_within>
+					</P88F.consists_of>
+				</P89F.falls_within>
+			</P89F.falls_within>
+			<P89F.falls_within>
+				<Identifier>Turkey</Identifier>
+				<in_class>E53.Place</in_class>
+				<P2F.has_type>
+					<Identifier>nation</Identifier>
+					<in_class>E55.Type</in_class>
+				</P2F.has_type>
+				<P2F.has_type>
+					<Identifier>republic</Identifier>
+					<in_class>E55.Type</in_class>
+				</P2F.has_type>
+				<P88F.consists_of>
+					<Identifier>Asia Minor</Identifier>
+					<in_class>E53.Place</in_class>
+				</P88F.consists_of>
+				<P88F.consists_of>
+					<Identifier>Eastern Thrace</Identifier>
+					<in_class>E53.Place</in_class>
+					<P2F.has_type>
+						<Identifier>region</Identifier>
+						<in_class>E55.Type</in_class>
+					</P2F.has_type>
+					<P89F.falls_within>
+						<Identifier>Europe</Identifier>
+						<in_class>E53.Place</in_class>
+					</P89F.falls_within>
+				</P88F.consists_of>
+			</P89F.falls_within>
+		</P53F.has_former_or_current_location>
+		<P108B.was_produced_by>
+			<Identifier>Creation of Epitaphios GE34604</Identifier>
+			<in_class>E12.Production</in_class>
+			<P2F.has_type>
+				<Identifier>handwork</Identifier>
+				<in_class>E55.Type</in_class>
+			</P2F.has_type>
+			<P3F.has_note>
+				<String>“information is derived from the inscription”</String>
+			</P3F.has_note>
+			<P4F.has_time-span>
+				<Identifier>Creation of Epitaphios GE34604</Identifier>
+				<in_class>E52.Time-Span</in_class>
+				<P82F.at_some_time_within>1682 - 1682</P82F.at_some_time_within>
+			</P4F.has_time-span>
+			<P7F.took_place_at>
+				<Identifier>Istanbul</Identifier>
+				<in_class>E53.Place</in_class>
+				<P87F.is_identified_by>
+					<Identifier>Κωνσταντινούπολις</Identifier>
+					<in_class>E44.Place_Appellation</in_class>
+				</P87F.is_identified_by>
+				<P2F.has_type>
+					<Identifier>city</Identifier>
+					<in_class>E55.Type</in_class>
+				</P2F.has_type>
+				<P89F.falls_within>
+					<Identifier>Turkey</Identifier>
+					<in_class>E53.Place</in_class>
+				</P89F.falls_within>
+				<P89F.falls_within>
+					<Identifier>Eastern Thrace</Identifier>
+					<in_class>E53.Place</in_class>
+				</P89F.falls_within>
+			</P7F.took_place_at>
+			<P14F.carried_out_by>
+				<Identifier>Despoineta</Identifier>
+				<in_class>E21.Person</in_class>
+				<P2F.has_type>
+					<Identifier>needle woman</Identifier>
+					<in_class>E55.Type</in_class>
+				</P2F.has_type>
+			</P14F.carried_out_by>
+			<P32F.used_general_technique>
+				<Identifier>gold and silver embroidering</Identifier>
+				<in_class>E55.Type</in_class>
+			</P32F.used_general_technique>
+			<P20F.had_specific_purpose>
+				<Identifier>Order by Georgios, son of Kyriazes </Identifier>
+				<in_class>E7.Activity</in_class>
+				<P2F.has_type>
+					<Identifier>commercial order</Identifier>
+					<in_class>E55.Type</in_class>
+				</P2F.has_type>
+				<P14F.carried_out_by>
+					<Identifier>Georgios, son of Kyriazes</Identifier>
+					<in_class>E21.Person</in_class>
+				</P14F.carried_out_by>
+				<P20F.had_specific_purpose>
+					<Identifier>Donation by Georgios, son of Kyriazes</Identifier>
+					<in_class>E8.Acquisition</in_class>
+					<P2F.has_type>
+						<Identifier>donation to ecclesiastical institution</Identifier>
+						<in_class>E55.Type</in_class>
+					</P2F.has_type>
+					<P24F.transferred_title_of>
+						<Identifier>Epitaphios GE34604</Identifier>
+						<in_class>E22.Man-Made_Object</in_class>
+					</P24F.transferred_title_of>
+					<P24F.transferred_title_of>
+						<Identifier>Cross GE34059</Identifier>
+						<in_class>E22.Man-Made_Object</in_class>
+						<P2F.has_type>
+							<Identifier>processory cross</Identifier>
+							<in_class>E55.Type</in_class>
+						</P2F.has_type>
+						<P52F.has_current_owner>
+							<Identifier>Museum Benaki</Identifier>
+							<in_class>E40.Legal_Body</in_class>
+						</P52F.has_current_owner>
+					</P24F.transferred_title_of>
+					<P23F.transferred_title_from>
+						<Identifier>Georgios, son of Kyriazes</Identifier>
+						<in_class>E21.Person</in_class>
+					</P23F.transferred_title_from>
+					<P22F.transferred_title_to>
+						<Identifier>Metropolitan Church of the Greek Community of Ankara </Identifier>
+						<in_class>E39.Actor</in_class>
+					</P22F.transferred_title_to>
+					<P7F.took_place_at>
+						<Identifier>Ankara </Identifier>
+						<in_class>E53.Place</in_class>
+					</P7F.took_place_at>
+				</P20F.had_specific_purpose>
+			</P20F.had_specific_purpose>
+			<P10F.falls_within>
+				<Identifier>Despoineta’s professional period</Identifier>
+				<in_class>E7.Activity</in_class>
+				<P2F.has_type>
+					<Identifier>needle work</Identifier>
+					<in_class>E55.Type</in_class>
+				</P2F.has_type>
+				<P14F.carried_out_by>
+					<Identifier>Despoineta</Identifier>
+					<in_class>E21.Person</in_class>
+				</P14F.carried_out_by>
+				<P4F.has_time-span>
+					<Identifier>Despoineta’s professional period</Identifier>
+					<in_class>E52.Time-Span</in_class>
+					<P82F.at_some_time_within>1682 - 1723</P82F.at_some_time_within>
+				</P4F.has_time-span>
+				<P7F.took_place_at>
+					<Identifier>Istanbul</Identifier>
+					<in_class>E53.Place</in_class>
+				</P7F.took_place_at>
+			</P10F.falls_within>
+		</P108B.was_produced_by>
+		<P62F.depicts>
+			<Identifier>The Lament</Identifier>
+			<in_class>E55.Type</in_class>
+		</P62F.depicts>
+		<P65F.shows_visual_item>
+			<Identifier>Inscription of Epitaphios GE34604</Identifier>
+			<in_class>E34.Inscription</in_class>
+			<P72F.has_language>
+				<Identifier>medieval Greek</Identifier>
+				<in_class>E56.Language</in_class>
+			</P72F.has_language>
+			<P3F.has_note>
+				<String>Inscription text: Center: «ΔΙΑ ΧΕΙΡΟΣ ΑΧΡΕΙΑΣ ΔΕΣΠΟΙΝΕΤΑΣ, ΗΜ(ων) ΔΕΣΠΟΙΝΗΣ ΔΟΥΛΗΣ, ΦΕΙΛΟΠΟΝΕΙΤΑΙ ΤΟ ΠΑΡΟΝ, ΕΝ ΚΩΝΣΤΑΝΤΙΝΟΥΠΟΛΕΙ» On the lower side: «ΤΗΝ ΠΑΝΣΕΤΠΤΟΝ ΜΩΡΦΗΝ ΤΗΣ ΣΗΣ ΕΠΙΤΥΜΒΙΟΥ ΧΑΡΑΚΤΗΡΙΣΑΣ Π[ΡΟΣΕ]ΘΗΚΕΝ ΤΗΔΕ Μ(ητρ)ΟΠΟΛΕΙ ΑΓΓ[ΥΡΑ]Σ ΤΗΣ ΠΡ[…]ΣΤ […] ΚΥΡΙΑΖΗ ΔΕ ΓΟΝΟΣ [ΠΡ]ΟΣΚΥΝΗΤΗΣ ΚΑΙ ΔΟΥΛΟΣ ΣΟΥ, ΘΕΙΕ Θ(εο)Υ ΛΟΓΕ ΓΕ[ΩΡ]Γ[ΙΟΣ]» On the right: « ΕΝ ΕΤΕΙ Σ(ωτη)ΡΙΩ ΑΧΠΒ..: ΟΤΕ ΕΝ ΤΩ ΤΑΦΩ ΤΩ ΚΕΝΩ, ΥΠΕΡ ΤΟΥ ΠΑΝΤΟΣ ΚΑΤΕΤΕΘΗΣ Ο ΠΟΙΗΤΗΣ | ΤΟΥ ΠΑΝΤΟΣ ΑΔΗΣ Ο ΠΑΓΓΕΛΑΣΤΟΣ ΕΙΔΟΝ ΣΕ ΕΦΡΙΞΕΝ ΟΙ ΜΟΧΛΟΙ ΣΥΝΕΤΡΙΒΗΣΑΝ ΕΘΛΑΣΘΗΣΑΝ ΠΥΛΑΙ ΜΝΗΜΑΤΑ ΕΙΝΗΧΘΗΣΗΣΑΝ, Σ(ωτ)ΕΡ ΑΝΕΒΟΑ ΣΟΙ ΔΟΞΑ, ΤΗ ΟΙΚΟΝΟΜΙΑ ΣΟΥ ΦΙΛ|ΑΝ(θρωπ)Ε.» On the upper inner zone: Η ΖΩΗ ΕΝ ΤΑΦΩ ΚΑΤΕΤΕΘΗΣ Χ(ριστ)Ε, ΚΑΙ ΑΓΓΕΛΩΝ ΣΤΡΑΤΙΑΙ ΕΞΕΠΛΗΤΤΩΝΤΟ, ΣΥΓΚΑΤΑΒΑΣΙΝ ΔΟΞΑΖΟΥΣΑΙ ΤΗΝ ΣΗΝ. On the lower inner zone: + ΑΙ ΓΕΝΝΕΑΙ ΠΑΣΣΑΙ ΥΜΝΟΝ ΤΗ ΤΑΦΗ ΣΟΥ ΠΡ[ΟΣΦΕΡΟ]ΜΕΝ ΧΡΙ[ΙΣΤΕ ΜΟΥ .Τ]ΡΙΑΣ ΘΕΕ ΜΟ[Υ ΠΑΤΗΡ ΥΙΟ]Σ ΚΑΙ ΠΝ(ευμ)Α ΕΛΕΗΣΟΝ ΤΟΝ ΚΟΣΜΟΝ. On the left inner zone: Ο ΕΥΣΧΗΜΟΝ ΙΩΣΗΦ ΑΠΟ ΤΟΥ ΞΥΛΟΥ ΚΑΘΕΛΩΝ ΤΟ ΑΧΡΑΝΤΟΝ ΣΟΥ ΣΩΜΑ ΣΙΝΔΟΝΙ ΚΑΘΑΡΑ ΕΙΛΙΣΑΣ. Εις  την δεξιά: + ΑΞΙΟΝ ΕΣΤΙ ΜΕΓΑΛΛΥΝΕΙΝ ΣΕ ΤΟΝ ΖΩΟΔΟΤΗΝ ΤΟΝ ΕΝ ΤΩ ΣΤ(αυ)ΡΩ ΤΑΣ ΧΕΙΡΑΣ ΕΚΤΕΙΝΑΝΤΑ Κ(αι) ΣΥΝΤΡΙ </String>
+			</P3F.has_note>
+		</P65F.shows_visual_item>
+		<P101F.had_as_general_use>
+			<Identifier>epitaphios function</Identifier>
+			<in_class>E55.Type</in_class>
+		</P101F.had_as_general_use>
+		<P103F.was_intended_for>
+			<Identifier>epitaphios function</Identifier>
+			<in_class>E55.Type</in_class>
+		</P103F.was_intended_for>
+		<P43F.has_dimension>
+			<Identifier>length 1.50 m</Identifier>
+			<in_class>E54.Dimension</in_class>
+		</P43F.has_dimension>
+		<P43F.has_dimension>
+			<Identifier>width 1.12 m</Identifier>
+			<in_class>E54.Dimension</in_class>
+		</P43F.has_dimension>
+		<P57F.has_number_of_parts>1</P57F.has_number_of_parts>
+		<P45F.consists_of>
+			<Identifier>silver thread</Identifier>
+			<in_class>E57.Material</in_class>
+		</P45F.consists_of>
+		<P45F.consists_of>
+			<Identifier>gold thread</Identifier>
+			<in_class>E57.Material</in_class>
+		</P45F.consists_of>
+		<P45F.consists_of>
+			<Identifier>silk cloth</Identifier>
+			<in_class>E57.Material</in_class>
+		</P45F.consists_of>
+	</E1.CRM_Entity>
+</CRMset>
